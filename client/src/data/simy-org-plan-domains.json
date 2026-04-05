@@ -1,0 +1,3071 @@
+{
+  "domains": [
+    {
+      "id": "revenue",
+      "label": "Revenue & Profit",
+      "iconKey": "TrendingUp",
+      "color": "#059669",
+      "bgColor": "bg-emerald-50",
+      "borderColor": "border-emerald-200",
+      "trend": "up",
+      "trendValue": "+8.2%",
+      "quarterlyData": [
+        38,
+        52,
+        62,
+        78
+      ],
+      "riskLevel": "medium",
+      "strategicWeight": 10,
+      "weeklyDelta": {
+        "company": 2.1,
+        "dept": -1.3,
+        "team": 0.8,
+        "personal": -2.4
+      },
+      "companyOKR": {
+        "id": "c1",
+        "title": "Grow Revenue",
+        "progress": 62,
+        "status": "on-track",
+        "owner": "Executive Team",
+        "keyResults": [
+          {
+            "title": "Increase Annual ARR by 30%",
+            "current": "¥1.86B",
+            "target": "¥2.4B",
+            "progress": 62,
+            "growth": {
+              "threeMonths": 18,
+              "oneMonth": 8,
+              "twoWeeks": 3.5,
+              "oneWeek": 2.1
+            },
+            "actions": [
+              {
+                "title": "Review enterprise package pricing",
+                "owner": "Tetsuo Shiwaku",
+                "status": "in-progress",
+                "progress": 60,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Working on enterprise plan price increase proposal. Will share at next week's meeting",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  },
+                  {
+                    "source": "zoom",
+                    "actor": "Sales Meeting",
+                    "message": "Discussed enterprise plan price increase. Agreed to add competitive analysis",
+                    "timestamp": "3 days ago",
+                    "status": "done"
+                  }
+                ]
+              },
+              {
+                "title": "Launch partner reseller program",
+                "owner": "Sales Dept",
+                "status": "not-started",
+                "progress": 0,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Sales Director",
+                    "message": "Building reseller candidate list. Planning to contact top candidates by next week",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Maintain Gross Margin Above 65%",
+            "current": "63%",
+            "target": "65%",
+            "progress": 82,
+            "growth": {
+              "threeMonths": 12,
+              "oneMonth": 5,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "Review high-cost service lines",
+                "owner": "Finance Dept",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Finance Director",
+                    "message": "Completed cost analysis by service line. Confirmed customization has high cost ratio",
+                    "timestamp": "5 days ago",
+                    "status": "done"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Acquire 150 New Contracts",
+            "current": "93",
+            "target": "150",
+            "progress": 62,
+            "growth": {
+              "threeMonths": 22,
+              "oneMonth": 9,
+              "twoWeeks": 4,
+              "oneWeek": 1.5
+            },
+            "actions": [
+              {
+                "title": "Produce enterprise demo video",
+                "owner": "Marketing Dept",
+                "status": "in-progress",
+                "progress": 45,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "Marketing Team",
+                    "message": "Reviewing demo video script. First draft expected by next week",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "d1",
+        "title": "Accelerate New Customer Acquisition",
+        "progress": 55,
+        "status": "at-risk",
+        "owner": "Sales Dept",
+        "keyResults": [
+          {
+            "title": "Generate 40 Enterprise Deals per Month",
+            "current": "22",
+            "target": "40",
+            "progress": 55,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 5,
+              "twoWeeks": 1,
+              "oneWeek": -1.3
+            },
+            "actions": [
+              {
+                "title": "Update ABM target list",
+                "owner": "Sales Dept",
+                "status": "in-progress",
+                "progress": 70,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Sales Manager",
+                    "message": "Updated ABM list. Reviewed target company history. Outreach starts next week",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Grow Partner-Sourced Revenue to 20%",
+            "current": "12%",
+            "target": "20%",
+            "progress": 60,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 2,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "Prepare partner enablement materials",
+                "owner": "Sales Dept",
+                "status": "in-progress",
+                "progress": 50,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Partner Manager",
+                    "message": "Shared enablement materials draft. Requesting review",
+                    "timestamp": "3 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Increase Average Contract Value by 15%",
+            "current": "+9%",
+            "target": "+15%",
+            "progress": 60,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actions": [
+              {
+                "title": "Identify upsell and cross-sell opportunities",
+                "owner": "Tetsuo Shiwaku",
+                "status": "in-progress",
+                "progress": 40,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "Sales Meeting",
+                    "message": "Listed upsell candidates from existing customers. Preparing upgrade proposals",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "t1",
+        "title": "Increase Lead Volume",
+        "progress": 48,
+        "status": "at-risk",
+        "owner": "Inside Sales Team",
+        "keyResults": [
+          {
+            "title": "Increase Monthly MQLs to 200",
+            "current": "96",
+            "target": "200",
+            "progress": 48,
+            "growth": {
+              "threeMonths": 18,
+              "oneMonth": 6,
+              "twoWeeks": 2,
+              "oneWeek": 0.8
+            },
+            "actionSummary": {
+              "total": 8,
+              "done": 2,
+              "inProgress": 4,
+              "blocked": 1
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                2,
+                1,
+                3,
+                2,
+                1,
+                2,
+                3,
+                2
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            }
+          },
+          {
+            "title": "Achieve 8% Cold Outreach Reply Rate",
+            "current": "4.2%",
+            "target": "8%",
+            "progress": 53,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 0.5,
+              "oneWeek": -0.2
+            },
+            "actionSummary": {
+              "total": 7,
+              "done": 3,
+              "inProgress": 3,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                2,
+                1,
+                2,
+                2,
+                3,
+                2,
+                2,
+                1,
+                1
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            }
+          },
+          {
+            "title": "Build ABM Target List of 50 Companies",
+            "current": "24",
+            "target": "50",
+            "progress": 48,
+            "growth": {
+              "threeMonths": 14,
+              "oneMonth": 5,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actionSummary": {
+              "total": 8,
+              "done": 3,
+              "inProgress": 3,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                3,
+                3,
+                2,
+                3
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "p1",
+        "title": "Improve Deal Conversion Rate",
+        "progress": 41,
+        "status": "behind",
+        "owner": "Tetsuo Shiwaku",
+        "keyResults": [
+          {
+            "title": "Achieve 25% MQL→SQL Conversion Rate",
+            "current": "17%",
+            "target": "25%",
+            "progress": 68,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1,
+              "oneWeek": -0.5
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                1,
+                1,
+                0
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            },
+            "actions": [
+              {
+                "title": "Improve first meeting talk script",
+                "owner": "Tetsuo Shiwaku",
+                "status": "in-progress",
+                "progress": 50,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Completed meeting recording review. Shifting pain point messaging from cost reduction to profit growth",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "Build habit of sending follow-up email within 24h after meeting",
+                "owner": "Tetsuo Shiwaku",
+                "status": "in-progress",
+                "progress": 70,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Created post-meeting follow-up template. Starting to use this week",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "Update competitive analysis materials",
+                "owner": "Tetsuo Shiwaku",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Updated competitive comparison materials. Clarified our differentiation points",
+                    "timestamp": "4 days ago",
+                    "status": "done"
+                  }
+                ]
+              },
+              {
+                "title": "Leverage ROI simulator in sales meetings",
+                "owner": "Tetsuo Shiwaku",
+                "status": "in-progress",
+                "progress": 40,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "Sales Meeting",
+                    "message": "Demoed ROI simulator. Customer response positive. Planning to use in next meeting",
+                    "timestamp": "3 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "Leverage referral program",
+                "owner": "Tetsuo Shiwaku",
+                "status": "not-started",
+                "progress": 0,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Reviewing referral program details. Planning to approach existing customers next week",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "Create post-demo objection handling guide",
+                "owner": "Tetsuo Shiwaku",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Created FAQ with 10 items and answers. Meeting quality has improved",
+                    "timestamp": "5 days ago",
+                    "status": "done"
+                  }
+                ]
+              },
+              {
+                "title": "Review meeting recordings weekly to identify improvements",
+                "owner": "Tetsuo Shiwaku",
+                "status": "in-progress",
+                "progress": 60,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Reviewed 3 meeting recordings this week. Need to improve hedging timing",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "Create industry-specific personalized demo materials",
+                "owner": "Tetsuo Shiwaku",
+                "status": "in-progress",
+                "progress": 35,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "Sales Meeting",
+                    "message": "Creating demo materials for finance, retail, and manufacturing. First draft by next week",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Set 5+ First Meetings per Week",
+            "current": "3/week",
+            "target": "5/week",
+            "progress": 60,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.5
+            },
+            "velocityData": {
+              "weeklyCount": [
+                2,
+                2,
+                3,
+                2,
+                3,
+                3,
+                2,
+                3,
+                3
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            },
+            "actions": [
+              {
+                "title": "Review lead list every sprint",
+                "owner": "Tetsuo Shiwaku",
+                "status": "in-progress",
+                "progress": 70,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Reviewed this week's lead list. Identified 10 high-priority leads",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "Contact decision-makers at target companies via LinkedIn",
+                "owner": "Tetsuo Shiwaku",
+                "status": "in-progress",
+                "progress": 50,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Sending LinkedIn connection requests to CTOs/VPs at target companies. Targeting 5 companies this week",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "Set up post-webinar follow-up sequence",
+                "owner": "Tetsuo Shiwaku",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "Marketing Team",
+                    "message": "Created follow-up email sequence for webinar attendees. Auto-send configured",
+                    "timestamp": "3 days ago",
+                    "status": "done"
+                  }
+                ]
+              },
+              {
+                "title": "Network at events and conferences",
+                "owner": "Tetsuo Shiwaku",
+                "status": "in-progress",
+                "progress": 60,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Registered for next month's industry conference. Planning to obtain attendee list in advance",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "Reply to inbound leads same day",
+                "owner": "Tetsuo Shiwaku",
+                "status": "in-progress",
+                "progress": 45,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Tracking inbound lead response time. Average is 4.1 hours, needs improvement",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "Increase referral requests from existing customers",
+                "owner": "Tetsuo Shiwaku",
+                "status": "not-started",
+                "progress": 0,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Reviewing customer list to identify accounts to request referrals from",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "Run A/B test on cold email subject lines",
+                "owner": "Tetsuo Shiwaku",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "github",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "A/B test complete. Personalized subject lines show +2.1% higher reply rate than standard",
+                    "timestamp": "3 days ago",
+                    "status": "done"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Respond to Follow-ups Within 2 Hours",
+            "current": "4.1h",
+            "target": "2h",
+            "progress": 41,
+            "growth": {
+              "threeMonths": 5,
+              "oneMonth": 2,
+              "twoWeeks": 0.5,
+              "oneWeek": -2.4
+            },
+            "velocityData": {
+              "weeklyCount": [
+                3,
+                2,
+                3,
+                2,
+                2,
+                1,
+                2,
+                1,
+                0
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            },
+            "actions": [
+              {
+                "title": "Optimize Slack notification settings",
+                "owner": "Tetsuo Shiwaku",
+                "status": "blocked",
+                "progress": 20,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Adjusted Slack notification settings but blocked by other priorities",
+                    "timestamp": "1 day ago",
+                    "status": "blocked"
+                  }
+                ]
+              },
+              {
+                "title": "Prepare email templates in advance",
+                "owner": "Tetsuo Shiwaku",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Pre-created follow-up templates. Now customizing based on meeting content",
+                    "timestamp": "4 days ago",
+                    "status": "done"
+                  }
+                ]
+              },
+              {
+                "title": "Organize meeting calendar and block focus time",
+                "owner": "Tetsuo Shiwaku",
+                "status": "in-progress",
+                "progress": 50,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Reviewed calendar. Blocking morning time daily for follow-ups",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "Set up CRM follow-up reminders",
+                "owner": "Tetsuo Shiwaku",
+                "status": "in-progress",
+                "progress": 65,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Adjusting CRM reminder settings. Changing to auto-notify 48h after meetings",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "Always agree on next steps during meetings",
+                "owner": "Tetsuo Shiwaku",
+                "status": "in-progress",
+                "progress": 75,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Practicing always asking 'When is a good time for the next meeting?' in every call",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "Review sales pipeline every sprint",
+                "owner": "Tetsuo Shiwaku",
+                "status": "in-progress",
+                "progress": 80,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "Sales Meeting",
+                    "message": "Pipeline review complete. Analyzed causes of stale deals and discussed countermeasures",
+                    "timestamp": "3 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "Redesign sales deck",
+                "owner": "Tetsuo Shiwaku",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Sales deck redesign by design team complete. Customers praised it as professional",
+                    "timestamp": "5 days ago",
+                    "status": "done"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "product",
+      "label": "Product",
+      "iconKey": "Zap",
+      "color": "#7C3AED",
+      "bgColor": "bg-violet-50",
+      "borderColor": "border-violet-200",
+      "trend": "up",
+      "trendValue": "+5.1%",
+      "quarterlyData": [
+        55,
+        62,
+        68,
+        74
+      ],
+      "riskLevel": "low",
+      "strategicWeight": 9,
+      "weeklyDelta": {
+        "company": 1.5,
+        "dept": 0.8,
+        "team": 1.2,
+        "personal": 0.5
+      },
+      "companyOKR": {
+        "id": "c2",
+        "title": "Build Industry-Leading Product",
+        "progress": 71,
+        "status": "on-track",
+        "owner": "Executive Team",
+        "keyResults": [
+          {
+            "title": "Achieve NPS of 60+",
+            "current": "48",
+            "target": "60",
+            "progress": 71,
+            "growth": {
+              "threeMonths": 12,
+              "oneMonth": 5,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "Implement in-app NPS survey",
+                "owner": "Product Dept",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Product Manager",
+                    "message": "In-app NPS survey live. Collecting responses.",
+                    "timestamp": "1 week ago",
+                    "status": "done"
+                  }
+                ]
+              },
+              {
+                "title": "Analyze NPS detractor feedback",
+                "owner": "Product Dept",
+                "status": "in-progress",
+                "progress": 60,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "Product Meeting",
+                    "message": "Identified top 3 pain points from detractors. Prioritizing fixes.",
+                    "timestamp": "3 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Reduce Critical Bug Rate to <0.1%",
+            "current": "0.3%",
+            "target": "<0.1%",
+            "progress": 65,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actions": [
+              {
+                "title": "Implement automated regression testing",
+                "owner": "Engineering",
+                "status": "in-progress",
+                "progress": 70,
+                "captures": [
+                  {
+                    "source": "github",
+                    "actor": "Engineering Lead",
+                    "message": "Regression test suite coverage at 78%. Target 90% by end of quarter.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "d2",
+        "title": "Accelerate AI Feature Differentiation",
+        "progress": 68,
+        "status": "on-track",
+        "owner": "Product Dept",
+        "keyResults": [
+          {
+            "title": "Launch 3 AI-Powered Features This Quarter",
+            "current": "1",
+            "target": "3",
+            "progress": 33,
+            "growth": {
+              "threeMonths": 20,
+              "oneMonth": 10,
+              "twoWeeks": 5,
+              "oneWeek": 2
+            },
+            "actions": [
+              {
+                "title": "Ship AI meeting summarizer v2",
+                "owner": "Product Dept",
+                "status": "in-progress",
+                "progress": 75,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Product Manager",
+                    "message": "AI summarizer v2 in final QA. Launching next week.",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Increase Feature Adoption Rate to 40%",
+            "current": "28%",
+            "target": "40%",
+            "progress": 70,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "Create feature onboarding tooltips",
+                "owner": "Product Dept",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "UX Designer",
+                    "message": "Tooltips shipped. Adoption rate up 5% in first week.",
+                    "timestamp": "5 days ago",
+                    "status": "done"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "t2",
+        "title": "Balance Development Speed & Quality",
+        "progress": 74,
+        "status": "on-track",
+        "owner": "Engineering Team",
+        "keyResults": [
+          {
+            "title": "Maintain Sprint Velocity Above 80 Points",
+            "current": "76",
+            "target": "80",
+            "progress": 74,
+            "growth": {
+              "threeMonths": 5,
+              "oneMonth": 2,
+              "twoWeeks": 0.8,
+              "oneWeek": 0.3
+            },
+            "actionSummary": {
+              "total": 5,
+              "done": 3,
+              "inProgress": 2,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            }
+          },
+          {
+            "title": "Keep Code Review Turnaround Under 24h",
+            "current": "31h",
+            "target": "24h",
+            "progress": 65,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actionSummary": {
+              "total": 4,
+              "done": 2,
+              "inProgress": 2,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                2,
+                2,
+                3,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "p2",
+        "title": "Improve Code Quality & Review Speed",
+        "progress": 70,
+        "status": "on-track",
+        "owner": "Marcus Webb",
+        "keyResults": [
+          {
+            "title": "Reduce PR Review Time to Under 4 Hours",
+            "current": "8h",
+            "target": "4h",
+            "progress": 50,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "Block 2h daily for code review",
+                "owner": "Marcus Webb",
+                "status": "in-progress",
+                "progress": 65,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Marcus Webb",
+                    "message": "Blocked 9-11am daily for reviews. Average review time down to 6h.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Achieve 90% Test Coverage on Core Modules",
+            "current": "72%",
+            "target": "90%",
+            "progress": 80,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 5,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "Write unit tests for auth module",
+                "owner": "Marcus Webb",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "github",
+                    "actor": "Marcus Webb",
+                    "message": "Auth module tests complete. Coverage at 94%.",
+                    "timestamp": "3 days ago",
+                    "status": "done"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "customer",
+      "label": "Customer Success",
+      "iconKey": "Heart",
+      "color": "#BE185D",
+      "bgColor": "bg-pink-50",
+      "borderColor": "border-pink-200",
+      "trend": "up",
+      "trendValue": "+3.4%",
+      "quarterlyData": [
+        60,
+        68,
+        74,
+        80
+      ],
+      "riskLevel": "low",
+      "strategicWeight": 8,
+      "weeklyDelta": {
+        "company": 1.0,
+        "dept": 0.8,
+        "team": 0.5,
+        "personal": 0.8
+      },
+      "companyOKR": {
+        "id": "c3",
+        "title": "Maximize Customer Satisfaction & Retention",
+        "progress": 78,
+        "status": "on-track",
+        "owner": "Executive Team",
+        "keyResults": [
+          {
+            "title": "Achieve 95% Annual Renewal Rate",
+            "current": "91%",
+            "target": "95%",
+            "progress": 78,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "Launch quarterly business reviews for top accounts",
+                "owner": "CS Dept",
+                "status": "in-progress",
+                "progress": 70,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "CS Director",
+                    "message": "QBR template finalized. Scheduling with top 20 accounts this month.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Reduce Churn Rate to Below 5%",
+            "current": "7.2%",
+            "target": "5%",
+            "progress": 72,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actions": [
+              {
+                "title": "Implement early churn warning system",
+                "owner": "CS Dept",
+                "status": "in-progress",
+                "progress": 55,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "CS Manager",
+                    "message": "Health score model v2 in testing. Catching at-risk accounts 30 days earlier.",
+                    "timestamp": "3 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "d3",
+        "title": "Improve Onboarding Completion Rate",
+        "progress": 72,
+        "status": "on-track",
+        "owner": "CS Dept",
+        "keyResults": [
+          {
+            "title": "Increase Onboarding Completion to 85%",
+            "current": "68%",
+            "target": "85%",
+            "progress": 72,
+            "growth": {
+              "threeMonths": 12,
+              "oneMonth": 5,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "Redesign onboarding checklist UX",
+                "owner": "CS Dept",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "UX Team",
+                    "message": "New onboarding checklist live. Completion rate up 8% in first 2 weeks.",
+                    "timestamp": "1 week ago",
+                    "status": "done"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Reduce Time-to-Value to Under 14 Days",
+            "current": "21 days",
+            "target": "14 days",
+            "progress": 65,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actions": [
+              {
+                "title": "Create industry-specific onboarding tracks",
+                "owner": "CS Dept",
+                "status": "in-progress",
+                "progress": 50,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "CS Manager",
+                    "message": "Finance and healthcare tracks in development. ETA 2 weeks.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "t3",
+        "title": "Improve Support Response Quality",
+        "progress": 69,
+        "status": "on-track",
+        "owner": "Support Team",
+        "keyResults": [
+          {
+            "title": "Achieve CSAT Score of 4.5+",
+            "current": "4.1",
+            "target": "4.5",
+            "progress": 69,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actionSummary": {
+              "total": 5,
+              "done": 3,
+              "inProgress": 2,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                2,
+                2,
+                3,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            }
+          },
+          {
+            "title": "Resolve 80% of Tickets in First Response",
+            "current": "62%",
+            "target": "80%",
+            "progress": 62,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actionSummary": {
+              "total": 4,
+              "done": 2,
+              "inProgress": 2,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                2,
+                2,
+                2,
+                3,
+                2,
+                3,
+                3,
+                3,
+                3
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "p3",
+        "title": "Improve Health Scores of Assigned Accounts",
+        "progress": 65,
+        "status": "on-track",
+        "owner": "Danielle Brooks",
+        "keyResults": [
+          {
+            "title": "Bring 5 At-Risk Accounts to Green Status",
+            "current": "2",
+            "target": "5",
+            "progress": 40,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 6,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "Schedule recovery calls with at-risk accounts",
+                "owner": "Danielle Brooks",
+                "status": "in-progress",
+                "progress": 60,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "Danielle Brooks",
+                    "message": "Completed recovery calls with 3 accounts. 2 now showing improved engagement.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Increase Feature Adoption in Assigned Portfolio by 20%",
+            "current": "+8%",
+            "target": "+20%",
+            "progress": 40,
+            "growth": {
+              "threeMonths": 12,
+              "oneMonth": 5,
+              "twoWeeks": 2,
+              "oneWeek": 0.8
+            },
+            "actions": [
+              {
+                "title": "Run monthly feature webinars for assigned accounts",
+                "owner": "Danielle Brooks",
+                "status": "in-progress",
+                "progress": 50,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "Danielle Brooks",
+                    "message": "First feature webinar had 12 attendees. Planning monthly cadence.",
+                    "timestamp": "1 week ago",
+                    "status": "done"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "people",
+      "label": "People & Culture",
+      "iconKey": "Users",
+      "color": "#0284C7",
+      "bgColor": "bg-sky-50",
+      "borderColor": "border-sky-200",
+      "trend": "up",
+      "trendValue": "+2.8%",
+      "quarterlyData": [
+        45,
+        52,
+        58,
+        65
+      ],
+      "riskLevel": "medium",
+      "strategicWeight": 7,
+      "weeklyDelta": {
+        "company": 1.2,
+        "dept": -0.5,
+        "team": 0.8,
+        "personal": 1.0
+      },
+      "companyOKR": {
+        "id": "c4",
+        "title": "Build a world-class team",
+        "progress": 58,
+        "status": "on-track",
+        "owner": "Executive Team",
+        "keyResults": [
+          {
+            "title": "Achieve Employee Engagement Score of 80+",
+            "current": "68",
+            "target": "80",
+            "progress": 58,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actions": [
+              {
+                "title": "Launch quarterly pulse surveys",
+                "owner": "HR Dept",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "HR Director",
+                    "message": "Q1 pulse survey complete. Top issues: career growth and meeting overload.",
+                    "timestamp": "1 week ago",
+                    "status": "done"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Reduce Voluntary Attrition to Below 10%",
+            "current": "14%",
+            "target": "10%",
+            "progress": 55,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "Implement stay interview program",
+                "owner": "HR Dept",
+                "status": "in-progress",
+                "progress": 45,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "HR Manager",
+                    "message": "Stay interview template ready. Piloting with engineering team this month.",
+                    "timestamp": "3 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "d4",
+        "title": "Strengthen hiring and development",
+        "progress": 52,
+        "status": "at-risk",
+        "owner": "HR Dept",
+        "keyResults": [
+          {
+            "title": "Fill 15 Open Positions This Quarter",
+            "current": "6",
+            "target": "15",
+            "progress": 40,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 6,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "Partner with 3 new recruiting agencies",
+                "owner": "HR Dept",
+                "status": "in-progress",
+                "progress": 67,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Recruiter",
+                    "message": "2 agencies onboarded. 3rd in contract review.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Launch Manager Development Program",
+            "current": "Planning",
+            "target": "Launched",
+            "progress": 30,
+            "growth": {
+              "threeMonths": 20,
+              "oneMonth": 8,
+              "twoWeeks": 3,
+              "oneWeek": 1.5
+            },
+            "actions": [
+              {
+                "title": "Select leadership training vendor",
+                "owner": "HR Dept",
+                "status": "in-progress",
+                "progress": 50,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "HR Director",
+                    "message": "Evaluating 3 vendors. Decision by end of month.",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "t4",
+        "title": "Drive team skill development",
+        "progress": 60,
+        "status": "on-track",
+        "owner": "Management Team",
+        "keyResults": [
+          {
+            "title": "Complete 40h of Learning Per Employee",
+            "current": "18h",
+            "target": "40h",
+            "progress": 45,
+            "growth": {
+              "threeMonths": 12,
+              "oneMonth": 5,
+              "twoWeeks": 2,
+              "oneWeek": 0.8
+            },
+            "actionSummary": {
+              "total": 5,
+              "done": 1,
+              "inProgress": 3,
+              "blocked": 1
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2,
+                3
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            }
+          },
+          {
+            "title": "Run 4 Internal Knowledge-Share Sessions",
+            "current": "1",
+            "target": "4",
+            "progress": 25,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 8,
+              "twoWeeks": 3,
+              "oneWeek": 1
+            },
+            "actionSummary": {
+              "total": 4,
+              "done": 1,
+              "inProgress": 2,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "p4",
+        "title": "Strengthen leadership skills",
+        "progress": 55,
+        "status": "on-track",
+        "owner": "Robert Callahan",
+        "keyResults": [
+          {
+            "title": "Complete Executive Coaching Program",
+            "current": "3/8 sessions",
+            "target": "8/8 sessions",
+            "progress": 38,
+            "growth": {
+              "threeMonths": 20,
+              "oneMonth": 8,
+              "twoWeeks": 3,
+              "oneWeek": 1.5
+            },
+            "actions": [
+              {
+                "title": "Schedule remaining 5 coaching sessions",
+                "owner": "Robert Callahan",
+                "status": "in-progress",
+                "progress": 60,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Robert Callahan",
+                    "message": "Sessions 4-6 scheduled. Working on finding time for 7-8.",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Improve Team eNPS by 15 Points",
+            "current": "+3",
+            "target": "+15",
+            "progress": 20,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "Hold weekly 1:1s with all direct reports",
+                "owner": "Robert Callahan",
+                "status": "in-progress",
+                "progress": 80,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "Robert Callahan",
+                    "message": "1:1s on track. Team feedback improving. Focusing on career growth conversations.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "brand",
+      "label": "Brand & Marketing",
+      "iconKey": "Star",
+      "color": "#D97706",
+      "bgColor": "bg-amber-50",
+      "borderColor": "border-amber-200",
+      "trend": "down",
+      "trendValue": "-1.2%",
+      "quarterlyData": [
+        50,
+        48,
+        45,
+        44
+      ],
+      "riskLevel": "high",
+      "strategicWeight": 6,
+      "weeklyDelta": {
+        "company": -0.5,
+        "dept": -1.2,
+        "team": -0.8,
+        "personal": -0.3
+      },
+      "companyOKR": {
+        "id": "c5",
+        "title": "Establish recognition as an industry leader",
+        "progress": 45,
+        "status": "at-risk",
+        "owner": "Executive Team",
+        "keyResults": [
+          {
+            "title": "Achieve Top 3 Ranking in Category on G2",
+            "current": "#8",
+            "target": "#3",
+            "progress": 40,
+            "growth": {
+              "threeMonths": 5,
+              "oneMonth": 2,
+              "twoWeeks": 0.5,
+              "oneWeek": -0.5
+            },
+            "actions": [
+              {
+                "title": "Launch G2 review campaign",
+                "owner": "Marketing Dept",
+                "status": "in-progress",
+                "progress": 35,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Marketing Director",
+                    "message": "Review request emails sent to 200 customers. 18 reviews collected so far.",
+                    "timestamp": "3 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Generate 500 Organic Leads per Month",
+            "current": "180",
+            "target": "500",
+            "progress": 36,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "Publish 4 SEO articles per month",
+                "owner": "Marketing Dept",
+                "status": "in-progress",
+                "progress": 50,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Content Team",
+                    "message": "2 articles published this month. 2 more in draft.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "d5",
+        "title": "Strengthen Content Marketing",
+        "progress": 50,
+        "status": "at-risk",
+        "owner": "Marketing Dept",
+        "keyResults": [
+          {
+            "title": "Grow Blog Traffic by 50%",
+            "current": "+12%",
+            "target": "+50%",
+            "progress": 24,
+            "growth": {
+              "threeMonths": 5,
+              "oneMonth": 2,
+              "twoWeeks": 0.5,
+              "oneWeek": -0.2
+            },
+            "actions": [
+              {
+                "title": "Hire freelance content writers",
+                "owner": "Marketing Dept",
+                "status": "in-progress",
+                "progress": 40,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Marketing Manager",
+                    "message": "Interviewing 3 freelance writers. Decision this week.",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Launch Podcast with 10 Episodes",
+            "current": "0",
+            "target": "10",
+            "progress": 0,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 0,
+              "twoWeeks": 0,
+              "oneWeek": 0
+            },
+            "actions": [
+              {
+                "title": "Define podcast concept and format",
+                "owner": "Marketing Dept",
+                "status": "not-started",
+                "progress": 0,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "Marketing Director",
+                    "message": "Podcast concept in ideation. Targeting Q3 launch.",
+                    "timestamp": "1 week ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "t5",
+        "title": "Improve social media engagement",
+        "progress": 42,
+        "status": "at-risk",
+        "owner": "Marketing Team",
+        "keyResults": [
+          {
+            "title": "Grow LinkedIn Followers by 30%",
+            "current": "+8%",
+            "target": "+30%",
+            "progress": 27,
+            "growth": {
+              "threeMonths": 5,
+              "oneMonth": 2,
+              "twoWeeks": 0.5,
+              "oneWeek": 0.2
+            },
+            "actionSummary": {
+              "total": 4,
+              "done": 0,
+              "inProgress": 3,
+              "blocked": 1
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                1,
+                1
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            }
+          },
+          {
+            "title": "Achieve 3% Engagement Rate on Posts",
+            "current": "1.2%",
+            "target": "3%",
+            "progress": 40,
+            "growth": {
+              "threeMonths": 5,
+              "oneMonth": 2,
+              "twoWeeks": 0.5,
+              "oneWeek": 0.2
+            },
+            "actionSummary": {
+              "total": 3,
+              "done": 0,
+              "inProgress": 2,
+              "blocked": 1
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                1,
+                1
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "p5",
+        "title": "Drive PR activities and case study creation",
+        "progress": 38,
+        "status": "behind",
+        "owner": "Sophia Reyes",
+        "keyResults": [
+          {
+            "title": "Secure 3 Media Mentions in Trade Press",
+            "current": "0",
+            "target": "3",
+            "progress": 0,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 0,
+              "twoWeeks": 0,
+              "oneWeek": 0
+            },
+            "actions": [
+              {
+                "title": "Build media contact list",
+                "owner": "Sophia Reyes",
+                "status": "in-progress",
+                "progress": 40,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Sophia Reyes",
+                    "message": "Compiled list of 25 relevant journalists. Starting outreach next week.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Publish 2 Customer Case Studies",
+            "current": "0",
+            "target": "2",
+            "progress": 20,
+            "growth": {
+              "threeMonths": 5,
+              "oneMonth": 2,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "Interview 3 customer champions",
+                "owner": "Sophia Reyes",
+                "status": "in-progress",
+                "progress": 33,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "Sophia Reyes",
+                    "message": "1 customer interview complete. 2 more scheduled.",
+                    "timestamp": "3 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Operations",
+      "iconKey": "Building2",
+      "color": "#0891B2",
+      "bgColor": "bg-cyan-50",
+      "borderColor": "border-cyan-200",
+      "trend": "up",
+      "trendValue": "+4.1%",
+      "quarterlyData": [
+        65,
+        70,
+        75,
+        82
+      ],
+      "riskLevel": "low",
+      "strategicWeight": 7,
+      "weeklyDelta": {
+        "company": 1.5,
+        "dept": 0.8,
+        "team": 0.5,
+        "personal": 1.0
+      },
+      "companyOKR": {
+        "id": "c6",
+        "title": "Maintain a healthy financial foundation",
+        "progress": 80,
+        "status": "on-track",
+        "owner": "Executive Team",
+        "keyResults": [
+          {
+            "title": "Achieve 18-Month Cash Runway",
+            "current": "14 months",
+            "target": "18 months",
+            "progress": 78,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "Review burn rate monthly",
+                "owner": "Finance Dept",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "CFO",
+                    "message": "Monthly burn rate review complete. On track for 18-month runway.",
+                    "timestamp": "1 week ago",
+                    "status": "done"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Reduce Operating Costs by 10%",
+            "current": "-4%",
+            "target": "-10%",
+            "progress": 40,
+            "growth": {
+              "threeMonths": 5,
+              "oneMonth": 2,
+              "twoWeeks": 0.8,
+              "oneWeek": 0.3
+            },
+            "actions": [
+              {
+                "title": "Audit SaaS tool subscriptions",
+                "owner": "Finance Dept",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Finance Manager",
+                    "message": "SaaS audit complete. Identified $45k annual savings. Cancelling 8 unused tools.",
+                    "timestamp": "5 days ago",
+                    "status": "done"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "d6",
+        "title": "Drive cost optimization",
+        "progress": 73,
+        "status": "on-track",
+        "owner": "Finance Dept",
+        "keyResults": [
+          {
+            "title": "Reduce Cloud Infrastructure Costs by 20%",
+            "current": "-8%",
+            "target": "-20%",
+            "progress": 40,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actions": [
+              {
+                "title": "Implement auto-scaling policies",
+                "owner": "Engineering",
+                "status": "in-progress",
+                "progress": 65,
+                "captures": [
+                  {
+                    "source": "github",
+                    "actor": "DevOps Lead",
+                    "message": "Auto-scaling configured for 3 services. Estimated 12% cost reduction.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Automate 5 Manual Finance Processes",
+            "current": "2",
+            "target": "5",
+            "progress": 40,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 6,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "Automate invoice processing",
+                "owner": "Finance Dept",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Finance Manager",
+                    "message": "Invoice automation live. Saving 8h/week.",
+                    "timestamp": "1 week ago",
+                    "status": "done"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "t6",
+        "title": "Reduce costs through workflow automation",
+        "progress": 68,
+        "status": "on-track",
+        "owner": "Operations Team",
+        "keyResults": [
+          {
+            "title": "Automate 3 Cross-Department Workflows",
+            "current": "1",
+            "target": "3",
+            "progress": 33,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 6,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actionSummary": {
+              "total": 4,
+              "done": 1,
+              "inProgress": 2,
+              "blocked": 1
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            }
+          },
+          {
+            "title": "Reduce Report Generation Time by 50%",
+            "current": "-20%",
+            "target": "-50%",
+            "progress": 40,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actionSummary": {
+              "total": 3,
+              "done": 1,
+              "inProgress": 2,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "p6",
+        "title": "Improve operational efficiency with AI",
+        "progress": 62,
+        "status": "on-track",
+        "owner": "Tetsuo Shiwaku",
+        "keyResults": [
+          {
+            "title": "Use AI Tools to Save 5h/Week",
+            "current": "2h/week",
+            "target": "5h/week",
+            "progress": 40,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 6,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "Automate weekly report generation with AI",
+                "owner": "Tetsuo Shiwaku",
+                "status": "in-progress",
+                "progress": 60,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "AI report template working. Saving ~2h/week on weekly summaries.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Document 3 AI-Powered Workflows for Team",
+            "current": "1",
+            "target": "3",
+            "progress": 33,
+            "growth": {
+              "threeMonths": 20,
+              "oneMonth": 8,
+              "twoWeeks": 3,
+              "oneWeek": 1.5
+            },
+            "actions": [
+              {
+                "title": "Create AI workflow documentation wiki",
+                "owner": "Tetsuo Shiwaku",
+                "status": "in-progress",
+                "progress": 45,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "Tetsuo Shiwaku",
+                    "message": "Wiki page created. First workflow (meeting prep) documented.",
+                    "timestamp": "3 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "innovation",
+      "label": "Innovation & R&D",
+      "iconKey": "Lightbulb",
+      "color": "#7C3AED",
+      "bgColor": "bg-purple-50",
+      "borderColor": "border-purple-200",
+      "trend": "up",
+      "trendValue": "+6.2%",
+      "quarterlyData": [
+        30,
+        38,
+        45,
+        52
+      ],
+      "riskLevel": "high",
+      "strategicWeight": 8,
+      "weeklyDelta": {
+        "company": 2.5,
+        "dept": 1.8,
+        "team": 1.0,
+        "personal": 1.5
+      },
+      "companyOKR": {
+        "id": "c7",
+        "title": "Accelerate investment in next-generation technology",
+        "progress": 40,
+        "status": "at-risk",
+        "owner": "Executive Team",
+        "keyResults": [
+          {
+            "title": "Allocate 15% of Engineering to R&D",
+            "current": "8%",
+            "target": "15%",
+            "progress": 53,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actions": [
+              {
+                "title": "Define R&D team charter and roadmap",
+                "owner": "CTO",
+                "status": "in-progress",
+                "progress": 60,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "CTO",
+                    "message": "R&D charter drafted. Reviewing with exec team next week.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "File 2 Patent Applications",
+            "current": "0",
+            "target": "2",
+            "progress": 10,
+            "growth": {
+              "threeMonths": 5,
+              "oneMonth": 2,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "Identify patentable innovations from past year",
+                "owner": "Engineering",
+                "status": "in-progress",
+                "progress": 30,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Engineering Lead",
+                    "message": "Reviewing past year's features for patent potential. Found 3 candidates.",
+                    "timestamp": "3 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "d7",
+        "title": "Drive R&D for AI/ML features",
+        "progress": 45,
+        "status": "at-risk",
+        "owner": "Engineering Dept",
+        "keyResults": [
+          {
+            "title": "Build Internal AI Experimentation Platform",
+            "current": "Planning",
+            "target": "MVP Live",
+            "progress": 20,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 8,
+              "twoWeeks": 3,
+              "oneWeek": 1.5
+            },
+            "actions": [
+              {
+                "title": "Define platform architecture",
+                "owner": "Engineering Dept",
+                "status": "in-progress",
+                "progress": 40,
+                "captures": [
+                  {
+                    "source": "github",
+                    "actor": "Engineering Lead",
+                    "message": "Architecture doc in review. Planning 6-week build sprint.",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Run 4 AI Feature Experiments per Quarter",
+            "current": "1",
+            "target": "4",
+            "progress": 25,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 8,
+              "twoWeeks": 3,
+              "oneWeek": 1.5
+            },
+            "actions": [
+              {
+                "title": "Set up experiment tracking infrastructure",
+                "owner": "Engineering Dept",
+                "status": "in-progress",
+                "progress": 50,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "ML Engineer",
+                    "message": "MLflow setup complete. First experiment running.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "t7",
+        "title": "Shorten new technology validation cycles",
+        "progress": 50,
+        "status": "at-risk",
+        "owner": "R&D Team",
+        "keyResults": [
+          {
+            "title": "Reduce POC-to-Decision Time to 2 Weeks",
+            "current": "5 weeks",
+            "target": "2 weeks",
+            "progress": 40,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actionSummary": {
+              "total": 4,
+              "done": 0,
+              "inProgress": 3,
+              "blocked": 1
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                2
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            }
+          },
+          {
+            "title": "Share 1 Tech Exploration Report per Month",
+            "current": "0",
+            "target": "1/month",
+            "progress": 0,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 0,
+              "twoWeeks": 0,
+              "oneWeek": 0
+            },
+            "actionSummary": {
+              "total": 2,
+              "done": 0,
+              "inProgress": 1,
+              "blocked": 1
+            },
+            "velocityData": {
+              "weeklyCount": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "p7",
+        "title": "Stay current with and share new technologies",
+        "progress": 55,
+        "status": "on-track",
+        "owner": "Derek Fontaine",
+        "keyResults": [
+          {
+            "title": "Complete 2 AI/ML Courses This Quarter",
+            "current": "1",
+            "target": "2",
+            "progress": 50,
+            "growth": {
+              "threeMonths": 20,
+              "oneMonth": 8,
+              "twoWeeks": 3,
+              "oneWeek": 1.5
+            },
+            "actions": [
+              {
+                "title": "Enroll in advanced LLM course",
+                "owner": "Derek Fontaine",
+                "status": "in-progress",
+                "progress": 50,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Derek Fontaine",
+                    "message": "Enrolled in Coursera LLM specialization. 4 of 8 modules complete.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Present 1 Tech Demo to Engineering Team",
+            "current": "0",
+            "target": "1",
+            "progress": 30,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 6,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "Prepare RAG demo for team presentation",
+                "owner": "Derek Fontaine",
+                "status": "in-progress",
+                "progress": 40,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Derek Fontaine",
+                    "message": "RAG demo prototype working. Scheduling team presentation for next sprint.",
+                    "timestamp": "3 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "compliance",
+      "label": "Security & Compliance",
+      "iconKey": "Shield",
+      "color": "#4F46E5",
+      "bgColor": "bg-indigo-50",
+      "borderColor": "border-indigo-200",
+      "trend": "up",
+      "trendValue": "+2.1%",
+      "quarterlyData": [
+        75,
+        78,
+        82,
+        86
+      ],
+      "riskLevel": "low",
+      "strategicWeight": 6,
+      "weeklyDelta": {
+        "company": 0.8,
+        "dept": 0.5,
+        "team": 0.3,
+        "personal": 0.5
+      },
+      "companyOKR": {
+        "id": "c8",
+        "title": "Maintain the highest standards of reliability and security",
+        "progress": 85,
+        "status": "on-track",
+        "owner": "Executive Team",
+        "keyResults": [
+          {
+            "title": "Achieve SOC 2 Type II Certification",
+            "current": "In Progress",
+            "target": "Certified",
+            "progress": 75,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 6,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "Complete SOC 2 audit preparation",
+                "owner": "Security Dept",
+                "status": "in-progress",
+                "progress": 80,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "CISO",
+                    "message": "Audit prep 80% complete. Auditor scheduled for next month.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Maintain 99.9% Uptime SLA",
+            "current": "99.94%",
+            "target": "99.9%",
+            "progress": 100,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 0,
+              "twoWeeks": 0,
+              "oneWeek": 0
+            },
+            "actions": [
+              {
+                "title": "Review and update incident response runbooks",
+                "owner": "Infrastructure",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "github",
+                    "actor": "DevOps Lead",
+                    "message": "All runbooks updated. Incident response drill scheduled.",
+                    "timestamp": "1 week ago",
+                    "status": "done"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "d8",
+        "title": "Strengthen security posture",
+        "progress": 82,
+        "status": "on-track",
+        "owner": "Security Dept",
+        "keyResults": [
+          {
+            "title": "Reduce Mean Time to Detect (MTTD) to Under 1h",
+            "current": "3.2h",
+            "target": "1h",
+            "progress": 60,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 6,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "Deploy SIEM solution",
+                "owner": "Security Dept",
+                "status": "in-progress",
+                "progress": 70,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Security Engineer",
+                    "message": "SIEM in staging. Production deployment next week.",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Achieve 100% Employee Security Training Completion",
+            "current": "78%",
+            "target": "100%",
+            "progress": 78,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actions": [
+              {
+                "title": "Send reminder to incomplete employees",
+                "owner": "Security Dept",
+                "status": "in-progress",
+                "progress": 60,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Security Manager",
+                    "message": "Reminders sent to 44 remaining employees. Deadline in 2 weeks.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "t8",
+        "title": "Strengthen infrastructure security",
+        "progress": 78,
+        "status": "on-track",
+        "owner": "Infrastructure Team",
+        "keyResults": [
+          {
+            "title": "Implement Zero-Trust Network Architecture",
+            "current": "Phase 1",
+            "target": "Phase 3",
+            "progress": 33,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 6,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actionSummary": {
+              "total": 5,
+              "done": 1,
+              "inProgress": 3,
+              "blocked": 1
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            }
+          },
+          {
+            "title": "Complete Penetration Testing and Remediation",
+            "current": "Testing",
+            "target": "Remediated",
+            "progress": 60,
+            "growth": {
+              "threeMonths": 20,
+              "oneMonth": 8,
+              "twoWeeks": 3,
+              "oneWeek": 1.5
+            },
+            "actionSummary": {
+              "total": 4,
+              "done": 2,
+              "inProgress": 2,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                2,
+                2,
+                2,
+                3,
+                2,
+                3,
+                3,
+                3,
+                3
+              ],
+              "labels": [
+                "12W ago",
+                "10W ago",
+                "8W ago",
+                "6W ago",
+                "4W ago",
+                "3W ago",
+                "2W ago",
+                "1W ago",
+                "This W"
+              ]
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "p8",
+        "title": "Improve security awareness and practice",
+        "progress": 80,
+        "status": "on-track",
+        "owner": "Marcus Webb",
+        "keyResults": [
+          {
+            "title": "Complete CISSP Certification",
+            "current": "Studying",
+            "target": "Certified",
+            "progress": 60,
+            "growth": {
+              "threeMonths": 20,
+              "oneMonth": 8,
+              "twoWeeks": 3,
+              "oneWeek": 1.5
+            },
+            "actions": [
+              {
+                "title": "Complete CISSP study guide",
+                "owner": "Marcus Webb",
+                "status": "in-progress",
+                "progress": 65,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Marcus Webb",
+                    "message": "6 of 8 domains complete. Exam scheduled for next month.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Conduct Monthly Security Code Reviews",
+            "current": "0/3",
+            "target": "3/3",
+            "progress": 0,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 0,
+              "twoWeeks": 0,
+              "oneWeek": 0
+            },
+            "actions": [
+              {
+                "title": "Schedule first security code review session",
+                "owner": "Marcus Webb",
+                "status": "in-progress",
+                "progress": 30,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "Marcus Webb",
+                    "message": "First security review session scheduled for next week.",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

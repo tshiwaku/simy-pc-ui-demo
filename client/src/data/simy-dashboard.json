@@ -1,0 +1,235 @@
+{
+  "northStar": {
+    "label": "導入組織数",
+    "value": 1247,
+    "unit": "組織",
+    "delta": "+12%",
+    "deltaPositive": true,
+    "goal": 2000,
+    "sparkline": [
+      820,
+      910,
+      980,
+      1050,
+      1120,
+      1180,
+      1247
+    ]
+  },
+  "drivers": [
+    {
+      "key": "acquisition",
+      "label": "獲得",
+      "iconKey": "Users",
+      "value": "342/wk",
+      "delta": "+18%",
+      "deltaPositive": true,
+      "goal": "400/wk",
+      "goalPct": 86,
+      "status": "good"
+    },
+    {
+      "key": "activation",
+      "label": "アクティベーション",
+      "iconKey": "Zap",
+      "value": "64%",
+      "delta": "+3.2pp",
+      "deltaPositive": true,
+      "goal": "75%",
+      "goalPct": 85,
+      "status": "good"
+    },
+    {
+      "key": "engagement",
+      "label": "エンゲージメント",
+      "iconKey": "Activity",
+      "value": "DAU/MAU 38%",
+      "delta": "+2.1pp",
+      "deltaPositive": true,
+      "goal": "45%",
+      "goalPct": 84,
+      "status": "good"
+    },
+    {
+      "key": "retention",
+      "label": "リテンション",
+      "iconKey": "Repeat",
+      "value": "71% (30d)",
+      "delta": "-1.4pp",
+      "deltaPositive": false,
+      "goal": "80% (30d)",
+      "goalPct": 89,
+      "status": "critical"
+    },
+    {
+      "key": "monetization",
+      "label": "マネタイゼーション",
+      "iconKey": "DollarSign",
+      "value": "ARR ¥182M",
+      "delta": "+9.8%",
+      "deltaPositive": true,
+      "goal": "¥200M",
+      "goalPct": 91,
+      "status": "warning"
+    },
+    {
+      "key": "referral",
+      "label": "リファラル",
+      "iconKey": "Share2",
+      "value": "NPS +42",
+      "delta": "+7pt",
+      "deltaPositive": true,
+      "goal": "NPS +50",
+      "goalPct": 84,
+      "status": "good"
+    }
+  ],
+  "bottlenecks": {
+    "retention": [
+      {
+        "id": "bn1",
+        "name": "通知オプトアウト急増",
+        "severity": "critical",
+        "affectedCount": 340,
+        "delta": "+2.3pp",
+        "summary": "通知オプトアウト率が急上昇。再エンゲージメントループが起動する前にユーザーがアラートを無効化している。"
+      },
+      {
+        "id": "bn2",
+        "name": "オンボーディング完了率の低下",
+        "severity": "high",
+        "affectedCount": 128,
+        "delta": "-8.1pp",
+        "summary": "ステップ3での離脱が集中。初回価値提供までの時間が長すぎる可能性がある。"
+      }
+    ],
+    "acquisition": [
+      {
+        "id": "bn3",
+        "name": "コンテンツSEOの停滞",
+        "severity": "high",
+        "affectedCount": 210,
+        "delta": "-12%",
+        "summary": "オーガニック流入が3週連続で横ばい。競合サイトにキーワードを奪われている兆候がある。"
+      }
+    ],
+    "activation": [
+      {
+        "id": "bn4",
+        "name": "初回セットアップの離脱",
+        "severity": "high",
+        "affectedCount": 95,
+        "delta": "-5.2pp",
+        "summary": "データ連携ステップで約40%が離脱。接続手順の複雑さが主因と推定される。"
+      }
+    ],
+    "engagement": [
+      {
+        "id": "bn5",
+        "name": "モバイル利用率の低迷",
+        "severity": "medium",
+        "affectedCount": 180,
+        "delta": "-3.1pp",
+        "summary": "デスクトップ比でモバイルのDAUが低い。モバイルUXの最適化が必要。"
+      }
+    ],
+    "monetization": [
+      {
+        "id": "bn6",
+        "name": "アップセル転換率の停滞",
+        "severity": "high",
+        "affectedCount": 62,
+        "delta": "-2.8pp",
+        "summary": "Freeプランからの有料転換が鈍化。価値訴求のタイミングと内容を見直す必要がある。"
+      }
+    ],
+    "referral": [
+      {
+        "id": "bn7",
+        "name": "紹介プログラムの認知不足",
+        "severity": "medium",
+        "affectedCount": 44,
+        "delta": "-1.2pp",
+        "summary": "紹介リンクの発行率が低い。プログラムの露出ポイントが不足している。"
+      }
+    ]
+  },
+  "priorityActions": [
+    {
+      "id": "a1",
+      "title": "通知オプトアウト急増を修正 — フリークエンシーキャップ v2 をデプロイ",
+      "driver": "リテンション",
+      "driverColorClass": "text-red-600",
+      "priority": "critical",
+      "dueDate": "今日",
+      "assignee": "Yuki Tanaka"
+    },
+    {
+      "id": "a2",
+      "title": "料金ページリデザイン実験を開始 (4/1予定)",
+      "driver": "マネタイゼーション",
+      "driverColorClass": "text-amber-600",
+      "priority": "high",
+      "dueDate": "4月1日",
+      "assignee": "Tetsuo Shiwaku"
+    },
+    {
+      "id": "a3",
+      "title": "オンボーディングA/Bテストのサンプルサイズを拡大し95%信頼度を達成",
+      "driver": "アクティベーション",
+      "driverColorClass": "text-emerald-600",
+      "priority": "high",
+      "dueDate": "4月3日",
+      "assignee": "Tetsuo Shiwaku"
+    }
+  ],
+  "experiments": [
+    {
+      "id": "e1",
+      "type": "A/B",
+      "status": "running",
+      "title": "オンボーディングフロー簡略化",
+      "metric": "アクティベーション率",
+      "metricDelta": "+8.2%",
+      "confidence": 87,
+      "score": 78,
+      "daysLeft": 12,
+      "driver": "activation"
+    },
+    {
+      "id": "e2",
+      "type": "Feature",
+      "status": "completed",
+      "title": "パフォーマンス最適化 (LCP)",
+      "metric": "ページ読み込み時間",
+      "metricDelta": "-38%",
+      "confidence": 99,
+      "score": 69,
+      "driver": "engagement"
+    },
+    {
+      "id": "e3",
+      "type": "Algorithm",
+      "status": "running",
+      "title": "レコメンドアルゴリズム v2",
+      "metric": "機能発見率",
+      "metricDelta": "+11.3%",
+      "confidence": 78,
+      "score": 62,
+      "daysLeft": 15,
+      "driver": "engagement"
+    },
+    {
+      "id": "e4",
+      "type": "Algorithm",
+      "status": "running",
+      "title": "AI通知タイミング最適化",
+      "metric": "DAU/MAU",
+      "metricDelta": "+4.1%",
+      "confidence": 72,
+      "score": 58,
+      "daysLeft": 10,
+      "driver": "retention"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "northStar": {
+    "label": "月次売上",
+    "value": 3820,
+    "unit": "万円",
+    "delta": "+8.2%",
+    "deltaPositive": true,
+    "goal": 5000,
+    "sparkline": [2900, 3050, 3200, 3400, 3550, 3680, 3820]
+  },
+  "drivers": [
+    {
+      "key": "acquisition",
+      "label": "新規顧客獲得",
+      "iconKey": "Users",
+      "value": "8社/月",
+      "delta": "+2社",
+      "deltaPositive": true,
+      "goal": "12社/月",
+      "goalPct": 67,
+      "status": "warning"
+    },
+    {
+      "key": "activation",
+      "label": "成約率",
+      "iconKey": "Zap",
+      "value": "32%",
+      "delta": "+3.1pp",
+      "deltaPositive": true,
+      "goal": "40%",
+      "goalPct": 80,
+      "status": "good"
+    },
+    {
+      "key": "engagement",
+      "label": "リピート率",
+      "iconKey": "Activity",
+      "value": "68%",
+      "delta": "+1.8pp",
+      "deltaPositive": true,
+      "goal": "75%",
+      "goalPct": 91,
+      "status": "good"
+    },
+    {
+      "key": "retention",
+      "label": "顧客継続率",
+      "iconKey": "Repeat",
+      "value": "78% (年)",
+      "delta": "-2.1pp",
+      "deltaPositive": false,
+      "goal": "85% (年)",
+      "goalPct": 92,
+      "status": "critical"
+    },
+    {
+      "key": "monetization",
+      "label": "客単価",
+      "iconKey": "DollarSign",
+      "value": "¥478K",
+      "delta": "+5.4%",
+      "deltaPositive": true,
+      "goal": "¥550K",
+      "goalPct": 87,
+      "status": "good"
+    },
+    {
+      "key": "referral",
+      "label": "紹介・口コミ",
+      "iconKey": "Share2",
+      "value": "NPS +38",
+      "delta": "+5pt",
+      "deltaPositive": true,
+      "goal": "NPS +50",
+      "goalPct": 76,
+      "status": "warning"
+    }
+  ],
+  "bottlenecks": {
+    "retention": [
+      {
+        "id": "bn1",
+        "name": "フォローアップ不足による解約増加",
+        "severity": "critical",
+        "affectedCount": 12,
+        "delta": "+2社",
+        "summary": "契約更新前の定期訪問が不足しており、競合他社に乗り換えられるケースが増加している。"
+      },
+      {
+        "id": "bn2",
+        "name": "担当者交代時の引き継ぎ不備",
+        "severity": "high",
+        "affectedCount": 5,
+        "delta": "+2件",
+        "summary": "営業担当が変わった際に顧客情報の引き継ぎが不十分で、関係性が希薄化している。"
+      }
+    ],
+    "acquisition": [
+      {
+        "id": "bn3",
+        "name": "新規リード獲得チャネルの不足",
+        "severity": "high",
+        "affectedCount": 20,
+        "delta": "-3社/月",
+        "summary": "既存顧客からの紹介に依存しており、新規チャネル（展示会・Web）の活用が遅れている。"
+      }
+    ],
+    "activation": [
+      {
+        "id": "bn4",
+        "name": "初回提案から成約までのリードタイムが長い",
+        "severity": "high",
+        "affectedCount": 8,
+        "delta": "+5日",
+        "summary": "見積もり作成に時間がかかり、競合に先を越されるケースが発生している。"
+      }
+    ],
+    "engagement": [
+      {
+        "id": "bn5",
+        "name": "追加購入の提案タイミングが遅い",
+        "severity": "medium",
+        "affectedCount": 15,
+        "delta": "-2件",
+        "summary": "既存顧客への定期的な提案活動が不足しており、クロスセルの機会を逃している。"
+      }
+    ],
+    "monetization": [
+      {
+        "id": "bn6",
+        "name": "値引き交渉への対応が不統一",
+        "severity": "medium",
+        "affectedCount": 10,
+        "delta": "-¥15K/件",
+        "summary": "担当者によって値引き対応にばらつきがあり、客単価が下がっているケースがある。"
+      }
+    ],
+    "referral": [
+      {
+        "id": "bn7",
+        "name": "紹介依頼のタイミングと方法が不明確",
+        "severity": "medium",
+        "affectedCount": 18,
+        "delta": "-2件/月",
+        "summary": "満足度の高い顧客に対しても紹介依頼を行う仕組みがなく、口コミが広がりにくい。"
+      }
+    ]
+  },
+  "priorityActions": [
+    {
+      "id": "pa1",
+      "title": "解約リスク顧客トップ5社への代表直接訪問を今月中に実施",
+      "driver": "顧客継続率",
+      "driverColorClass": "text-red-600",
+      "priority": "critical",
+      "dueDate": "今月中",
+      "assignee": "Kenji Hayashi"
+    },
+    {
+      "id": "pa2",
+      "title": "見積もりテンプレートを整備し、提案リードタイムを3日以内に短縮",
+      "driver": "成約率",
+      "driverColorClass": "text-emerald-600",
+      "priority": "high",
+      "dueDate": "4月15日",
+      "assignee": "Yuki Tanaka"
+    },
+    {
+      "id": "pa3",
+      "title": "展示会出展計画を策定し、新規リード獲得チャネルを開拓",
+      "driver": "新規顧客獲得",
+      "driverColorClass": "text-amber-600",
+      "priority": "high",
+      "dueDate": "4月末",
+      "assignee": "Kenji Hayashi"
+    }
+  ],
+  "experiments": [
+    {
+      "id": "e1",
+      "type": "施策",
+      "status": "running",
+      "title": "定期訪問サイクルの短縮（3ヶ月→2ヶ月）",
+      "metric": "顧客継続率",
+      "metricDelta": "+3.2%",
+      "confidence": 72,
+      "score": 68,
+      "daysLeft": 30,
+      "driver": "retention"
+    },
+    {
+      "id": "e2",
+      "type": "施策",
+      "status": "running",
+      "title": "見積もり即日回答サービスの試験導入",
+      "metric": "成約率",
+      "metricDelta": "+5.8%",
+      "confidence": 65,
+      "score": 61,
+      "daysLeft": 21,
+      "driver": "activation"
+    },
+    {
+      "id": "e3",
+      "type": "施策",
+      "status": "planned",
+      "title": "顧客紹介インセンティブプログラムの設計",
+      "metric": "紹介件数",
+      "metricDelta": "+2件/月",
+      "confidence": 55,
+      "score": 52,
+      "daysLeft": 45,
+      "driver": "referral"
+    },
+    {
+      "id": "e4",
+      "type": "施策",
+      "status": "completed",
+      "title": "値引き承認フローの標準化",
+      "metric": "客単価",
+      "metricDelta": "+¥22K",
+      "confidence": 88,
+      "score": 74,
+      "driver": "monetization"
+    }
+  ]
+}

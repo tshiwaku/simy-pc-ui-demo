@@ -1,0 +1,621 @@
+[
+  {
+    "id": "nara-1",
+    "title": "病院収益の黒字化（▲5億円→黒字転換）",
+    "status": "active",
+    "updatedAt": "本日",
+    "definition": "2028年3月末までに病院事業の収支を黒字転換する。現状は年間▲5億円の赤字。診療収益の増加（外来・入院・手術件数の拡大）と費用削減（材料費・委託費の最適化）を両輪で推進し、経営の持続可能性を確保する。",
+    "deadline": "2028年3月31日",
+    "doneState": [
+      {
+        "condition": "病院収支",
+        "metric": "黒字転換",
+        "current": "▲5億円",
+        "target": "±0以上"
+      },
+      {
+        "condition": "診療収益",
+        "metric": "≥ 280億円",
+        "current": "255億円",
+        "target": "280億円"
+      },
+      {
+        "condition": "材料費率",
+        "metric": "≤ 28%",
+        "current": "31%",
+        "target": "28%"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "h1",
+        "issue": "診療収益を255億円→280億円に増加できるか？",
+        "hypothesis": "手術件数を年間3,200件→4,000件に増やせば、外科系診療収益が+12億円増加する",
+        "verification": "ロボット手術導入と外科医増員で手術枠を拡大できるか確認",
+        "method": "AIによる手術スケジュール最適化シミュレーション、他大学病院のベンチマーク分析",
+        "responsibility": "AI",
+        "fact": "実行中：ロボット手術（ダヴィンチ）導入済み。手術枠拡大のボトルネックは麻酔科医の不足",
+        "decision": "継続：麻酔科医の採用強化と、AIによる手術スケジュール最適化を並行推進",
+        "hvpAxis": "sq",
+        "verdict": "pending"
+      },
+      {
+        "id": "h2",
+        "issue": "材料費率を31%→28%に削減できるか？",
+        "hypothesis": "医療材料の一括購買と後発品切り替えで材料費を年間▲3億円削減できる",
+        "verification": "後発品切り替え可能な薬剤・材料のリストアップと医師の同意取得",
+        "method": "AIによる材料費分析・後発品代替可能性スクリーニング",
+        "responsibility": "AI",
+        "fact": "検証完了：後発品切り替え可能品目は全体の38%。医師の同意率は62%",
+        "decision": "Go：未同意医師への個別説明を人間が担当。切り替え実施はAIで管理",
+        "hvpAxis": "cr",
+        "verdict": "verified"
+      },
+      {
+        "id": "h3",
+        "issue": "委託費の最適化で年間▲2億円削減できるか？",
+        "hypothesis": "清掃・給食・警備の委託契約を見直し、競争入札を実施すれば委託費を15%削減できる",
+        "verification": "現行契約の市場価格との乖離分析と、競争入札の実施可能性確認",
+        "method": "AIによる委託費ベンチマーク分析、他病院の入札実績データ収集",
+        "responsibility": "AI",
+        "fact": "未着手：現行契約の満期確認中。清掃・給食は2025年3月満期",
+        "decision": "準備中：2025年1月から競争入札プロセスを開始する",
+        "hvpAxis": "ht",
+        "verdict": "pending"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "m1",
+        "label": "材料費削減計画 策定完了",
+        "unit": "1week",
+        "offset": 1,
+        "status": "done",
+        "owner": "小川",
+        "dueLabel": "Week 1",
+        "description": "後発品切り替えリストと削減目標を確定",
+        "actions": [
+          {
+            "id": "ma1",
+            "title": "後発品切り替え可能品目リスト作成（AI）",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "ma2",
+            "title": "医師への説明・同意取得（人間）",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "ht"
+          }
+        ]
+      },
+      {
+        "id": "m2",
+        "label": "手術スケジュール最適化システム導入",
+        "unit": "1week",
+        "offset": 3,
+        "status": "in_progress",
+        "owner": "高橋",
+        "dueLabel": "Week 3",
+        "description": "AIによる手術枠最適化で月間手術件数+50件を目指す",
+        "actions": [
+          {
+            "id": "ma1",
+            "title": "AIスケジューリングシステム設定（AI）",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "ma2",
+            "title": "麻酔科医との調整・枠確保（人間）",
+            "done": false,
+            "owner": "人間",
+            "hvpAxis": "ht"
+          },
+          {
+            "id": "ma3",
+            "title": "試験運用開始のGo判断（人間）",
+            "done": false,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          }
+        ]
+      },
+      {
+        "id": "m3",
+        "label": "委託費 競争入札 実施",
+        "unit": "1week",
+        "offset": 6,
+        "status": "upcoming",
+        "owner": "小川",
+        "dueLabel": "Week 6"
+      },
+      {
+        "id": "m4",
+        "label": "診療収益 月次 +1億円ペース達成",
+        "unit": "1week",
+        "offset": 12,
+        "status": "upcoming",
+        "owner": "ALL",
+        "dueLabel": "Week 12"
+      },
+      {
+        "id": "m5",
+        "label": "収支改善 ▲5億円→▲2億円 達成確認",
+        "unit": "1week",
+        "offset": 24,
+        "status": "upcoming",
+        "owner": "笠原",
+        "dueLabel": "Week 24"
+      }
+    ],
+    "actions": [
+      {
+        "id": "a1",
+        "title": "後発品切り替え未同意医師への個別説明資料作成（AI）",
+        "status": "ai_running",
+        "category": "診療管理",
+        "updatedAt": "今日",
+        "hvpAxis": "ht"
+      },
+      {
+        "id": "a2",
+        "title": "手術件数増加に向けた麻酔科医採用計画立案",
+        "status": "your_turn",
+        "category": "人材",
+        "updatedAt": "1日前",
+        "hvpAxis": "cr"
+      },
+      {
+        "id": "a3",
+        "title": "委託費ベンチマーク分析レポート（AI）",
+        "status": "pending_review",
+        "category": "経費管理",
+        "updatedAt": "2日前",
+        "hvpAxis": "sq"
+      }
+    ]
+  },
+  {
+    "id": "nara-2",
+    "title": "高度専門医療センターの確立と患者獲得",
+    "status": "active",
+    "updatedAt": "2日前",
+    "definition": "奈良県立医大の強みである高度専門医療（がん・心臓・脳神経・周産期）を全国水準の「センター化」により強化し、2028年3月末までに紹介患者数を年間8,000件→12,000件に増加させる。特定機能病院としての機能を最大化し、県内外からの患者獲得を実現する。",
+    "deadline": "2028年3月31日",
+    "doneState": [
+      {
+        "condition": "紹介患者数",
+        "metric": "≥ 12,000件/年",
+        "current": "8,000件",
+        "target": "12,000件"
+      },
+      {
+        "condition": "がんセンター認定",
+        "metric": "取得",
+        "current": "申請準備中",
+        "target": "取得"
+      },
+      {
+        "condition": "ロボット手術件数",
+        "metric": "≥ 500件/年",
+        "current": "180件",
+        "target": "500件"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "h1",
+        "issue": "がんセンター認定取得で紹介患者数を増加できるか？",
+        "hypothesis": "がん診療連携拠点病院の認定を取得すれば、県内クリニックからの紹介数が年間+2,000件増加する",
+        "verification": "認定要件の充足状況確認と、認定後の紹介増加効果の他病院事例分析",
+        "method": "AIによる認定要件ギャップ分析、認定取得病院へのベンチマーク調査",
+        "responsibility": "AI",
+        "fact": "検証完了：認定要件の充足率は82%。不足は「がん相談支援センター」の体制強化のみ",
+        "decision": "Go：相談支援センター体制を2025年4月までに整備し、認定申請を実施",
+        "hvpAxis": "cr",
+        "verdict": "verified"
+      },
+      {
+        "id": "h2",
+        "issue": "ロボット手術の拡大で患者獲得競争力を高められるか？",
+        "hypothesis": "ロボット手術対応術式を現在の5術式→12術式に拡大すれば、遠方患者の受診率が30%向上する",
+        "verification": "術式拡大に必要な外科医のトレーニング期間と費用対効果の確認",
+        "method": "AIによる術式別患者需要分析、外科医トレーニングROIシミュレーション",
+        "responsibility": "AI",
+        "fact": "実行中：外科医3名がロボット手術認定取得中（2025年6月完了予定）",
+        "decision": "継続：認定取得後に術式拡大を段階的に実施",
+        "hvpAxis": "sq",
+        "verdict": "pending"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "m1",
+        "label": "がん相談支援センター体制整備",
+        "unit": "1week",
+        "offset": 4,
+        "status": "in_progress",
+        "owner": "高橋",
+        "dueLabel": "Week 4",
+        "actions": [
+          {
+            "id": "ma1",
+            "title": "がん相談員 2名採用・研修（人間）",
+            "done": false,
+            "owner": "人間",
+            "hvpAxis": "ht"
+          },
+          {
+            "id": "ma2",
+            "title": "相談支援体制マニュアル作成（AI）",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          }
+        ]
+      },
+      {
+        "id": "m2",
+        "label": "がん診療連携拠点病院 認定申請",
+        "unit": "1week",
+        "offset": 8,
+        "status": "upcoming",
+        "owner": "笠原",
+        "dueLabel": "Week 8"
+      },
+      {
+        "id": "m3",
+        "label": "ロボット手術 外科医3名 認定取得",
+        "unit": "1week",
+        "offset": 10,
+        "status": "upcoming",
+        "owner": "高橋",
+        "dueLabel": "Week 10"
+      },
+      {
+        "id": "m4",
+        "label": "紹介患者数 月次1,000件突破",
+        "unit": "1week",
+        "offset": 16,
+        "status": "upcoming",
+        "owner": "ALL",
+        "dueLabel": "Week 16"
+      }
+    ],
+    "actions": [
+      {
+        "id": "a1",
+        "title": "がん相談支援センター体制整備計画書作成（AI）",
+        "status": "ai_running",
+        "category": "診療管理",
+        "updatedAt": "今日",
+        "hvpAxis": "cr"
+      },
+      {
+        "id": "a2",
+        "title": "認定申請書類の要件ギャップ確認（AI）",
+        "status": "pending_review",
+        "category": "認定・資格",
+        "updatedAt": "1日前",
+        "hvpAxis": "sq"
+      }
+    ]
+  },
+  {
+    "id": "nara-3",
+    "title": "医師・看護師の働き方改革と人材確保",
+    "status": "active",
+    "updatedAt": "3日前",
+    "definition": "2024年4月から適用された医師の時間外労働規制（年960時間上限）に対応しつつ、医療の質を維持するための体制再構築を行う。タスクシフト・シェアの推進、特定行為看護師の育成、AIによる業務効率化を組み合わせ、2028年3月末までに医師の時間外労働を規制値以内に収める。",
+    "deadline": "2028年3月31日",
+    "doneState": [
+      {
+        "condition": "医師時間外労働",
+        "metric": "≤ 960時間/年",
+        "current": "1,420時間",
+        "target": "960時間"
+      },
+      {
+        "condition": "特定行為看護師数",
+        "metric": "≥ 30名",
+        "current": "12名",
+        "target": "30名"
+      },
+      {
+        "condition": "AI業務支援導入率",
+        "metric": "≥ 70%",
+        "current": "25%",
+        "target": "70%"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "h1",
+        "issue": "医師の時間外労働を1,420時間→960時間に削減できるか？",
+        "hypothesis": "特定行為看護師を12名→30名に増員し、医師の業務の30%をタスクシフトすれば、時間外労働を年間460時間削減できる",
+        "verification": "タスクシフト可能な業務の特定と、特定行為看護師1名あたりの削減効果の測定",
+        "method": "AIによる医師業務ログ分析、タスクシフト実施病院のベンチマーク",
+        "responsibility": "AI",
+        "fact": "検証完了：医師業務の32%がタスクシフト可能。特定行為看護師1名で医師時間外を年間38時間削減",
+        "decision": "Go：特定行為研修の定員を年間6名→12名に拡大",
+        "hvpAxis": "cr",
+        "verdict": "verified"
+      },
+      {
+        "id": "h2",
+        "issue": "AI業務支援で医師の事務作業を削減できるか？",
+        "hypothesis": "AI診療記録支援（音声入力・自動要約）を導入すれば、医師の記録業務時間を1日あたり45分削減できる",
+        "verification": "AI診療記録支援ツールのパイロット導入と効果測定",
+        "method": "パイロット部門（内科・外科各1病棟）での効果測定、医師へのアンケート",
+        "responsibility": "人間",
+        "fact": "実行中：内科病棟でパイロット導入中。暫定データでは1日あたり32分削減",
+        "decision": "継続：6ヶ月後に全科展開の可否を判断",
+        "hvpAxis": "sq",
+        "verdict": "pending"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "m1",
+        "label": "特定行為研修 定員拡大（6名→12名）",
+        "unit": "1week",
+        "offset": 2,
+        "status": "done",
+        "owner": "鈴木",
+        "dueLabel": "Week 2"
+      },
+      {
+        "id": "m2",
+        "label": "AI診療記録支援 パイロット開始",
+        "unit": "1week",
+        "offset": 3,
+        "status": "done",
+        "owner": "小川",
+        "dueLabel": "Week 3"
+      },
+      {
+        "id": "m3",
+        "label": "AI診療記録支援 全科展開判断",
+        "unit": "1week",
+        "offset": 12,
+        "status": "upcoming",
+        "owner": "笠原",
+        "dueLabel": "Week 12",
+        "actions": [
+          {
+            "id": "ma1",
+            "title": "パイロット効果測定レポート作成（AI）",
+            "done": false,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "ma2",
+            "title": "全科展開のGo/No-Go判断（人間）",
+            "done": false,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          }
+        ]
+      },
+      {
+        "id": "m4",
+        "label": "特定行為看護師 20名達成",
+        "unit": "1week",
+        "offset": 24,
+        "status": "upcoming",
+        "owner": "鈴木",
+        "dueLabel": "Week 24"
+      }
+    ],
+    "actions": [
+      {
+        "id": "a1",
+        "title": "AI診療記録支援 パイロット効果測定レポート（AI）",
+        "status": "ai_running",
+        "category": "DX推進",
+        "updatedAt": "今日",
+        "hvpAxis": "sq"
+      },
+      {
+        "id": "a2",
+        "title": "特定行為研修 追加定員の予算申請書作成",
+        "status": "your_turn",
+        "category": "人材",
+        "updatedAt": "2日前",
+        "hvpAxis": "cr"
+      }
+    ]
+  },
+  {
+    "id": "nara-4",
+    "title": "DX推進・業務効率化による生産性向上",
+    "status": "active",
+    "updatedAt": "5日前",
+    "definition": "電子カルテの高度化、AI診断支援、業務自動化（RPA）の導入により、2028年3月末までに職員一人あたりの生産性を20%向上させる。DX推進により浮いた時間を患者ケアの質向上に充てる。",
+    "deadline": "2028年3月31日",
+    "doneState": [
+      {
+        "condition": "職員生産性向上率",
+        "metric": "≥ 20%",
+        "current": "5%",
+        "target": "20%"
+      },
+      {
+        "condition": "RPA導入業務数",
+        "metric": "≥ 50業務",
+        "current": "8業務",
+        "target": "50業務"
+      },
+      {
+        "condition": "AI診断支援活用率",
+        "metric": "≥ 60%",
+        "current": "15%",
+        "target": "60%"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "h1",
+        "issue": "RPA導入で事務職員の業務時間を削減できるか？",
+        "hypothesis": "請求・レセプト処理・在庫管理の50業務をRPA化すれば、事務職員の残業時間を年間30%削減できる",
+        "verification": "RPA化可能業務のリストアップと、1業務あたりの削減効果の試算",
+        "method": "AIによる業務フロー分析、RPA導入事例のベンチマーク",
+        "responsibility": "AI",
+        "fact": "実行中：8業務でRPA稼働中。1業務あたり平均月間12時間の削減効果を確認",
+        "decision": "継続：月2業務ペースで拡大。優先度はレセプト処理と在庫管理",
+        "hvpAxis": "sq",
+        "verdict": "pending"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "m1",
+        "label": "RPA 8業務 稼働開始",
+        "unit": "1week",
+        "offset": 1,
+        "status": "done",
+        "owner": "小川",
+        "dueLabel": "Week 1"
+      },
+      {
+        "id": "m2",
+        "label": "AI診断支援 放射線科・病理科 試験導入",
+        "unit": "1week",
+        "offset": 4,
+        "status": "in_progress",
+        "owner": "小川",
+        "dueLabel": "Week 4"
+      },
+      {
+        "id": "m3",
+        "label": "RPA 30業務 達成",
+        "unit": "1week",
+        "offset": 12,
+        "status": "upcoming",
+        "owner": "小川",
+        "dueLabel": "Week 12"
+      },
+      {
+        "id": "m4",
+        "label": "DX推進 生産性向上 10%達成確認",
+        "unit": "1week",
+        "offset": 20,
+        "status": "upcoming",
+        "owner": "笠原",
+        "dueLabel": "Week 20"
+      }
+    ],
+    "actions": [
+      {
+        "id": "a1",
+        "title": "RPA化優先業務リスト更新（AI）",
+        "status": "ai_running",
+        "category": "DX推進",
+        "updatedAt": "今日",
+        "hvpAxis": "sq"
+      },
+      {
+        "id": "a2",
+        "title": "AI診断支援 試験導入結果レポート（AI）",
+        "status": "pending_review",
+        "category": "DX推進",
+        "updatedAt": "3日前",
+        "hvpAxis": "sq"
+      }
+    ]
+  },
+  {
+    "id": "nara-5",
+    "title": "研究力強化・科研費獲得拡大",
+    "status": "active",
+    "updatedAt": "1週間前",
+    "definition": "科研費採択率の向上と産学連携の強化により、2028年3月末までに外部研究資金を現状の18億円から25億円に増加させる。医師主導治験の推進と特許出願の増加を通じて、研究型大学病院としての地位を確立する。",
+    "deadline": "2028年3月31日",
+    "doneState": [
+      {
+        "condition": "外部研究資金",
+        "metric": "≥ 25億円/年",
+        "current": "18億円",
+        "target": "25億円"
+      },
+      {
+        "condition": "科研費採択率",
+        "metric": "≥ 35%",
+        "current": "28%",
+        "target": "35%"
+      },
+      {
+        "condition": "医師主導治験数",
+        "metric": "≥ 15件",
+        "current": "8件",
+        "target": "15件"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "h1",
+        "issue": "AIによる申請書支援で科研費採択率を向上できるか？",
+        "hypothesis": "AI文書支援ツールで申請書の質を向上させれば、科研費採択率を28%→35%に改善できる",
+        "verification": "AI支援あり・なしの申請書の採択率比較（パイロット実施）",
+        "method": "前年度申請書のAI添削と採択率の相関分析",
+        "responsibility": "AI",
+        "fact": "実行中：2025年度申請書50件でAI支援を試験実施中",
+        "decision": "継続：採択結果を待って全面展開の可否を判断",
+        "hvpAxis": "sq",
+        "verdict": "pending"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "m1",
+        "label": "科研費AI支援 パイロット実施",
+        "unit": "1week",
+        "offset": 2,
+        "status": "done",
+        "owner": "中村",
+        "dueLabel": "Week 2"
+      },
+      {
+        "id": "m2",
+        "label": "産学連携 新規協定 3件締結",
+        "unit": "1week",
+        "offset": 8,
+        "status": "upcoming",
+        "owner": "中村",
+        "dueLabel": "Week 8"
+      },
+      {
+        "id": "m3",
+        "label": "外部研究資金 20億円達成",
+        "unit": "1week",
+        "offset": 20,
+        "status": "upcoming",
+        "owner": "中村",
+        "dueLabel": "Week 20"
+      }
+    ],
+    "actions": [
+      {
+        "id": "a1",
+        "title": "科研費申請書AI添削サービス 全教員展開計画",
+        "status": "your_turn",
+        "category": "研究推進",
+        "updatedAt": "今日",
+        "hvpAxis": "sq"
+      },
+      {
+        "id": "a2",
+        "title": "産学連携候補企業リスト作成（AI）",
+        "status": "ai_running",
+        "category": "産学連携",
+        "updatedAt": "3日前",
+        "hvpAxis": "ht"
+      }
+    ]
+  }
+]

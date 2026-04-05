@@ -1,0 +1,134 @@
+{
+  "midTermPlan": {
+    "id": "mtp1",
+    "title": "中期経営計画 2025-2027",
+    "period": "2025年4月 〜 2027年3月",
+    "vision": "地域に根ざした信頼のパートナーとして、売上10億円企業を目指す",
+    "status": "on-track",
+    "overallProgress": 38,
+    "milestones": [
+      {
+        "id": "ms1",
+        "title": "年商5億円達成",
+        "description": "既存顧客の深耕と新規開拓を両輪で進め、今期の売上目標を達成する。",
+        "targetDate": "2026-03-31",
+        "status": "at-risk",
+        "progress": 76,
+        "owner": "Kenji Hayashi",
+        "category": "Sales"
+      },
+      {
+        "id": "ms2",
+        "title": "新規顧客100社突破",
+        "description": "展示会・Web・紹介の3チャネルを整備し、新規顧客基盤を拡大する。",
+        "targetDate": "2026-09-30",
+        "status": "at-risk",
+        "progress": 42,
+        "owner": "Yuki Tanaka",
+        "category": "Sales"
+      },
+      {
+        "id": "ms3",
+        "title": "業務DX化完了（在庫・経理・顧客管理）",
+        "description": "主要業務をクラウドシステムに移行し、業務時間を30%削減する。",
+        "targetDate": "2026-12-31",
+        "status": "on-track",
+        "progress": 25,
+        "owner": "Ryo Fujii",
+        "category": "Operations"
+      },
+      {
+        "id": "ms4",
+        "title": "正社員10名体制の確立",
+        "description": "営業・オペレーション・ITの各部門に専任担当を配置し、組織基盤を強化する。",
+        "targetDate": "2027-03-31",
+        "status": "on-track",
+        "progress": 60,
+        "owner": "Kenji Hayashi",
+        "category": "HR"
+      },
+      {
+        "id": "ms5",
+        "title": "営業利益率10%以上の安定達成",
+        "description": "コスト管理と客単価向上により、持続的な利益体質を確立する。",
+        "targetDate": "2027-03-31",
+        "status": "on-track",
+        "progress": 45,
+        "owner": "Takashi Ono",
+        "category": "Finance"
+      }
+    ]
+  },
+  "currentOKRs": [
+    {
+      "id": "okr1",
+      "title": "今期売上目標 5,000万円を達成する",
+      "description": "新規開拓と既存顧客深耕の両輪で売上を拡大する",
+      "progress": 76,
+      "status": "at-risk",
+      "quarter": "Q1 FY2026",
+      "keyResults": [
+        {
+          "id": "kr1",
+          "title": "新規顧客を月8社以上獲得する",
+          "progress": 67,
+          "target": "8社/月",
+          "current": "5.4社/月",
+          "unit": "社",
+          "status": "at-risk",
+          "owner": "Yuki Tanaka"
+        },
+        {
+          "id": "kr2",
+          "title": "成約率を40%以上に引き上げる",
+          "progress": 80,
+          "target": "40%",
+          "current": "32%",
+          "unit": "%",
+          "status": "on-track",
+          "owner": "Kenji Hayashi"
+        },
+        {
+          "id": "kr3",
+          "title": "既存顧客への追加提案を月10件以上実施する",
+          "progress": 60,
+          "target": "10件/月",
+          "current": "6件/月",
+          "unit": "件",
+          "status": "at-risk",
+          "owner": "Yuki Tanaka"
+        }
+      ]
+    },
+    {
+      "id": "okr2",
+      "title": "業務効率化で週10時間以上の工数を削減する",
+      "description": "DX推進により、ルーティン業務の自動化・効率化を進める",
+      "progress": 45,
+      "status": "on-track",
+      "quarter": "Q1 FY2026",
+      "keyResults": [
+        {
+          "id": "kr4",
+          "title": "在庫管理システムの移行を完了する",
+          "progress": 20,
+          "target": "移行完了",
+          "current": "計画策定中",
+          "unit": "%",
+          "status": "on-track",
+          "owner": "Ryo Fujii"
+        },
+        {
+          "id": "kr5",
+          "title": "月次決算レポートの作成時間を50%削減する",
+          "progress": 70,
+          "target": "50%削減",
+          "current": "35%削減達成",
+          "unit": "%",
+          "status": "on-track",
+          "owner": "Takashi Ono"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "na1",
+    "title": "病床稼働率90%達成に向けた入院患者受入体制の強化",
+    "description": "現状76%の病床稼働率を目標90%へ引き上げるため、入院受入プロセスの見直しと救急受入体制の強化を実施する。診療科別収支の見える化と連動させ、稼働率改善の効果を財務指標に反映させる。",
+    "status": "yours",
+    "category": "Executive",
+    "createdAt": "2026-03-10T09:00:00",
+    "updatedAt": "2026-04-01T10:00:00",
+    "assigneeId": "hs_nara",
+    "agents": [
+      {
+        "id": "ag_nara1",
+        "name": "Manus",
+        "description": "診療科別稼働率データの分析・ボトルネック特定",
+        "status": "running",
+        "isAuto": true,
+        "logs": [
+          "診療科別病床稼働率データを収集中...",
+          "外科系・内科系の稼働率差分を分析中...",
+          "入院待機患者数の推移を集計中..."
+        ]
+      }
+    ],
+    "memberRoles": [
+      { "memberId": "hs_nara", "role": "Accountability" },
+      { "memberId": "mk_nara", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "relatedIssues": [{ "id": "ni1", "title": "病床稼働率76%→90%達成（診療収益確保）", "status": "active" }],
+    "changeHistory": [
+      { "version": 2, "description": "診療科別データ収集をManusに依頼", "date": "4月1日", "author": "Masato Kasahara" },
+      { "version": 1, "description": "アクション作成", "date": "3月10日", "author": "Masato Kasahara" }
+    ]
+  },
+  {
+    "id": "na2",
+    "title": "高度救命救急センター救急受入率97%達成計画の策定",
+    "description": "現状90.3%の救急受入率をR12目標97.0%へ段階的に引き上げるためのロードマップを策定する。受入件数1,066件→1,190件（R12）の達成に向け、救急病床稼働率89.9%の維持と受入体制の強化を両立させる。",
+    "status": "ai-running",
+    "category": "Executive",
+    "createdAt": "2026-03-15T10:00:00",
+    "updatedAt": "2026-04-01T09:00:00",
+    "assigneeId": "hs_nara",
+    "agents": [
+      {
+        "id": "ag_nara2",
+        "name": "Manus",
+        "description": "救急受入率改善計画の自動ドラフト作成",
+        "status": "running",
+        "isAuto": true,
+        "logs": [
+          "過去3年間の救急受入データを分析中...",
+          "受入困難事例の要因分析を実施中...",
+          "他大学病院のベンチマーク収集中..."
+        ]
+      }
+    ],
+    "memberRoles": [
+      { "memberId": "hs_nara", "role": "Accountability" },
+      { "memberId": "ym_nara", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "relatedIssues": [{ "id": "ni2", "title": "救急受入率90.3%→97%達成（最終ディフェンスライン強化）", "status": "active" }],
+    "changeHistory": [
+      { "version": 1, "description": "アクション作成・Manusに計画策定を依頼", "date": "3月15日", "author": "Masato Kasahara" }
+    ]
+  },
+  {
+    "id": "na3",
+    "title": "経常収支比率100%達成に向けた収支改善計画の実行",
+    "description": "現状97.1%の経常収支比率を第4期中期目標期間中に100%以上で維持するため、医業収益向上策（診療報酬請求精度向上・未収金回収）と経費抑制策（後発医薬品80%以上維持・費用構造改革）を並行実施する。",
+    "status": "stopped",
+    "category": "Finance",
+    "createdAt": "2026-02-20T09:00:00",
+    "updatedAt": "2026-03-28T10:00:00",
+    "assigneeId": "to_nara",
+    "agents": [],
+    "memberRoles": [
+      { "memberId": "to_nara", "role": "Accountability" },
+      { "memberId": "mk_nara", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "stoppedDays": 5,
+    "relatedIssues": [{ "id": "ni3", "title": "経常収支比率97.1%→100%以上（経営基盤強化）", "status": "active" }],
+    "changeHistory": [
+      { "version": 2, "description": "診療報酬請求精度向上の施策案を提出待ち", "date": "3月28日", "author": "Takashi Okamoto" },
+      { "version": 1, "description": "アクション作成", "date": "2月20日", "author": "Masato Kasahara" }
+    ]
+  },
+  {
+    "id": "na4",
+    "title": "診療科別収支の見える化システム導入（医療DX推進）",
+    "description": "新総合医療情報システムと連携し、診療科別の収支をリアルタイムで可視化する管理会計システムを導入する。テーマごとのプロジェクト化と院内検討の深化を通じ、医業収支比率94.2%→95%以上（R12）の達成を支援する。",
+    "status": "yours",
+    "category": "Engineering",
+    "createdAt": "2026-03-05T10:00:00",
+    "updatedAt": "2026-04-01T11:00:00",
+    "assigneeId": "ym_nara",
+    "agents": [
+      {
+        "id": "ag_nara4",
+        "name": "Claude Coworker",
+        "description": "診療科別収支可視化の要件定義サポート",
+        "status": "idle",
+        "isAuto": false
+      }
+    ],
+    "memberRoles": [
+      { "memberId": "ym_nara", "role": "Accountability" },
+      { "memberId": "to_nara", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "relatedIssues": [{ "id": "ni4", "title": "医療DX推進（新総合医療情報システム整備）", "status": "active" }],
+    "changeHistory": [
+      { "version": 2, "description": "ベンダー候補3社の選定完了", "date": "3月25日", "author": "Yuki Mori" },
+      { "version": 1, "description": "アクション作成", "date": "3月5日", "author": "Masato Kasahara" }
+    ]
+  },
+  {
+    "id": "na5",
+    "title": "県費奨学生返還免除割合87.4%→95.2%達成計画の実行",
+    "description": "県費奨学生の県内定着を促進するため、奨学生総会の参加者数を26.4人→45人以上に拡大し、キャリアパス形成支援を強化する。返還免除割合をR7:89.0%→R12:95.2%へ段階的に引き上げる。",
+    "status": "pending",
+    "category": "HR",
+    "createdAt": "2026-03-20T09:00:00",
+    "updatedAt": "2026-03-30T10:00:00",
+    "assigneeId": "kn_nara",
+    "agents": [],
+    "memberRoles": [
+      { "memberId": "kn_nara", "role": "Accountability" },
+      { "memberId": "mk_nara", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "relatedIssues": [{ "id": "ni5", "title": "県費奨学生の県内定着率向上（地域医療人材確保）", "status": "active" }],
+    "changeHistory": [
+      { "version": 1, "description": "アクション作成", "date": "3月20日", "author": "Masato Kasahara" }
+    ]
+  },
+  {
+    "id": "na6",
+    "title": "医師超過勤務時間1,809h→1,470h削減ロードマップの策定と実行",
+    "description": "医師の働き方改革対応として、超過勤務時間数をR5:1,809時間からR12:1,470時間へ削減する。タスクシフト・シェアの推進、医師事務作業補助者の増員、AIを活用した業務効率化を組み合わせた実行計画を策定する。",
+    "status": "ai-running",
+    "category": "HR",
+    "createdAt": "2026-03-18T10:00:00",
+    "updatedAt": "2026-04-01T08:00:00",
+    "assigneeId": "ym_nara",
+    "agents": [
+      {
+        "id": "ag_nara6",
+        "name": "Manus",
+        "description": "医師業務分析・タスクシフト可能業務の洗い出し",
+        "status": "running",
+        "isAuto": true,
+        "logs": [
+          "診療科別超過勤務時間データを集計中...",
+          "タスクシフト可能業務のリストアップ中...",
+          "他病院の働き方改革事例を収集中..."
+        ]
+      }
+    ],
+    "memberRoles": [
+      { "memberId": "ym_nara", "role": "Accountability" },
+      { "memberId": "hs_nara", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "relatedIssues": [{ "id": "ni6", "title": "医師超過勤務時間削減（働き方改革・医療安全）", "status": "active" }],
+    "changeHistory": [
+      { "version": 1, "description": "アクション作成・Manusに業務分析を依頼", "date": "3月18日", "author": "Masato Kasahara" }
+    ]
+  },
+  {
+    "id": "na7",
+    "title": "紹介率88.8%→90%以上・逆紹介率98%以上の維持施策の実行",
+    "description": "地域医療機関との連携強化により、紹介率90%以上・逆紹介率98%以上を達成・維持する。近隣病院等との新たな連携構築（現状14病院→前年度より増加）と紹介・逆紹介業務の利便性向上を推進する。",
+    "status": "pending",
+    "category": "Executive",
+    "createdAt": "2026-03-22T10:00:00",
+    "updatedAt": "2026-03-30T10:00:00",
+    "assigneeId": "hs_nara",
+    "agents": [],
+    "memberRoles": [
+      { "memberId": "hs_nara", "role": "Accountability" },
+      { "memberId": "ym_nara", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "relatedIssues": [{ "id": "ni7", "title": "地域医療連携強化（紹介率・逆紹介率改善）", "status": "active" }],
+    "changeHistory": [
+      { "version": 1, "description": "アクション作成", "date": "3月22日", "author": "Masato Kasahara" }
+    ]
+  },
+  {
+    "id": "na8",
+    "title": "科研費・外部資金獲得強化と未来への飛躍基金1億円/年維持",
+    "description": "科学研究費補助金等外部資金の獲得を強化し、未来への飛躍基金寄附実績1億円/年（R2-R4平均）を継続維持する。産学官連携・奈良先端科学技術大学院大学との連携法人を活用した共同研究の拡大を推進する。",
+    "status": "yours",
+    "category": "Finance",
+    "createdAt": "2026-03-12T10:00:00",
+    "updatedAt": "2026-04-01T10:00:00",
+    "assigneeId": "kn_nara",
+    "agents": [],
+    "memberRoles": [
+      { "memberId": "kn_nara", "role": "Accountability" },
+      { "memberId": "mk_nara", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "relatedIssues": [{ "id": "ni8", "title": "外部資金獲得強化・産学官連携推進", "status": "active" }],
+    "changeHistory": [
+      { "version": 1, "description": "アクション作成", "date": "3月12日", "author": "Masato Kasahara" }
+    ]
+  },
+  {
+    "id": "na9",
+    "title": "患者満足度「不満・やや不満」割合の維持（外来2.9%以下・入院1.4%以下）",
+    "description": "患者満足度調査を継続実施し、外来「不満・やや不満」割合2.9%以下・入院1.4%以下を維持する。ホスピタリティマインド醸成研修受講者の「業務に活用できる」回答率85%以上を達成し、患者主体の医療提供体制を強化する。",
+    "status": "completed",
+    "category": "Executive",
+    "createdAt": "2026-02-15T10:00:00",
+    "updatedAt": "2026-03-20T10:00:00",
+    "assigneeId": "hs_nara",
+    "agents": [],
+    "memberRoles": [
+      { "memberId": "hs_nara", "role": "Accountability" }
+    ],
+    "isArchived": false,
+    "doneState": "患者満足度調査Q1実施完了。外来2.7%・入院1.2%で目標値以内を達成。ホスピタリティ研修参加率86%を記録。",
+    "relatedIssues": [{ "id": "ni9", "title": "患者満足度の継続的改善（患者主体の医療）", "status": "active" }],
+    "changeHistory": [
+      { "version": 2, "description": "Q1調査完了・目標達成を確認", "date": "3月20日", "author": "Hiroshi Saito" },
+      { "version": 1, "description": "アクション作成", "date": "2月15日", "author": "Masato Kasahara" }
+    ]
+  },
+  {
+    "id": "na10",
+    "title": "キャリアパス・職制及び賃金体系の整備（R8開始）に向けた準備",
+    "description": "R8からの整備・運用・改善開始に向け、事務職員のキャリアパス設計と専門性向上プログラムを構築する。法人経営・病院経営の各分野のエキスパート育成を目指し、大学・病院運営のブレーンとなる人材の確保を図る。",
+    "status": "pending",
+    "category": "HR",
+    "createdAt": "2026-03-25T10:00:00",
+    "updatedAt": "2026-03-25T10:00:00",
+    "assigneeId": "ym_nara",
+    "agents": [],
+    "memberRoles": [
+      { "memberId": "ym_nara", "role": "Accountability" },
+      { "memberId": "mk_nara", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "relatedIssues": [{ "id": "ni10", "title": "キャリアパス整備・法人運営人材の育成", "status": "active" }],
+    "changeHistory": [
+      { "version": 1, "description": "アクション作成", "date": "3月25日", "author": "Masato Kasahara" }
+    ]
+  }
+]

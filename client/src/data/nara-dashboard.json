@@ -1,0 +1,244 @@
+{
+  "northStar": {
+    "label": "病院収支改善率",
+    "value": -5,
+    "unit": "億円",
+    "delta": "+0.8億円",
+    "deltaPositive": true,
+    "goal": 0,
+    "sparkline": [
+      -8,
+      -7.5,
+      -7,
+      -6.5,
+      -6,
+      -5.5,
+      -5
+    ]
+  },
+  "drivers": [
+    {
+      "key": "acquisition",
+      "label": "診療収益",
+      "iconKey": "DollarSign",
+      "value": "255億円",
+      "delta": "+3.2%",
+      "deltaPositive": true,
+      "goal": "280億円",
+      "goalPct": 91,
+      "status": "warning"
+    },
+    {
+      "key": "activation",
+      "label": "手術件数",
+      "iconKey": "Activity",
+      "value": "3,200件/年",
+      "delta": "+8%",
+      "deltaPositive": true,
+      "goal": "4,000件",
+      "goalPct": 80,
+      "status": "warning"
+    },
+    {
+      "key": "engagement",
+      "label": "外来患者数",
+      "iconKey": "Users",
+      "value": "38,500人/月",
+      "delta": "+5.1%",
+      "deltaPositive": true,
+      "goal": "42,000人",
+      "goalPct": 92,
+      "status": "good"
+    },
+    {
+      "key": "retention",
+      "label": "材料費率",
+      "iconKey": "BarChart3",
+      "value": "31%",
+      "delta": "-0.5%",
+      "deltaPositive": false,
+      "goal": "28%以下",
+      "goalPct": 45,
+      "status": "critical"
+    },
+    {
+      "key": "monetization",
+      "label": "病院収支",
+      "iconKey": "TrendingUp",
+      "value": "▲5億円",
+      "delta": "+0.8億円",
+      "deltaPositive": true,
+      "goal": "黒字転換",
+      "goalPct": 30,
+      "status": "critical"
+    },
+    {
+      "key": "referral",
+      "label": "紹介患者",
+      "iconKey": "Share2",
+      "value": "8,000件/年",
+      "delta": "+12%",
+      "deltaPositive": true,
+      "goal": "12,000件",
+      "goalPct": 67,
+      "status": "warning"
+    }
+  ],
+  "bottlenecks": {
+    "acquisition": [
+      {
+        "id": "nb1",
+        "name": "麻酔科医不足による手術枠制約",
+        "severity": "critical",
+        "affectedCount": 12,
+        "delta": "-8%",
+        "summary": "麻酔科医が常時勤務換算で実質3名不足。月間手術件数が最大化できず、外科系診療収益の増加が抑制されている。"
+      },
+      {
+        "id": "nb2",
+        "name": "外来単価の低迷（平均単価が全国平均比-12%）",
+        "severity": "high",
+        "affectedCount": 8,
+        "delta": "-5%",
+        "summary": "外来単価が全国立大学病院平均より12%低い。診療単価の見直しと高度専門加算の適用が必要。"
+      }
+    ],
+    "activation": [
+      {
+        "id": "nb3",
+        "name": "ロボット手術術式数の制約（5術式のみ）",
+        "severity": "high",
+        "affectedCount": 6,
+        "delta": "-15%",
+        "summary": "ダヴィンチ対応術式が5術式に限定され、遠方患者の受入機会を逃している。外科医のロボット認定取得を加速する必要がある。"
+      }
+    ],
+    "engagement": [],
+    "retention": [
+      {
+        "id": "nb4",
+        "name": "後発品切り替え未完了（38%の品目で同意率62%）",
+        "severity": "critical",
+        "affectedCount": 15,
+        "delta": "-3%",
+        "summary": "後発品切り替え可能品目の38%について、医師の同意率が62%にとどまり、材料費削減目標の達成が遅れている。"
+      },
+      {
+        "id": "nb5",
+        "name": "委託契約満期までの競争入札準備不足",
+        "severity": "high",
+        "affectedCount": 3,
+        "delta": "-2%",
+        "summary": "清掃・給食委託契約が2025年3月満期。競争入札の準備が遅れると契約更新で割高交渉の機会を失う。"
+      }
+    ],
+    "monetization": [
+      {
+        "id": "nb6",
+        "name": "入院平均単価の低迷（DPC単価差マイナス）",
+        "severity": "critical",
+        "affectedCount": 20,
+        "delta": "-4%",
+        "summary": "DPC単価差がマイナス側で推移しており、入院当たり収益が減少している。高度専門医療の強化によるDPC単価差改善が必要。"
+      }
+    ],
+    "referral": [
+      {
+        "id": "nb7",
+        "name": "がんセンター認定未取得による紹介機会損失",
+        "severity": "high",
+        "affectedCount": 10,
+        "delta": "-10%",
+        "summary": "がん診療連携拠点病院認定の未取得により、県内クリニックからの紹介が制限されている。認定取得で年間+2,000件の紹介増加が見込まれる。"
+      }
+    ]
+  },
+  "priorityActions": [
+    {
+      "id": "na1",
+      "title": "麻酔科医採用強化：常勤医+2名の採用計画立案",
+      "driver": "診療収益",
+      "driverColorClass": "text-amber-600",
+      "priority": "critical",
+      "dueDate": "2025年2月末",
+      "assignee": "笠原"
+    },
+    {
+      "id": "na2",
+      "title": "後発品切り替え未同意医師への個別説明実施",
+      "driver": "材料費率",
+      "driverColorClass": "text-red-600",
+      "priority": "critical",
+      "dueDate": "2025年1月末",
+      "assignee": "高橋"
+    },
+    {
+      "id": "na3",
+      "title": "委託契約競争入札プロセス開始",
+      "driver": "病院収支",
+      "driverColorClass": "text-red-600",
+      "priority": "high",
+      "dueDate": "2025年1月末",
+      "assignee": "小川"
+    },
+    {
+      "id": "na4",
+      "title": "がんセンター認定申請書類整備完了",
+      "driver": "紹介患者",
+      "driverColorClass": "text-amber-600",
+      "priority": "high",
+      "dueDate": "2025年3月末",
+      "assignee": "笠原"
+    }
+  ],
+  "experiments": [
+    {
+      "id": "ne1",
+      "type": "AI業務支援",
+      "status": "running",
+      "title": "AI診療記録支援 パイロット",
+      "metric": "医師時間外削減",
+      "metricDelta": "-32分/日",
+      "confidence": 68,
+      "score": 72,
+      "daysLeft": 45,
+      "driver": "engagement"
+    },
+    {
+      "id": "ne2",
+      "type": "認定取得",
+      "status": "running",
+      "title": "がん診療連携拠点病院 認定申請",
+      "metric": "紹介患者数",
+      "metricDelta": "+2,000件/年見込",
+      "confidence": 85,
+      "score": 88,
+      "daysLeft": 90,
+      "driver": "referral"
+    },
+    {
+      "id": "ne3",
+      "type": "購買改善",
+      "status": "planned",
+      "title": "後発品切り替え 全科展開",
+      "metric": "材料費率",
+      "metricDelta": "-3%見込",
+      "confidence": 62,
+      "score": 65,
+      "daysLeft": 120,
+      "driver": "retention"
+    },
+    {
+      "id": "ne4",
+      "type": "RPA導入",
+      "status": "running",
+      "title": "請求・レセプト処理 RPA化",
+      "metric": "事務時間削減",
+      "metricDelta": "-12h/月/業務",
+      "confidence": 78,
+      "score": 80,
+      "daysLeft": 30,
+      "driver": "activation"
+    }
+  ]
+}

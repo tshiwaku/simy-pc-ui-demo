@@ -1,0 +1,1098 @@
+{
+  "phases": [
+    {
+      "phase": 1,
+      "label": "Phase 1: Foundation (R7)",
+      "labelJa": "Phase 1: 基盤整備（R7）",
+      "period": "Apr 2025 – Mar 2026",
+      "periodJa": "2025年4月〜2026年3月",
+      "revenueTarget": "経常収支比率 98%",
+      "revenueActual": "97.4%",
+      "revenueProgress": 74,
+      "status": "at-risk",
+      "milestones": [
+        {
+          "title": "病床稼働率改善計画承認",
+          "titleJa": "病床稼働率改善計画承認",
+          "done": true,
+          "date": "4月"
+        },
+        {
+          "title": "新総合医療情報システム ベンダー選定",
+          "titleJa": "新総合医療情報システム ベンダー選定",
+          "done": false,
+          "date": "4月"
+        },
+        {
+          "title": "医師事務作業補助者 5名追加採用",
+          "titleJa": "医師事務作業補助者 5名追加採用",
+          "done": false,
+          "date": "4月"
+        },
+        {
+          "title": "未収金回収専任担当者配置",
+          "titleJa": "未収金回収専任担当者配置",
+          "done": false,
+          "date": "4月"
+        },
+        {
+          "title": "病床稼働率 82%達成",
+          "titleJa": "病床稼働率 82%達成",
+          "done": false,
+          "date": "6月"
+        },
+        {
+          "title": "キャリアパス整備 設計完了",
+          "titleJa": "キャリアパス整備 設計完了",
+          "done": false,
+          "date": "9月"
+        },
+        {
+          "title": "経常収支比率 98%達成",
+          "titleJa": "経常収支比率 98%達成",
+          "done": false,
+          "date": "3月"
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "label": "Phase 2: Growth (R8-R10)",
+      "labelJa": "Phase 2: 成長加速（R8〜R10）",
+      "period": "Apr 2026 – Mar 2029",
+      "periodJa": "2026年4月〜2029年3月",
+      "revenueTarget": "経常収支比率 100%",
+      "revenueActual": "—",
+      "revenueProgress": 0,
+      "status": "not-started",
+      "milestones": [
+        {
+          "title": "新総合医療情報システム 稼働開始",
+          "titleJa": "新総合医療情報システム 稼働開始",
+          "done": false,
+          "date": "R8"
+        },
+        {
+          "title": "病床稼働率 88%達成",
+          "titleJa": "病床稼働率 88%達成",
+          "done": false,
+          "date": "R9"
+        },
+        {
+          "title": "キャリアパス整備 運用開始",
+          "titleJa": "キャリアパス整備 運用開始",
+          "done": false,
+          "date": "R8"
+        },
+        {
+          "title": "医師超過勤務 1,650h以下",
+          "titleJa": "医師超過勤務 1,650h以下",
+          "done": false,
+          "date": "R10"
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "label": "Phase 3: Excellence (R11-R12)",
+      "labelJa": "Phase 3: 卓越達成（R11〜R12）",
+      "period": "Apr 2029 – Mar 2031",
+      "periodJa": "2029年4月〜2031年3月",
+      "revenueTarget": "経常収支比率 100%以上維持",
+      "revenueActual": "—",
+      "revenueProgress": 0,
+      "status": "not-started",
+      "milestones": [
+        {
+          "title": "病床稼働率 90%達成",
+          "titleJa": "病床稼働率 90%達成",
+          "done": false,
+          "date": "R12"
+        },
+        {
+          "title": "救急受入率 97%達成",
+          "titleJa": "救急受入率 97%達成",
+          "done": false,
+          "date": "R12"
+        },
+        {
+          "title": "医師超過勤務 1,470h達成",
+          "titleJa": "医師超過勤務 1,470h達成",
+          "done": false,
+          "date": "R12"
+        },
+        {
+          "title": "県費奨学生定着率 95.2%達成",
+          "titleJa": "県費奨学生定着率 95.2%達成",
+          "done": false,
+          "date": "R12"
+        }
+      ]
+    }
+  ],
+  "pipeline": [
+    {
+      "rank": 1,
+      "company": "新総合医療情報システム導入",
+      "plan": "医療DX推進",
+      "planJa": "医療DX推進",
+      "amount": "約15億円",
+      "amountUSD": 15,
+      "targetDate": "R8稼働",
+      "status": "in-progress",
+      "statusJa": "進行中",
+      "phase": 1,
+      "route": "direct"
+    },
+    {
+      "rank": 2,
+      "company": "病床稼働率改善（外科系）",
+      "plan": "診療収益強化",
+      "planJa": "診療収益強化",
+      "amount": "医業収益+3%",
+      "amountUSD": 3,
+      "targetDate": "R7Q2",
+      "status": "in-progress",
+      "statusJa": "進行中",
+      "phase": 1,
+      "route": "direct"
+    },
+    {
+      "rank": 3,
+      "company": "医師働き方改革",
+      "plan": "超過勤務削減",
+      "planJa": "超過勤務削減",
+      "amount": "1,809h→1,470h",
+      "amountUSD": 0,
+      "targetDate": "R12",
+      "status": "in-progress",
+      "statusJa": "進行中",
+      "phase": 1,
+      "route": "direct"
+    },
+    {
+      "rank": 4,
+      "company": "未来への飛躍基金",
+      "plan": "外部資金獲得",
+      "planJa": "外部資金獲得",
+      "amount": "1億円/年",
+      "amountUSD": 1,
+      "targetDate": "継続",
+      "status": "contracted",
+      "statusJa": "継続中",
+      "phase": 1,
+      "route": "partner"
+    },
+    {
+      "rank": 5,
+      "company": "県費奨学生定着強化",
+      "plan": "地域医療人材確保",
+      "planJa": "地域医療人材確保",
+      "amount": "87.4%→95.2%",
+      "amountUSD": 0,
+      "targetDate": "R12",
+      "status": "not-started",
+      "statusJa": "計画中",
+      "phase": 2,
+      "route": "direct"
+    }
+  ],
+  "kpis": [
+    {
+      "phase": 1,
+      "label": "Bed Occupancy Rate",
+      "labelJa": "病床稼働率",
+      "target": "90%（R12）",
+      "current": "76%",
+      "progress": 53,
+      "status": "at-risk",
+      "frequency": "Monthly",
+      "frequencyJa": "月次"
+    },
+    {
+      "phase": 1,
+      "label": "Emergency Acceptance Rate",
+      "labelJa": "救急受入率",
+      "target": "97%（R12）",
+      "current": "90.3%",
+      "progress": 78,
+      "status": "at-risk",
+      "frequency": "Monthly",
+      "frequencyJa": "月次"
+    },
+    {
+      "phase": 1,
+      "label": "Operating Surplus Ratio",
+      "labelJa": "経常収支比率",
+      "target": "100%以上",
+      "current": "97.1%",
+      "progress": 68,
+      "status": "at-risk",
+      "frequency": "Quarterly",
+      "frequencyJa": "四半期"
+    },
+    {
+      "phase": 1,
+      "label": "Medical Revenue Ratio",
+      "labelJa": "医業収支比率",
+      "target": "95%以上（R12）",
+      "current": "94.2%",
+      "progress": 72,
+      "status": "on-track",
+      "frequency": "Monthly",
+      "frequencyJa": "月次"
+    },
+    {
+      "phase": 2,
+      "label": "Physician Overtime Hours",
+      "labelJa": "医師超過勤務時間",
+      "target": "1,470h（R12）",
+      "current": "1,809h",
+      "progress": 30,
+      "status": "behind",
+      "frequency": "Monthly",
+      "frequencyJa": "月次"
+    },
+    {
+      "phase": 2,
+      "label": "Scholarship Retention Rate",
+      "labelJa": "県費奨学生定着率",
+      "target": "95.2%（R12）",
+      "current": "87.4%",
+      "progress": 62,
+      "status": "at-risk",
+      "frequency": "Annual",
+      "frequencyJa": "年次"
+    },
+    {
+      "phase": 2,
+      "label": "Referral Rate",
+      "labelJa": "紹介率",
+      "target": "90%以上",
+      "current": "88.8%",
+      "progress": 85,
+      "status": "on-track",
+      "frequency": "Monthly",
+      "frequencyJa": "月次"
+    },
+    {
+      "phase": 3,
+      "label": "Patient Satisfaction (Outpatient)",
+      "labelJa": "患者満足度（外来不満率）",
+      "target": "2.9%以下",
+      "current": "2.7%",
+      "progress": 90,
+      "status": "on-track",
+      "frequency": "Quarterly",
+      "frequencyJa": "四半期"
+    }
+  ],
+  "risks": [
+    {
+      "id": "r1",
+      "label": "Bed occupancy rate stagnation",
+      "labelJa": "病床稼働率の低迷継続",
+      "impact": "high",
+      "mitigation": "Department-specific action plans + discharge coordination improvement",
+      "mitigationJa": "診療科別アクションプラン策定・退院調整迅速化",
+      "alternativeRoute": "Outsource discharge coordination to external coordinators",
+      "alternativeRouteJa": "退院調整を外部コーディネーターに委託",
+      "trigger": "Occupancy rate below 80% for 2 consecutive months",
+      "triggerJa": "稼働率が2ヶ月連続80%未満",
+      "status": "active"
+    },
+    {
+      "id": "r2",
+      "label": "Delay in operating surplus ratio improvement",
+      "labelJa": "経常収支比率改善の遅延",
+      "impact": "high",
+      "mitigation": "Strengthen accounts receivable collection + improve diagnostic billing accuracy",
+      "mitigationJa": "未収金回収強化・診療報酬請求精度向上",
+      "alternativeRoute": "Emergency cost reduction measures",
+      "alternativeRouteJa": "緊急経費削減措置の発動",
+      "trigger": "Ratio falls below 96% for 2 consecutive quarters",
+      "triggerJa": "2四半期連続96%未満",
+      "status": "active"
+    },
+    {
+      "id": "r3",
+      "label": "Physician overtime hours not decreasing",
+      "labelJa": "医師超過勤務時間の削減遅延",
+      "impact": "high",
+      "mitigation": "Accelerate task shift + hire additional medical office assistants",
+      "mitigationJa": "タスクシフト加速・医師事務作業補助者の追加採用",
+      "alternativeRoute": "Introduce AI-based administrative automation",
+      "alternativeRouteJa": "AI活用による事務作業自動化の前倒し導入",
+      "trigger": "Annual overtime exceeds 1,900 hours",
+      "triggerJa": "年間超過勤務1,900時間超",
+      "status": "active"
+    },
+    {
+      "id": "r4",
+      "label": "Medical DX system delay",
+      "labelJa": "新総合医療情報システム導入遅延",
+      "impact": "medium",
+      "mitigation": "Finalize vendor selection by April + establish project management structure",
+      "mitigationJa": "4月中のベンダー選定確定・プロジェクト管理体制の構築",
+      "alternativeRoute": "Phased introduction starting with priority functions",
+      "alternativeRouteJa": "優先機能から段階的導入に切り替え",
+      "trigger": "Vendor selection delayed beyond June",
+      "triggerJa": "ベンダー選定が6月以降に遅延",
+      "status": "active"
+    },
+    {
+      "id": "r5",
+      "label": "Decline in scholarship student retention",
+      "labelJa": "県費奨学生の定着率低下",
+      "impact": "medium",
+      "mitigation": "Expand scholarship general meetings + strengthen career path support",
+      "mitigationJa": "奨学生総会の参加者拡大・キャリアパス支援強化",
+      "alternativeRoute": "Introduce new regional medical internship program",
+      "alternativeRouteJa": "新たな地域医療インターンシップ制度の創設",
+      "trigger": "Retention rate falls below 85%",
+      "triggerJa": "定着率85%未満",
+      "status": "mitigated"
+    }
+  ],
+  "revenueTimeline": [
+    {
+      "month": "R7Q1",
+      "phase": 1,
+      "target": 97.4,
+      "actual": 97.4,
+      "cumTarget": 97.4,
+      "cumActual": 97.4
+    },
+    {
+      "month": "R7Q2",
+      "phase": 1,
+      "target": 97.8,
+      "actual": 0,
+      "cumTarget": 97.8,
+      "cumActual": 97.4
+    },
+    {
+      "month": "R7Q3",
+      "phase": 1,
+      "target": 98.0,
+      "actual": 0,
+      "cumTarget": 98.0,
+      "cumActual": 97.4
+    },
+    {
+      "month": "R7Q4",
+      "phase": 1,
+      "target": 98.0,
+      "actual": 0,
+      "cumTarget": 98.0,
+      "cumActual": 97.4
+    },
+    {
+      "month": "R8",
+      "phase": 2,
+      "target": 99.0,
+      "actual": 0,
+      "cumTarget": 99.0,
+      "cumActual": 97.4
+    },
+    {
+      "month": "R9",
+      "phase": 2,
+      "target": 99.5,
+      "actual": 0,
+      "cumTarget": 99.5,
+      "cumActual": 97.4
+    },
+    {
+      "month": "R10",
+      "phase": 2,
+      "target": 100.0,
+      "actual": 0,
+      "cumTarget": 100.0,
+      "cumActual": 97.4
+    },
+    {
+      "month": "R11",
+      "phase": 3,
+      "target": 100.5,
+      "actual": 0,
+      "cumTarget": 100.5,
+      "cumActual": 97.4
+    },
+    {
+      "month": "R12",
+      "phase": 3,
+      "target": 101.0,
+      "actual": 0,
+      "cumTarget": 101.0,
+      "cumActual": 97.4
+    }
+  ],
+  "domains": [
+    {
+      "id": "clinical-defense",
+      "label": "Clinical: Final Defense Line",
+      "labelJa": "診療：最終ディフェンスライン",
+      "iconKey": "Activity",
+      "color": "#DC2626",
+      "impact": "critical",
+      "urgency": "critical",
+      "status": "at-risk",
+      "progress": 55,
+      "weeklyDelta": 2,
+      "description": "Bed occupancy rate 76%→90%, emergency acceptance rate 90.3%→97%",
+      "descriptionJa": "病床稼働率76%→90%、救急受入率90.3%→97%の達成",
+      "keyResults": [
+        {
+          "title": "Bed Occupancy Rate",
+          "titleJa": "病床稼働率",
+          "target": "90%（R12）",
+          "current": "76%",
+          "progress": 53,
+          "status": "at-risk",
+          "phase": 1
+        },
+        {
+          "title": "Emergency Acceptance Rate",
+          "titleJa": "救急受入率",
+          "target": "97%（R12）",
+          "current": "90.3%",
+          "progress": 78,
+          "status": "at-risk",
+          "phase": 1
+        },
+        {
+          "title": "Surgery Cases",
+          "titleJa": "手術件数",
+          "target": "8,300件（R7）",
+          "current": "8,142件",
+          "progress": 88,
+          "status": "on-track",
+          "phase": 1
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "c1",
+          "title": "Bed occupancy improvement plan by department",
+          "titleJa": "診療科別病床稼働率改善計画",
+          "owner": "Hiroshi Saito",
+          "ownerJa": "齋藤病院長",
+          "status": "in-progress",
+          "progress": 45,
+          "dueDate": "R7Q2",
+          "phase": 1,
+          "priority": "critical",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 5,
+            "twoWeeks": 3,
+            "oneWeek": 2
+          },
+          "doneState": "Bed occupancy rate reaches 90%",
+          "doneStateJa": "病床稼働率90%達成"
+        },
+        {
+          "id": "c2",
+          "title": "Emergency acceptance rate improvement roadmap",
+          "titleJa": "救急受入率改善ロードマップ策定",
+          "owner": "Hiroshi Saito",
+          "ownerJa": "齋藤病院長",
+          "status": "in-progress",
+          "progress": 60,
+          "dueDate": "R7Q1",
+          "phase": 1,
+          "priority": "critical",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 8,
+            "twoWeeks": 4,
+            "oneWeek": 2
+          },
+          "doneState": "Emergency acceptance rate reaches 97%",
+          "doneStateJa": "救急受入率97%達成"
+        }
+      ],
+      "risks": [
+        {
+          "label": "Bed occupancy stagnation",
+          "labelJa": "病床稼働率の低迷継続",
+          "severity": "high",
+          "mitigation": "Department-specific action plans",
+          "mitigationJa": "診療科別アクションプラン"
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "label": "Finance: Sustainable Management",
+      "labelJa": "財務：持続可能な経営基盤",
+      "iconKey": "DollarSign",
+      "color": "#059669",
+      "impact": "critical",
+      "urgency": "critical",
+      "status": "at-risk",
+      "progress": 62,
+      "weeklyDelta": 1,
+      "description": "Operating surplus ratio 97.1%→100%+, medical revenue ratio 94.2%→95%+",
+      "descriptionJa": "経常収支比率97.1%→100%以上、医業収支比率94.2%→95%以上",
+      "keyResults": [
+        {
+          "title": "Operating Surplus Ratio",
+          "titleJa": "経常収支比率",
+          "target": "100%以上",
+          "current": "97.1%",
+          "progress": 68,
+          "status": "at-risk",
+          "phase": 1
+        },
+        {
+          "title": "Medical Revenue Ratio",
+          "titleJa": "医業収支比率",
+          "target": "95%以上（R12）",
+          "current": "94.2%",
+          "progress": 72,
+          "status": "on-track",
+          "phase": 1
+        },
+        {
+          "title": "Generic Drug Usage Rate",
+          "titleJa": "後発医薬品使用率",
+          "target": "80%以上維持",
+          "current": "83.2%",
+          "progress": 100,
+          "status": "on-track",
+          "phase": 1
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "f1",
+          "title": "Accounts receivable collection reinforcement",
+          "titleJa": "未収金回収強化（専任担当者配置）",
+          "owner": "Takashi Okamoto",
+          "ownerJa": "岡本財務部長",
+          "status": "at-risk",
+          "progress": 30,
+          "dueDate": "R7Q1",
+          "phase": 1,
+          "priority": "critical",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 3,
+            "twoWeeks": 1,
+            "oneWeek": 0
+          },
+          "blockers": [
+            "Dedicated staff not yet assigned"
+          ],
+          "blockersJa": [
+            "専任担当者未配置"
+          ],
+          "doneState": "Accounts receivable collection rate improved",
+          "doneStateJa": "未収金回収率の改善達成"
+        },
+        {
+          "id": "f2",
+          "title": "Department-level P&L visualization system",
+          "titleJa": "診療科別収支可視化システム導入",
+          "owner": "Yuki Mori",
+          "ownerJa": "森事務局長",
+          "status": "in-progress",
+          "progress": 55,
+          "dueDate": "R8",
+          "phase": 2,
+          "priority": "high",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 10,
+            "twoWeeks": 5,
+            "oneWeek": 3
+          },
+          "doneState": "Real-time P&L visible by department",
+          "doneStateJa": "診療科別収支のリアルタイム可視化完了"
+        }
+      ],
+      "risks": [
+        {
+          "label": "Operating surplus ratio improvement delay",
+          "labelJa": "経常収支比率改善遅延",
+          "severity": "high",
+          "mitigation": "Strengthen accounts receivable collection",
+          "mitigationJa": "未収金回収強化"
+        }
+      ]
+    },
+    {
+      "id": "medical-dx",
+      "label": "Medical DX",
+      "labelJa": "医療DX推進",
+      "iconKey": "Cpu",
+      "color": "#4F46E5",
+      "impact": "high",
+      "urgency": "high",
+      "status": "in-progress",
+      "progress": 40,
+      "weeklyDelta": 5,
+      "description": "New integrated medical information system, AI-based administrative automation",
+      "descriptionJa": "新総合医療情報システム整備、AI活用による業務効率化",
+      "keyResults": [
+        {
+          "title": "New Medical Info System Go-live",
+          "titleJa": "新総合医療情報システム稼働",
+          "target": "R8",
+          "current": "ベンダー選定中",
+          "progress": 25,
+          "status": "at-risk",
+          "phase": 1
+        },
+        {
+          "title": "AI Administrative Automation Rate",
+          "titleJa": "AI活用業務自動化率",
+          "target": "30%（R10）",
+          "current": "8%",
+          "progress": 27,
+          "status": "behind",
+          "phase": 2
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "d1",
+          "title": "New integrated medical information system introduction",
+          "titleJa": "新総合医療情報システム導入",
+          "owner": "Yuki Mori",
+          "ownerJa": "森事務局長",
+          "status": "in-progress",
+          "progress": 35,
+          "dueDate": "R8",
+          "phase": 1,
+          "priority": "critical",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 8,
+            "twoWeeks": 4,
+            "oneWeek": 2
+          },
+          "doneState": "System go-live and stable operation",
+          "doneStateJa": "システム稼働・安定運用開始"
+        },
+        {
+          "id": "d2",
+          "title": "AI-based administrative task automation",
+          "titleJa": "AI活用による事務作業自動化",
+          "owner": "Masato Kasahara",
+          "ownerJa": "笠原副理事長",
+          "status": "not-started",
+          "progress": 10,
+          "dueDate": "R9",
+          "phase": 2,
+          "priority": "high",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 2,
+            "twoWeeks": 1,
+            "oneWeek": 0
+          },
+          "doneState": "30% of administrative tasks automated",
+          "doneStateJa": "事務作業の30%自動化達成"
+        }
+      ],
+      "risks": [
+        {
+          "label": "Medical DX system introduction delay",
+          "labelJa": "新総合医療情報システム導入遅延",
+          "severity": "medium",
+          "mitigation": "Finalize vendor selection by April",
+          "mitigationJa": "4月中のベンダー選定確定"
+        }
+      ]
+    },
+    {
+      "id": "workforce-reform",
+      "label": "Workforce Reform",
+      "labelJa": "働き方改革・人材確保",
+      "iconKey": "Users",
+      "color": "#D97706",
+      "impact": "high",
+      "urgency": "high",
+      "status": "at-risk",
+      "progress": 35,
+      "weeklyDelta": 3,
+      "description": "Physician overtime 1,809h→1,470h, task shift promotion, career path development",
+      "descriptionJa": "医師超過勤務1,809h→1,470h、タスクシフト推進、キャリアパス整備",
+      "keyResults": [
+        {
+          "title": "Physician Overtime Hours",
+          "titleJa": "医師超過勤務時間",
+          "target": "1,470h（R12）",
+          "current": "1,809h",
+          "progress": 30,
+          "status": "behind",
+          "phase": 1
+        },
+        {
+          "title": "Task Shift Rate",
+          "titleJa": "タスクシフト実施率",
+          "target": "30%（R10）",
+          "current": "12%",
+          "progress": 40,
+          "status": "at-risk",
+          "phase": 2
+        },
+        {
+          "title": "Career Path System Launch",
+          "titleJa": "キャリアパス整備運用開始",
+          "target": "R8",
+          "current": "設計中",
+          "progress": 20,
+          "status": "not-started",
+          "phase": 2
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "w1",
+          "title": "Physician overtime reduction roadmap",
+          "titleJa": "医師超過勤務削減ロードマップ策定・実行",
+          "owner": "Yuki Mori",
+          "ownerJa": "森事務局長",
+          "status": "in-progress",
+          "progress": 40,
+          "dueDate": "R7Q2",
+          "phase": 1,
+          "priority": "critical",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 5,
+            "twoWeeks": 3,
+            "oneWeek": 2
+          },
+          "doneState": "Physician overtime below 1,600h",
+          "doneStateJa": "医師超過勤務1,600h以下達成"
+        },
+        {
+          "id": "w2",
+          "title": "Career path and compensation system development",
+          "titleJa": "キャリアパス・職制及び賃金体系整備",
+          "owner": "Yuki Mori",
+          "ownerJa": "森事務局長",
+          "status": "not-started",
+          "progress": 15,
+          "dueDate": "R8",
+          "phase": 2,
+          "priority": "high",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 2,
+            "twoWeeks": 1,
+            "oneWeek": 0
+          },
+          "doneState": "Career path system operational",
+          "doneStateJa": "キャリアパス整備・運用開始"
+        }
+      ],
+      "risks": [
+        {
+          "label": "Physician overtime not decreasing",
+          "labelJa": "医師超過勤務時間の削減遅延",
+          "severity": "high",
+          "mitigation": "Accelerate task shift + hire additional medical office assistants",
+          "mitigationJa": "タスクシフト加速・補助者追加採用"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "label": "Education & Regional Medical Personnel",
+      "labelJa": "教育・地域医療人材確保",
+      "iconKey": "GraduationCap",
+      "color": "#7C3AED",
+      "impact": "high",
+      "urgency": "medium",
+      "status": "on-track",
+      "progress": 65,
+      "weeklyDelta": 2,
+      "description": "Scholarship retention 87.4%→95.2%, residency matching rate 93%→100%",
+      "descriptionJa": "県費奨学生定着率87.4%→95.2%、臨床研修医マッチング率93%→100%",
+      "keyResults": [
+        {
+          "title": "Scholarship Retention Rate",
+          "titleJa": "県費奨学生定着率",
+          "target": "95.2%（R12）",
+          "current": "87.4%",
+          "progress": 62,
+          "status": "at-risk",
+          "phase": 1
+        },
+        {
+          "title": "Residency Matching Rate",
+          "titleJa": "臨床研修医マッチング率",
+          "target": "100%",
+          "current": "93%",
+          "progress": 93,
+          "status": "on-track",
+          "phase": 1
+        },
+        {
+          "title": "Scholarship General Meeting Participants",
+          "titleJa": "奨学生総会参加者数",
+          "target": "45人以上",
+          "current": "26.4人",
+          "progress": 59,
+          "status": "at-risk",
+          "phase": 1
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "e1",
+          "title": "Scholarship retention promotion plan",
+          "titleJa": "県費奨学生定着促進計画の実行",
+          "owner": "Keiko Nakamura",
+          "ownerJa": "中村教育研究部長",
+          "status": "in-progress",
+          "progress": 55,
+          "dueDate": "R7Q2",
+          "phase": 1,
+          "priority": "high",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 5,
+            "twoWeeks": 2,
+            "oneWeek": 1
+          },
+          "doneState": "Scholarship retention rate reaches 90%+",
+          "doneStateJa": "奨学生定着率90%以上達成"
+        },
+        {
+          "id": "e2",
+          "title": "Residency program enhancement",
+          "titleJa": "臨床研修プログラム魅力向上",
+          "owner": "Keiko Nakamura",
+          "ownerJa": "中村教育研究部長",
+          "status": "on-track",
+          "progress": 75,
+          "dueDate": "R7",
+          "phase": 1,
+          "priority": "high",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 8,
+            "twoWeeks": 4,
+            "oneWeek": 2
+          },
+          "doneState": "Residency matching rate reaches 100%",
+          "doneStateJa": "臨床研修医マッチング率100%達成"
+        }
+      ],
+      "risks": [
+        {
+          "label": "Scholarship student retention decline",
+          "labelJa": "県費奨学生の定着率低下",
+          "severity": "medium",
+          "mitigation": "Expand scholarship general meetings + career support",
+          "mitigationJa": "奨学生総会拡大・キャリア支援強化"
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "label": "Research & External Funding",
+      "labelJa": "研究推進・外部資金獲得",
+      "iconKey": "Microscope",
+      "color": "#0891B2",
+      "impact": "medium",
+      "urgency": "medium",
+      "status": "on-track",
+      "progress": 72,
+      "weeklyDelta": 1,
+      "description": "Kakenhi and external funding acquisition, Mirai e no Hiyaku Fund 100M yen/year",
+      "descriptionJa": "科研費等外部資金獲得強化、未来への飛躍基金1億円/年維持",
+      "keyResults": [
+        {
+          "title": "Mirai e no Hiyaku Fund",
+          "titleJa": "未来への飛躍基金寄附実績",
+          "target": "1億円/年",
+          "current": "1.02億円",
+          "progress": 100,
+          "status": "on-track",
+          "phase": 1
+        },
+        {
+          "title": "External Research Funding",
+          "titleJa": "外部研究資金獲得額",
+          "target": "前年比+5%",
+          "current": "+3.2%",
+          "progress": 64,
+          "status": "on-track",
+          "phase": 1
+        },
+        {
+          "title": "Industry-Academia Collaboration Projects",
+          "titleJa": "産学官連携プロジェクト数",
+          "target": "前年度より増加",
+          "current": "14件",
+          "progress": 70,
+          "status": "on-track",
+          "phase": 1
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "r1i",
+          "title": "External funding acquisition reinforcement",
+          "titleJa": "科研費・外部資金獲得強化",
+          "owner": "Keiko Nakamura",
+          "ownerJa": "中村教育研究部長",
+          "status": "on-track",
+          "progress": 70,
+          "dueDate": "継続",
+          "phase": 1,
+          "priority": "medium",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 3,
+            "twoWeeks": 1,
+            "oneWeek": 0
+          },
+          "doneState": "External funding exceeds previous year by 5%+",
+          "doneStateJa": "外部資金獲得額前年比+5%以上達成"
+        }
+      ],
+      "risks": []
+    },
+    {
+      "id": "regional-cooperation",
+      "label": "Regional Medical Cooperation",
+      "labelJa": "地域医療連携強化",
+      "iconKey": "Heart",
+      "color": "#DB2777",
+      "impact": "medium",
+      "urgency": "medium",
+      "status": "on-track",
+      "progress": 78,
+      "weeklyDelta": 1,
+      "description": "Referral rate 88.8%→90%+, back-referral rate 98%+ maintenance",
+      "descriptionJa": "紹介率88.8%→90%以上、逆紹介率98%以上の維持",
+      "keyResults": [
+        {
+          "title": "Referral Rate",
+          "titleJa": "紹介率",
+          "target": "90%以上",
+          "current": "88.8%",
+          "progress": 85,
+          "status": "on-track",
+          "phase": 1
+        },
+        {
+          "title": "Back-referral Rate",
+          "titleJa": "逆紹介率",
+          "target": "98%以上維持",
+          "current": "98.3%",
+          "progress": 100,
+          "status": "on-track",
+          "phase": 1
+        },
+        {
+          "title": "Partner Hospitals",
+          "titleJa": "連携病院数",
+          "target": "前年度より増加",
+          "current": "14病院",
+          "progress": 70,
+          "status": "on-track",
+          "phase": 1
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "rc1",
+          "title": "Regional medical cooperation network expansion",
+          "titleJa": "地域医療機関との連携ネットワーク拡充",
+          "owner": "Hiroshi Saito",
+          "ownerJa": "齋藤病院長",
+          "status": "on-track",
+          "progress": 75,
+          "dueDate": "継続",
+          "phase": 1,
+          "priority": "medium",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 3,
+            "twoWeeks": 1,
+            "oneWeek": 0
+          },
+          "doneState": "Referral rate exceeds 90%",
+          "doneStateJa": "紹介率90%以上達成"
+        }
+      ],
+      "risks": []
+    },
+    {
+      "id": "governance",
+      "label": "Governance & Compliance",
+      "labelJa": "ガバナンス・法令遵守",
+      "iconKey": "Building2",
+      "color": "#64748B",
+      "impact": "medium",
+      "urgency": "medium",
+      "status": "on-track",
+      "progress": 80,
+      "weeklyDelta": 0,
+      "description": "Compliance rate 100%, patient safety, information security strengthening",
+      "descriptionJa": "コンプライアンス遵守率100%、患者安全、情報セキュリティ強化",
+      "keyResults": [
+        {
+          "title": "Compliance Training Completion Rate",
+          "titleJa": "コンプライアンス研修受講率",
+          "target": "100%",
+          "current": "98.5%",
+          "progress": 98,
+          "status": "on-track",
+          "phase": 1
+        },
+        {
+          "title": "Patient Satisfaction (Outpatient Dissatisfaction)",
+          "titleJa": "患者満足度（外来不満率）",
+          "target": "2.9%以下",
+          "current": "2.7%",
+          "progress": 90,
+          "status": "on-track",
+          "phase": 1
+        },
+        {
+          "title": "Information Security Incidents",
+          "titleJa": "情報セキュリティインシデント",
+          "target": "0件",
+          "current": "0件",
+          "progress": 100,
+          "status": "on-track",
+          "phase": 1
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "g1",
+          "title": "Compliance and patient safety system strengthening",
+          "titleJa": "コンプライアンス・患者安全体制強化",
+          "owner": "Masato Kasahara",
+          "ownerJa": "笠原副理事長",
+          "status": "on-track",
+          "progress": 80,
+          "dueDate": "継続",
+          "phase": 1,
+          "priority": "medium",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 2,
+            "twoWeeks": 1,
+            "oneWeek": 0
+          },
+          "doneState": "Compliance rate maintained at 100%",
+          "doneStateJa": "コンプライアンス遵守率100%維持"
+        }
+      ],
+      "risks": []
+    }
+  ]
+}

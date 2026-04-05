@@ -1,0 +1,191 @@
+{
+  "midTermPlan": {
+    "id": "mtp-y1",
+    "title": "CoreWeave Product Strategy FY2026",
+    "period": "2026 Q1–Q4",
+    "vision": "GPU-accelerated AI workloads at scale — making CoreWeave the essential cloud for AI",
+    "status": "on-track",
+    "overallProgress": 30,
+    "milestones": [
+      {
+        "id": "yms1",
+        "title": "CKS v2.0 GA Launch",
+        "category": "Product",
+        "description": "CoreWeave Kubernetes Service v2.0 general availability with Guided Setup Wizard, Migration CLI, and Helm Chart library. Target: 30% adoption rate.",
+        "targetDate": "2026-09-30",
+        "owner": "Yoshi Tamura",
+        "progress": 22,
+        "status": "on-track"
+      },
+      {
+        "id": "yms2",
+        "title": "Enterprise AI Lab Contracts: 8 Total",
+        "category": "Sales",
+        "description": "Expand from 3 to 8 enterprise AI lab partnerships (Mistral, Cohere, Stability AI, Perplexity, xAI targets). ARR contribution: $165M.",
+        "targetDate": "2027-03-31",
+        "owner": "Yoshi Tamura",
+        "progress": 38,
+        "status": "on-track"
+      },
+      {
+        "id": "yms3",
+        "title": "Churn Rate Below 7%",
+        "category": "Customer Success",
+        "description": "Reduce monthly churn from 12% to under 7% through Quota Alert System, Cost Forecast, and TAM program.",
+        "targetDate": "2026-07-31",
+        "owner": "Yoshi Tamura",
+        "progress": 45,
+        "status": "on-track"
+      },
+      {
+        "id": "yms4",
+        "title": "Compute Abstractions Platform v3.0",
+        "category": "Engineering",
+        "description": "Next-gen compute abstraction layer with auto-scaling recommendations, multi-cloud GPU orchestration, and unified billing API.",
+        "targetDate": "2026-12-31",
+        "owner": "Yoshi Tamura",
+        "progress": 15,
+        "status": "at-risk"
+      }
+    ]
+  },
+  "currentOKRs": [
+    {
+      "id": "yokr1",
+      "title": "Make CKS the default choice for GPU-accelerated AI workloads",
+      "description": "CoreWeave Kubernetes Service の採用率を 6 ヶ月で 30% に引き上げる",
+      "status": "on-track",
+      "quarter": "Q2 2026",
+      "progress": 22,
+      "keyResults": [
+        {
+          "id": "ykr1",
+          "title": "CKS adoption rate: 0% → 15% (Q2 mid-target)",
+          "current": "8",
+          "target": "15",
+          "unit": "%",
+          "progress": 53,
+          "status": "on-track",
+          "owner": "Yoshi Tamura"
+        },
+        {
+          "id": "ykr2",
+          "title": "Onboarding completion rate: 38% → 70%",
+          "current": "62",
+          "target": "70",
+          "unit": "%",
+          "progress": 88,
+          "status": "on-track",
+          "owner": "Yoshi Tamura"
+        },
+        {
+          "id": "ykr3",
+          "title": "CKS NPS: 34 → 45",
+          "current": "38",
+          "target": "45",
+          "unit": "pts",
+          "progress": 36,
+          "status": "on-track",
+          "owner": "Yoshi Tamura"
+        }
+      ]
+    },
+    {
+      "id": "yokr2",
+      "title": "Reduce churn through superior GPU management UX",
+      "description": "月次解約率を 12% から 7% 以下に削減する",
+      "status": "on-track",
+      "quarter": "Q2 2026",
+      "progress": 45,
+      "keyResults": [
+        {
+          "id": "ykr4",
+          "title": "Monthly churn rate: 12% → 9% (Q2 target)",
+          "current": "10.5",
+          "target": "9",
+          "unit": "%",
+          "progress": 50,
+          "status": "on-track",
+          "owner": "Yoshi Tamura"
+        },
+        {
+          "id": "ykr5",
+          "title": "Quota-related support tickets: 340 → 200/month",
+          "current": "245",
+          "target": "200",
+          "unit": "tickets",
+          "progress": 66,
+          "status": "on-track",
+          "owner": "Yoshi Tamura"
+        },
+        {
+          "id": "ykr6",
+          "title": "Average GPU utilization: 61% → 72%",
+          "current": "67",
+          "target": "72",
+          "unit": "%",
+          "progress": 55,
+          "status": "on-track",
+          "owner": "Yoshi Tamura"
+        }
+      ]
+    }
+  ],
+  "billingPlans": [
+    {
+      "id": "ybp1",
+      "name": "Enterprise",
+      "price": 0,
+      "currency": "USD",
+      "period": "custom",
+      "features": ["Dedicated TAM", "99.99% SLA", "Reserved Capacity", "Custom Integrations"],
+      "isCurrent": true
+    }
+  ],
+  "invoices": [],
+  "pendingInvites": [],
+  "digitalTwinData": {
+    "userId": "yoshi",
+    "summary": {
+      "totalActions": 5,
+      "pendingActions": 2,
+      "aiRunningActions": 2,
+      "completedThisWeek": 3,
+      "teamCollaborations": 12
+    },
+    "recentActivity": [
+      {
+        "type": "action_created",
+        "description": "Created CKS v2.1 PRD task",
+        "time": "1 hour ago"
+      },
+      {
+        "type": "agent_completed",
+        "description": "Deck Builder completed Mistral QBR draft",
+        "time": "3 hours ago"
+      },
+      {
+        "type": "meeting_completed",
+        "description": "Product Strategy Sync completed",
+        "time": "Apr 1 11:00"
+      },
+      {
+        "type": "action_updated",
+        "description": "Cost Forecast UI PR #2847 ready for review",
+        "time": "Yesterday 17:00"
+      },
+      {
+        "type": "member_added",
+        "description": "TAM hiring approved — 3 new team members",
+        "time": "Mar 25"
+      }
+    ],
+    "skills": [
+      { "name": "Product Strategy", "level": 95 },
+      { "name": "AI/ML Platform", "level": 88 },
+      { "name": "Enterprise Sales", "level": 82 },
+      { "name": "Kubernetes / Cloud Infra", "level": 79 },
+      { "name": "Data Analysis", "level": 85 }
+    ]
+  }
+}

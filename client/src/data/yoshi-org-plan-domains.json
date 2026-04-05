@@ -1,0 +1,629 @@
+{
+  "domains": [
+    {
+      "id": "cks-platform",
+      "label": "CKS Platform",
+      "iconKey": "Cpu",
+      "color": "#0EA5E9",
+      "bgColor": "bg-sky-50",
+      "borderColor": "border-sky-200",
+      "trend": "up",
+      "trendValue": "+3pt",
+      "quarterlyData": [
+        5,
+        8,
+        15,
+        30
+      ],
+      "riskLevel": "high",
+      "strategicWeight": 10,
+      "weeklyDelta": {
+        "company": 1.5,
+        "dept": 2.1,
+        "team": 3.0,
+        "personal": 1.8
+      },
+      "companyOKR": {
+        "id": "ycks-c1",
+        "title": "Achieve 30% CKS Adoption by Dec 2026",
+        "progress": 27,
+        "status": "at-risk",
+        "owner": "CoreWeave Leadership",
+        "keyResults": [
+          {
+            "title": "CKS Adoption Rate: 0% → 30%",
+            "current": "8%",
+            "target": "30%",
+            "progress": 27,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 3,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actions": [
+              {
+                "title": "Launch CKS v2.0 GA",
+                "owner": "Yoshi Tamura",
+                "status": "in-progress",
+                "progress": 80,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Yoshi Tamura",
+                    "message": "CKS v2.0 RC2 is out. Engineering finalizing last P1 bug fixes before GA.",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "Ship Migration CLI GA",
+                "owner": "Engineering",
+                "status": "at-risk",
+                "progress": 60,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "Engineering Sync",
+                    "message": "Migration CLI still has 2 open P1s. Risk of slipping past Apr 22 GA date.",
+                    "timestamp": "2 days ago",
+                    "status": "at-risk"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Onboarding Completion Rate: 38% → 70%",
+            "current": "62%",
+            "target": "70%",
+            "progress": 89,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 8,
+              "twoWeeks": 4,
+              "oneWeek": 2
+            },
+            "actions": [
+              {
+                "title": "Publish Helm Chart Library (vLLM, Ray, Triton)",
+                "owner": "Engineering",
+                "status": "in-progress",
+                "progress": 45,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Engineering Lead",
+                    "message": "vLLM chart done. Ray and Triton charts in review.",
+                    "timestamp": "3 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "ycks-d1",
+        "title": "Drive CKS Adoption Across Product & Engineering",
+        "progress": 35,
+        "status": "at-risk",
+        "owner": "Product & Engineering",
+        "keyResults": [
+          {
+            "title": "Internal CKS Dogfooding: 5 services migrated",
+            "current": "2",
+            "target": "5",
+            "progress": 40,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 1,
+              "twoWeeks": 0.5,
+              "oneWeek": 0.2
+            },
+            "actions": [
+              {
+                "title": "Migrate SIMY backend to CKS",
+                "owner": "Platform Team",
+                "status": "in-progress",
+                "progress": 50,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Platform Team",
+                    "message": "SIMY staging migrated to CKS. Production migration planned for next sprint.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "ycks-t1",
+        "title": "Ship CKS v2.0 & Migration CLI on Time",
+        "progress": 72,
+        "status": "at-risk",
+        "owner": "CKS Team",
+        "keyResults": [
+          {
+            "title": "CKS v2.0 GA: 0 P0 incidents in first 7 days",
+            "current": "RC2",
+            "target": "GA Apr 22",
+            "progress": 80,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 15,
+              "twoWeeks": 8,
+              "oneWeek": 4
+            },
+            "actionSummary": {
+              "total": 9,
+              "done": 7,
+              "inProgress": 2,
+              "notStarted": 0
+            },
+            "velocityData": {
+              "threeMonths": 0,
+              "oneMonth": 15,
+              "twoWeeks": 8,
+              "oneWeek": 4
+            }
+          },
+          {
+            "title": "Migration CLI GA: all regions available",
+            "current": "60%",
+            "target": "Apr 22",
+            "progress": 60,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 10,
+              "twoWeeks": 5,
+              "oneWeek": 2
+            },
+            "actionSummary": {
+              "total": 6,
+              "done": 3,
+              "inProgress": 2,
+              "notStarted": 1
+            },
+            "velocityData": {
+              "threeMonths": 0,
+              "oneMonth": 10,
+              "twoWeeks": 5,
+              "oneWeek": 2
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "ycks-p1",
+        "title": "Own CKS Adoption Roadmap & Stakeholder Alignment",
+        "progress": 55,
+        "status": "on-track",
+        "owner": "Yoshi Tamura",
+        "keyResults": [
+          {
+            "title": "Weekly CKS adoption review with Engineering",
+            "current": "3/4 weeks",
+            "target": "4/4 weeks",
+            "progress": 75,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 2,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "Run weekly CKS adoption review",
+                "owner": "Yoshi Tamura",
+                "status": "in-progress",
+                "progress": 75,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "Yoshi Tamura",
+                    "message": "Week 3 review done. Migration CLI risk escalated to VP Engineering.",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "compute-abstractions",
+      "label": "Compute Abstractions",
+      "iconKey": "Activity",
+      "color": "#8B5CF6",
+      "bgColor": "bg-violet-50",
+      "borderColor": "border-violet-200",
+      "trend": "up",
+      "trendValue": "+5pt",
+      "quarterlyData": [
+        30,
+        45,
+        60,
+        78
+      ],
+      "riskLevel": "medium",
+      "strategicWeight": 9,
+      "weeklyDelta": {
+        "company": -0.5,
+        "dept": 1.2,
+        "team": 2.5,
+        "personal": 1.0
+      },
+      "companyOKR": {
+        "id": "yca-c1",
+        "title": "Reduce Monthly Churn to ≤7% by Dec 2026",
+        "progress": 50,
+        "status": "at-risk",
+        "owner": "CoreWeave Leadership",
+        "keyResults": [
+          {
+            "title": "Monthly Churn Rate: 12% → 7%",
+            "current": "10.5%",
+            "target": "7%",
+            "progress": 50,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": -1.5,
+              "twoWeeks": -0.5,
+              "oneWeek": -0.2
+            },
+            "actions": [
+              {
+                "title": "Launch Cost Forecast GA",
+                "owner": "Yoshi Tamura",
+                "status": "in-progress",
+                "progress": 75,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Yoshi Tamura",
+                    "message": "Cost Forecast beta feedback from Cohere is positive. MAPE at 4.2%. On track for May 1 GA.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "GPU Utilization: 61% → 78%",
+            "current": "67%",
+            "target": "78%",
+            "progress": 71,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 3,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actions": [
+              {
+                "title": "Fix Quota Alert System false positives",
+                "owner": "Engineering",
+                "status": "in-progress",
+                "progress": 85,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Engineering Lead",
+                    "message": "False positive rate now at 1.2%. One more fix needed to hit <1% target.",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "yca-d1",
+        "title": "Ship Cost Forecast & Quota Alert v2 on Time",
+        "progress": 78,
+        "status": "on-track",
+        "owner": "Product & Engineering",
+        "keyResults": [
+          {
+            "title": "Cost Forecast MAPE < 5%",
+            "current": "4.2%",
+            "target": "< 5%",
+            "progress": 90,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 5,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "Validate Cost Forecast on 10 enterprise accounts",
+                "owner": "Data Science",
+                "status": "in-progress",
+                "progress": 80,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "Data Science Team",
+                    "message": "7/10 accounts validated. 3 remaining this week.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "yca-t1",
+        "title": "Deliver Compute Abstractions Q2 Features",
+        "progress": 70,
+        "status": "on-track",
+        "owner": "Compute Abstractions Team",
+        "keyResults": [
+          {
+            "title": "Quota Alert v2: false positive rate < 1%",
+            "current": "1.2%",
+            "target": "< 1%",
+            "progress": 85,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 10,
+              "twoWeeks": 5,
+              "oneWeek": 3
+            },
+            "actionSummary": {
+              "total": 5,
+              "done": 4,
+              "inProgress": 1,
+              "notStarted": 0
+            },
+            "velocityData": {
+              "threeMonths": 0,
+              "oneMonth": 10,
+              "twoWeeks": 5,
+              "oneWeek": 3
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "yca-p1",
+        "title": "Drive Churn Reduction via Product Improvements",
+        "progress": 60,
+        "status": "on-track",
+        "owner": "Yoshi Tamura",
+        "keyResults": [
+          {
+            "title": "Identify top 3 churn drivers from exit interviews",
+            "current": "2/3",
+            "target": "3/3",
+            "progress": 67,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 1,
+              "twoWeeks": 0.5,
+              "oneWeek": 0.3
+            },
+            "actions": [
+              {
+                "title": "Conduct exit interviews with churned customers",
+                "owner": "Yoshi Tamura",
+                "status": "in-progress",
+                "progress": 67,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "Yoshi Tamura",
+                    "message": "Completed interviews with Stability AI and one other. Cost predictability is #1 churn driver.",
+                    "timestamp": "3 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "enterprise-partnerships",
+      "label": "Enterprise Partnerships",
+      "iconKey": "Users",
+      "color": "#10B981",
+      "bgColor": "bg-emerald-50",
+      "borderColor": "border-emerald-200",
+      "trend": "up",
+      "trendValue": "+2pt",
+      "quarterlyData": [
+        20,
+        38,
+        55,
+        75
+      ],
+      "riskLevel": "high",
+      "strategicWeight": 8,
+      "weeklyDelta": {
+        "company": 0.8,
+        "dept": 1.5,
+        "team": 2.0,
+        "personal": 1.2
+      },
+      "companyOKR": {
+        "id": "yep-c1",
+        "title": "Reach $165M ARR by Dec 2026",
+        "progress": 27,
+        "status": "at-risk",
+        "owner": "CoreWeave Leadership",
+        "keyResults": [
+          {
+            "title": "Enterprise ARR: $45M → $165M",
+            "current": "$45M",
+            "target": "$165M",
+            "progress": 27,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 5,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "Close Mistral Reserved Capacity contract",
+                "owner": "Yoshi Tamura",
+                "status": "in-progress",
+                "progress": 30,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Yoshi Tamura",
+                    "message": "Mistral QBR scheduled for Apr 15. Preparing Reserved Capacity proposal.",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "Launch TAM Program for 20 enterprise accounts",
+                "owner": "Yoshi Tamura",
+                "status": "in-progress",
+                "progress": 60,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Yoshi Tamura",
+                    "message": "12/20 accounts assigned to TAMs. Remaining 8 assignments by Apr 30.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "yep-d1",
+        "title": "Expand AI Lab Partnerships to 8 Contracts",
+        "progress": 38,
+        "status": "at-risk",
+        "owner": "Product & Sales",
+        "keyResults": [
+          {
+            "title": "AI Lab Contracts: 3 → 8",
+            "current": "3",
+            "target": "8",
+            "progress": 38,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 1,
+              "twoWeeks": 0.5,
+              "oneWeek": 0.2
+            },
+            "actions": [
+              {
+                "title": "Submit Cohere enterprise proposal",
+                "owner": "Sales",
+                "status": "in-progress",
+                "progress": 50,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "Sales Director",
+                    "message": "Cohere proposal submitted. Follow-up call scheduled for Apr 20.",
+                    "timestamp": "2 days ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "yep-t1",
+        "title": "Execute TAM Program for Top 20 Accounts",
+        "progress": 60,
+        "status": "on-track",
+        "owner": "Customer Success",
+        "keyResults": [
+          {
+            "title": "20 enterprise accounts assigned to TAMs",
+            "current": "12",
+            "target": "20",
+            "progress": 60,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 5,
+              "twoWeeks": 3,
+              "oneWeek": 2
+            },
+            "actionSummary": {
+              "total": 20,
+              "done": 12,
+              "inProgress": 5,
+              "notStarted": 3
+            },
+            "velocityData": {
+              "threeMonths": 0,
+              "oneMonth": 5,
+              "twoWeeks": 3,
+              "oneWeek": 2
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "yep-p1",
+        "title": "Secure Mistral & Cohere Contracts",
+        "progress": 40,
+        "status": "at-risk",
+        "owner": "Yoshi Tamura",
+        "keyResults": [
+          {
+            "title": "Mistral QBR completed + Reserved Capacity proposal sent",
+            "current": "Scheduled",
+            "target": "Apr 15",
+            "progress": 30,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 2,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "Prepare Mistral QBR deck",
+                "owner": "Yoshi Tamura",
+                "status": "in-progress",
+                "progress": 60,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "Yoshi Tamura",
+                    "message": "QBR deck 60% done. Adding utilization trends and Reserved Capacity ROI analysis.",
+                    "timestamp": "1 day ago",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

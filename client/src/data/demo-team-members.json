@@ -1,0 +1,63 @@
+[
+  {
+    "id": "owner",
+    "name": "Kenji Hayashi",
+    "nameEn": "Kenji Hayashi",
+    "role": "代表取締役",
+    "avatar": "KH",
+    "color": "#4F46E5",
+    "email": "kenji@hayashi-trading.co.jp",
+    "department": "経営",
+    "actionsCount": 8,
+    "completedCount": 3,
+    "isAdmin": true
+  },
+  {
+    "id": "sales1",
+    "name": "Yuki Tanaka",
+    "nameEn": "Yuki Tanaka",
+    "role": "営業マネージャー",
+    "avatar": "YT",
+    "color": "#0EA5E9",
+    "email": "yuki@hayashi-trading.co.jp",
+    "department": "営業",
+    "actionsCount": 5,
+    "completedCount": 2
+  },
+  {
+    "id": "ops1",
+    "name": "Mika Sato",
+    "nameEn": "Mika Sato",
+    "role": "オペレーションズリード",
+    "avatar": "MS",
+    "color": "#10B981",
+    "email": "mika@hayashi-trading.co.jp",
+    "department": "オペレーション",
+    "actionsCount": 4,
+    "completedCount": 3
+  },
+  {
+    "id": "finance1",
+    "name": "Takashi Ono",
+    "nameEn": "Takashi Ono",
+    "role": "経理担当",
+    "avatar": "TO",
+    "color": "#F59E0B",
+    "email": "takashi@hayashi-trading.co.jp",
+    "department": "財務",
+    "actionsCount": 3,
+    "completedCount": 2
+  },
+  {
+    "id": "tech1",
+    "name": "Ryo Fujii",
+    "nameEn": "Ryo Fujii",
+    "role": "ITシステム担当",
+    "avatar": "RF",
+    "color": "#8B5CF6",
+    "email": "ryo@hayashi-trading.co.jp",
+    "department": "IT",
+    "actionsCount": 4,
+    "completedCount": 1
+  }
+]

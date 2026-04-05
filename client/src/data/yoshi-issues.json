@@ -1,0 +1,1196 @@
+[
+  {
+    "id": "yi-1",
+    "title": "CKS Adoption Rate: 0→30% in 6 months",
+    "status": "active",
+    "updatedAt": "2026-04-04",
+    "definition": "CoreWeave Kubernetes Service (CKS) の顧客採用率を現在の実質ゼロから6ヶ月以内に30%へ引き上げる。GPU ワークロードの Kubernetes ネイティブ移行を加速し、CKS を AI インフラのデファクトスタンダードとして確立する。",
+    "deadline": "2026-09-30",
+    "doneState": [
+      {
+        "condition": "CKS 採用顧客数",
+        "metric": "顧客",
+        "current": "12",
+        "target": "80"
+      },
+      {
+        "condition": "CKS 上の GPU 稼働率",
+        "metric": "%",
+        "current": "8",
+        "target": "30"
+      },
+      {
+        "condition": "NPS (CKS ユーザー)",
+        "metric": "点",
+        "current": "34",
+        "target": "55"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "yh-1-1",
+        "issue": "CKS Adoption",
+        "hypothesis": "オンボーディング摩擦が最大の採用障壁である",
+        "verification": "既存 CKS 顧客 20 社へのインタビュー + 離脱ファネル分析",
+        "method": "定性インタビュー + プロダクトアナリティクス",
+        "responsibility": "人間",
+        "fact": "オンボーディング完了率 38%。最大離脱点は kubeconfig 設定ステップ（離脱率 52%）",
+        "decision": "Guided Setup Wizard を Q2 に優先実装",
+        "hvpAxis": "sq",
+        "verdict": "verified"
+      },
+      {
+        "id": "yh-1-2",
+        "issue": "CKS Adoption",
+        "hypothesis": "既存 VM ユーザーへのマイグレーションパスを提供すれば転換率 40% 超",
+        "verification": "VM→CKS マイグレーションツール β版を 10 社に提供し転換率を計測",
+        "method": "β テスト + コホート分析",
+        "responsibility": "AI",
+        "fact": "β 参加 10 社中 6 社が 30 日以内に CKS へ移行（転換率 60%）",
+        "decision": "マイグレーションツールを GA リリースへ前倒し",
+        "hvpAxis": "cr",
+        "verdict": "verified"
+      },
+      {
+        "id": "yh-1-3",
+        "issue": "CKS Adoption",
+        "hypothesis": "Helm Chart ライブラリを充実させることで AI スタートアップの採用が加速する",
+        "verification": "人気 AI フレームワーク（vLLM, Ray, Triton）の公式 Helm Chart を提供し採用率変化を計測",
+        "method": "A/Bテスト（Chart 有無）",
+        "responsibility": "AI",
+        "fact": "検証中",
+        "decision": "結果待ち",
+        "hvpAxis": "ht",
+        "verdict": "pending"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "ym1-1",
+        "label": "Guided Setup Wizard リリース",
+        "unit": "1week",
+        "offset": 2,
+        "status": "done",
+        "owner": "AI",
+        "dueLabel": "Week 2",
+        "description": "オンボーディング完了率を 38% → 70% 以上に改善",
+        "actions": [
+          {
+            "id": "yma1",
+            "title": "UX フロー設計・プロトタイプ作成",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "yma2",
+            "title": "kubeconfig 自動生成 API 実装",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "yma3",
+            "title": "ユーザーテスト（5社）実施",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "ht"
+          }
+        ]
+      },
+      {
+        "id": "ym1-2",
+        "label": "VM→CKS マイグレーションツール GA",
+        "unit": "1week",
+        "offset": 4,
+        "status": "in_progress",
+        "owner": "AI",
+        "dueLabel": "Week 4",
+        "description": "既存 VM 顧客 200 社へのマイグレーション案内を開始",
+        "actions": [
+          {
+            "id": "yma4",
+            "title": "マイグレーション CLI ツール v1.0 リリース",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "yma5",
+            "title": "上位 50 顧客への個別移行支援セッション",
+            "done": false,
+            "owner": "人間",
+            "hvpAxis": "ht"
+          },
+          {
+            "id": "yma6",
+            "title": "マイグレーション完了率モニタリング設定",
+            "done": false,
+            "owner": "AI",
+            "hvpAxis": "cr"
+          }
+        ]
+      },
+      {
+        "id": "ym1-3",
+        "label": "AI フレームワーク Helm Chart ライブラリ公開",
+        "unit": "1week",
+        "offset": 6,
+        "status": "upcoming",
+        "owner": "AI",
+        "dueLabel": "Week 6",
+        "description": "vLLM / Ray / Triton の公式 Chart を Artifact Hub に公開",
+        "actions": []
+      },
+      {
+        "id": "ym1-4",
+        "label": "CKS 採用率 15% 中間目標達成",
+        "unit": "1week",
+        "offset": 12,
+        "status": "upcoming",
+        "owner": "人間",
+        "dueLabel": "Week 12",
+        "description": "Q2 末時点での中間マイルストーン確認",
+        "actions": []
+      },
+      {
+        "id": "ym1-5",
+        "label": "CKS 採用率 30% 最終目標達成",
+        "unit": "1week",
+        "offset": 26,
+        "status": "upcoming",
+        "owner": "人間",
+        "dueLabel": "Week 26",
+        "description": "6ヶ月目標の達成確認・次フェーズ計画策定",
+        "actions": []
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": "yi-2",
+    "title": "Enterprise AI Labs との戦略的パートナーシップ拡大",
+    "status": "active",
+    "updatedAt": "2026-04-03",
+    "definition": "Mistral AI・Cohere・Stability AI など主要 AI 研究所・スタートアップとの戦略的パートナーシップを拡大し、CoreWeave を AI 開発の優先インフラとして位置づける。TAM 上位 20 社への専用サポート体制を構築する。",
+    "deadline": "2026-06-30",
+    "doneState": [
+      {
+        "condition": "戦略的パートナー数",
+        "metric": "社",
+        "current": "5",
+        "target": "20"
+      },
+      {
+        "condition": "パートナー経由 ARR",
+        "metric": "M USD",
+        "current": "8",
+        "target": "25"
+      },
+      {
+        "condition": "パートナー満足度スコア",
+        "metric": "点",
+        "current": "72",
+        "target": "85"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "yh-2-1",
+        "issue": "Enterprise Partnership",
+        "hypothesis": "専任 Technical Account Manager の配置が契約更新率を高める",
+        "verification": "TAM 配置済み 10 社 vs 未配置 10 社の更新率比較（6ヶ月）",
+        "method": "コントロール実験",
+        "responsibility": "人間",
+        "fact": "TAM 配置済み顧客の更新率 94% vs 未配置 71%",
+        "decision": "上位 20 社全社に TAM を配置",
+        "hvpAxis": "cr",
+        "verdict": "verified"
+      },
+      {
+        "id": "yh-2-2",
+        "issue": "Enterprise Partnership",
+        "hypothesis": "共同マーケティングプログラムがリード獲得コストを 40% 削減する",
+        "verification": "パートナー共催ウェビナー 3 回実施後の CAC 変化を計測",
+        "method": "ビフォーアフター比較",
+        "responsibility": "AI",
+        "fact": "検証中",
+        "decision": "結果待ち",
+        "hvpAxis": "ht",
+        "verdict": "pending"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "ym2-1",
+        "label": "TAM 上位 20 社アサインメント完了",
+        "unit": "1week",
+        "offset": 2,
+        "status": "in_progress",
+        "owner": "人間",
+        "dueLabel": "Week 2",
+        "description": "各社に専任 Technical Account Manager を配置し初回 QBR を実施",
+        "actions": [
+          {
+            "id": "yma10",
+            "title": "TAM アサインメントマトリクス作成",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "yma11",
+            "title": "Mistral AI・Cohere への初回 QBR 実施",
+            "done": false,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          },
+          {
+            "id": "yma12",
+            "title": "パートナーポータル v1 リリース",
+            "done": false,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          }
+        ]
+      },
+      {
+        "id": "ym2-2",
+        "label": "共同マーケティングプログラム開始",
+        "unit": "1week",
+        "offset": 4,
+        "status": "upcoming",
+        "owner": "AI",
+        "dueLabel": "Week 4",
+        "description": "パートナー共催ウェビナー・ケーススタディ公開",
+        "actions": []
+      },
+      {
+        "id": "ym2-3",
+        "label": "パートナー ARR 15M USD 達成",
+        "unit": "1week",
+        "offset": 12,
+        "status": "upcoming",
+        "owner": "人間",
+        "dueLabel": "Week 12",
+        "description": "Q2 末時点でのパートナー経由 ARR 中間目標確認",
+        "actions": []
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": "yi-3",
+    "title": "Compute Abstractions レイヤーの開発者体験（DX）改善",
+    "status": "active",
+    "updatedAt": "2026-04-02",
+    "definition": "Compute Abstractions API の複雑性を削減し、GPU クラスターのプロビジョニングから推論デプロイまでの時間を現在の平均 4 時間から 30 分以内に短縮する。開発者が CoreWeave を「最も使いやすい GPU クラウド」と認識するよう体験を再設計する。",
+    "deadline": "2026-07-31",
+    "doneState": [
+      {
+        "condition": "GPU プロビジョニング時間（P50）",
+        "metric": "分",
+        "current": "240",
+        "target": "30"
+      },
+      {
+        "condition": "API エラー率",
+        "metric": "%",
+        "current": "4.2",
+        "target": "0.5"
+      },
+      {
+        "condition": "開発者満足度（CSAT）",
+        "metric": "点",
+        "current": "61",
+        "target": "80"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "yh-3-1",
+        "issue": "DX Improvement",
+        "hypothesis": "ワンクリックデプロイ機能が Time-to-First-GPU を 90% 削減する",
+        "verification": "ワンクリックデプロイ β版を 20 社に提供しプロビジョニング時間を計測",
+        "method": "β テスト + 時系列比較",
+        "responsibility": "AI",
+        "fact": "β 参加 20 社の平均プロビジョニング時間：240 分 → 18 分（92% 削減）",
+        "decision": "ワンクリックデプロイを Q2 GA リリースへ",
+        "hvpAxis": "sq",
+        "verdict": "verified"
+      },
+      {
+        "id": "yh-3-2",
+        "issue": "DX Improvement",
+        "hypothesis": "API ドキュメントの自動生成・インタラクティブ化がサポートチケットを 50% 削減する",
+        "verification": "新ドキュメントサイト公開後 60 日間のチケット数変化を計測",
+        "method": "ビフォーアフター比較",
+        "responsibility": "AI",
+        "fact": "検証中",
+        "decision": "結果待ち",
+        "hvpAxis": "ht",
+        "verdict": "pending"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "ym3-1",
+        "label": "ワンクリックデプロイ GA リリース",
+        "unit": "1week",
+        "offset": 3,
+        "status": "in_progress",
+        "owner": "AI",
+        "dueLabel": "Week 3",
+        "description": "主要 GPU タイプ（H100, A100, L40S）でのワンクリックデプロイを全顧客に提供",
+        "actions": [
+          {
+            "id": "yma20",
+            "title": "ワンクリックデプロイ PRD 最終承認",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "yma21",
+            "title": "H100 クラスター自動プロビジョニング API 実装",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "yma22",
+            "title": "GA リリースノート・ドキュメント作成",
+            "done": false,
+            "owner": "AI",
+            "hvpAxis": "ht"
+          }
+        ]
+      },
+      {
+        "id": "ym3-2",
+        "label": "インタラクティブ API ドキュメントサイト公開",
+        "unit": "1week",
+        "offset": 5,
+        "status": "upcoming",
+        "owner": "AI",
+        "dueLabel": "Week 5",
+        "description": "OpenAPI Spec ベースの自動生成ドキュメント + Try it now 機能",
+        "actions": []
+      },
+      {
+        "id": "ym3-3",
+        "label": "プロビジョニング時間 P50 30 分以内達成",
+        "unit": "1week",
+        "offset": 16,
+        "status": "upcoming",
+        "owner": "人間",
+        "dueLabel": "Week 16",
+        "description": "全 GPU タイプでの P50 プロビジョニング時間 30 分以内を確認",
+        "actions": []
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": "yi-4",
+    "title": "CKS v2.1 製品ロードマップの策定と社内承認",
+    "status": "active",
+    "updatedAt": "2026-04-04",
+    "definition": "CKS v2.1 の製品ロードマップを策定し、Engineering・Sales・Finance の三部門から承認を取得する。ロードマップは顧客フィードバック・競合分析・技術的実現可能性を統合したものとし、Q3 開発着手の前提条件を満たす。",
+    "deadline": "2026-04-30",
+    "doneState": [
+      {
+        "condition": "ロードマップ承認ステータス",
+        "metric": "部門",
+        "current": "0",
+        "target": "3"
+      },
+      {
+        "condition": "顧客フィードバック収集数",
+        "metric": "件",
+        "current": "8",
+        "target": "30"
+      },
+      {
+        "condition": "競合機能ギャップ分析完了",
+        "metric": "%",
+        "current": "40",
+        "target": "100"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "yh-4-1",
+        "issue": "Roadmap Approval",
+        "hypothesis": "顧客インタビュー 30 件でロードマップ優先度の合意形成が可能",
+        "verification": "上位顧客 30 社へのインタビュー実施後、優先機能 Top 5 の一致率を確認",
+        "method": "定性インタビュー + アフィニティマッピング",
+        "responsibility": "人間",
+        "fact": "インタビュー 8 件完了。Multi-cluster Federation と Cost Visibility が最多要望",
+        "decision": "残り 22 件を 2 週間以内に完了",
+        "hvpAxis": "ht",
+        "verdict": "in_progress"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "ym4-1",
+        "label": "顧客インタビュー 30 件完了",
+        "unit": "1week",
+        "offset": 2,
+        "status": "in_progress",
+        "owner": "人間",
+        "dueLabel": "Week 2",
+        "description": "上位顧客 30 社へのインタビューを完了し要望を定量化",
+        "actions": [
+          {
+            "id": "yma30",
+            "title": "インタビュースクリプト作成",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "ht"
+          },
+          {
+            "id": "yma31",
+            "title": "残り 22 社へのインタビュー実施",
+            "done": false,
+            "owner": "人間",
+            "hvpAxis": "ht"
+          },
+          {
+            "id": "yma32",
+            "title": "フィードバック集計・優先度マッピング",
+            "done": false,
+            "owner": "AI",
+            "hvpAxis": "ht"
+          }
+        ]
+      },
+      {
+        "id": "ym4-2",
+        "label": "競合分析レポート完成",
+        "unit": "1week",
+        "offset": 2,
+        "status": "in_progress",
+        "owner": "AI",
+        "dueLabel": "Week 2",
+        "description": "GKE・EKS・AKS との機能ギャップを定量化したレポートを作成",
+        "actions": [
+          {
+            "id": "yma33",
+            "title": "GKE・EKS・AKS 機能マトリクス作成",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "yma34",
+            "title": "GPU 特化機能の差別化ポイント整理",
+            "done": false,
+            "owner": "人間",
+            "hvpAxis": "sq"
+          }
+        ]
+      },
+      {
+        "id": "ym4-3",
+        "label": "CKS v2.1 PRD ドラフト完成",
+        "unit": "1week",
+        "offset": 3,
+        "status": "upcoming",
+        "owner": "人間",
+        "dueLabel": "Week 3",
+        "description": "Engineering・Sales・Finance レビュー用 PRD を完成",
+        "actions": []
+      },
+      {
+        "id": "ym4-4",
+        "label": "三部門承認取得",
+        "unit": "1week",
+        "offset": 4,
+        "status": "upcoming",
+        "owner": "人間",
+        "dueLabel": "Week 4",
+        "description": "Engineering・Sales・Finance の承認を取得し Q3 開発着手を確定",
+        "actions": []
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": "yi-5",
+    "title": "GPU 利用率の最適化：アイドル GPU コストを 40% 削減",
+    "status": "active",
+    "updatedAt": "2026-04-01",
+    "definition": "顧客のアイドル GPU（プロビジョニング済みだが未使用）コストを削減するための自動スケーリング・スポットインスタンス機能を提供し、CoreWeave の GPU 利用効率を向上させる。顧客の GPU コストを平均 40% 削減することで、CoreWeave の競争優位性を強化する。",
+    "deadline": "2026-08-31",
+    "doneState": [
+      {
+        "condition": "顧客 GPU アイドル率（平均）",
+        "metric": "%",
+        "current": "33",
+        "target": "15"
+      },
+      {
+        "condition": "自動スケーリング採用率",
+        "metric": "%",
+        "current": "12",
+        "target": "60"
+      },
+      {
+        "condition": "顧客コスト削減額（平均）",
+        "metric": "%",
+        "current": "8",
+        "target": "40"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "yh-5-1",
+        "issue": "GPU Utilization",
+        "hypothesis": "Spot Instance 機能が推論ワークロードのコストを 60% 削減する",
+        "verification": "Spot Instance β版を 15 社に提供し実際のコスト削減率を計測",
+        "method": "β テスト + コスト分析",
+        "responsibility": "AI",
+        "fact": "検証中",
+        "decision": "結果待ち",
+        "hvpAxis": "cr",
+        "verdict": "pending"
+      },
+      {
+        "id": "yh-5-2",
+        "issue": "GPU Utilization",
+        "hypothesis": "GPU 利用率ダッシュボードの提供が自動スケーリング採用率を高める",
+        "verification": "ダッシュボード提供後 30 日間の自動スケーリング設定率を計測",
+        "method": "コホート分析",
+        "responsibility": "AI",
+        "fact": "ダッシュボード提供顧客の自動スケーリング設定率 41%（未提供顧客 12%）",
+        "decision": "全顧客へのダッシュボード提供を優先",
+        "hvpAxis": "sq",
+        "verdict": "verified"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "ym5-1",
+        "label": "GPU 利用率ダッシュボード全顧客展開",
+        "unit": "1week",
+        "offset": 2,
+        "status": "done",
+        "owner": "AI",
+        "dueLabel": "Week 2",
+        "description": "リアルタイム GPU 利用率・コスト予測ダッシュボードを全顧客に提供",
+        "actions": [
+          {
+            "id": "yma40",
+            "title": "ダッシュボード UI 設計・実装",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "yma41",
+            "title": "全顧客への展開・通知",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          }
+        ]
+      },
+      {
+        "id": "ym5-2",
+        "label": "Spot Instance β版リリース",
+        "unit": "1week",
+        "offset": 6,
+        "status": "in_progress",
+        "owner": "AI",
+        "dueLabel": "Week 6",
+        "description": "推論ワークロード向け Spot Instance 機能のβ版を 15 社に提供",
+        "actions": [
+          {
+            "id": "yma42",
+            "title": "Spot Instance スケジューラー実装",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "yma43",
+            "title": "β 参加 15 社への展開・サポート",
+            "done": false,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          }
+        ]
+      },
+      {
+        "id": "ym5-3",
+        "label": "自動スケーリング採用率 60% 達成",
+        "unit": "1week",
+        "offset": 20,
+        "status": "upcoming",
+        "owner": "人間",
+        "dueLabel": "Week 20",
+        "description": "全顧客の 60% が自動スケーリングを有効化",
+        "actions": []
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": "yi-6",
+    "title": "Multi-cluster Federation 機能の製品化",
+    "status": "active",
+    "updatedAt": "2026-03-28",
+    "definition": "複数の GPU クラスターを単一の論理クラスターとして管理できる Multi-cluster Federation 機能を製品化する。グローバル展開する AI 企業が地域ごとのクラスターを統合管理できるようにし、CoreWeave の大企業向け差別化機能として確立する。",
+    "deadline": "2026-09-30",
+    "doneState": [
+      {
+        "condition": "Multi-cluster 対応顧客数",
+        "metric": "社",
+        "current": "0",
+        "target": "15"
+      },
+      {
+        "condition": "クラスター間レイテンシ（P99）",
+        "metric": "ms",
+        "current": "N/A",
+        "target": "50"
+      },
+      {
+        "condition": "機能採用による ARR 増加",
+        "metric": "M USD",
+        "current": "0",
+        "target": "10"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "yh-6-1",
+        "issue": "Multi-cluster Federation",
+        "hypothesis": "グローバル AI 企業の 70% が Multi-cluster 管理に課題を抱えている",
+        "verification": "Fortune 500 AI 部門 30 社へのインタビューで課題の有無を確認",
+        "method": "定性インタビュー",
+        "responsibility": "人間",
+        "fact": "インタビュー 30 社中 22 社（73%）がクラスター分散管理を主要課題として挙げた",
+        "decision": "Multi-cluster Federation を CKS v2.1 の最優先機能として位置づけ",
+        "hvpAxis": "ht",
+        "verdict": "verified"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "ym6-1",
+        "label": "技術仕様書（Tech Spec）完成",
+        "unit": "1week",
+        "offset": 3,
+        "status": "in_progress",
+        "owner": "AI",
+        "dueLabel": "Week 3",
+        "description": "Kubernetes Federation v2 ベースの技術仕様を Engineering と合意",
+        "actions": [
+          {
+            "id": "yma50",
+            "title": "Federation アーキテクチャ設計レビュー",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "yma51",
+            "title": "Tech Spec ドキュメント作成",
+            "done": false,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          }
+        ]
+      },
+      {
+        "id": "ym6-2",
+        "label": "α版リリース（3社限定）",
+        "unit": "1week",
+        "offset": 12,
+        "status": "upcoming",
+        "owner": "AI",
+        "dueLabel": "Week 12",
+        "description": "選定 3 社でのα版テストを開始",
+        "actions": []
+      },
+      {
+        "id": "ym6-3",
+        "label": "GA リリース",
+        "unit": "1week",
+        "offset": 26,
+        "status": "upcoming",
+        "owner": "人間",
+        "dueLabel": "Week 26",
+        "description": "全顧客向け GA リリースと価格設定の確定",
+        "actions": []
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": "yi-7",
+    "title": "CoreWeave の AI 推論市場でのポジション確立",
+    "status": "active",
+    "updatedAt": "2026-03-25",
+    "definition": "AI 推論（Inference）市場において CoreWeave を「最もコスト効率の高い GPU クラウド」として確立する。vLLM・TensorRT-LLM などの推論フレームワークとのネイティブ統合を強化し、AI 推論ワークロードの CoreWeave シェアを現在の 5% から 20% へ引き上げる。",
+    "deadline": "2026-12-31",
+    "doneState": [
+      {
+        "condition": "AI 推論ワークロードシェア",
+        "metric": "%",
+        "current": "5",
+        "target": "20"
+      },
+      {
+        "condition": "推論コスト（$/1M tokens）",
+        "metric": "USD",
+        "current": "2.4",
+        "target": "1.2"
+      },
+      {
+        "condition": "推論特化顧客数",
+        "metric": "社",
+        "current": "8",
+        "target": "40"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "yh-7-1",
+        "issue": "Inference Market",
+        "hypothesis": "vLLM ネイティブ統合が推論顧客の CoreWeave 選択率を 3 倍にする",
+        "verification": "vLLM 統合版と非統合版の新規顧客獲得率を 90 日間比較",
+        "method": "A/B テスト",
+        "responsibility": "AI",
+        "fact": "検証中",
+        "decision": "結果待ち",
+        "hvpAxis": "cr",
+        "verdict": "pending"
+      },
+      {
+        "id": "yh-7-2",
+        "issue": "Inference Market",
+        "hypothesis": "推論専用インスタンスタイプの提供が価格競争力を 50% 改善する",
+        "verification": "推論最適化インスタンス（L40S x8）の実際のコスト/トークンを AWS・GCP と比較",
+        "method": "ベンチマーク比較",
+        "responsibility": "AI",
+        "fact": "L40S x8 の$/1M tokens: CoreWeave $1.8 vs AWS $3.2 vs GCP $2.9（CoreWeave が 44% 安価）",
+        "decision": "推論コスト優位性をマーケティングの主要訴求点に設定",
+        "hvpAxis": "cr",
+        "verdict": "verified"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "ym7-1",
+        "label": "vLLM ネイティブ統合リリース",
+        "unit": "1week",
+        "offset": 4,
+        "status": "in_progress",
+        "owner": "AI",
+        "dueLabel": "Week 4",
+        "description": "vLLM の CoreWeave 最適化版をドキュメント付きでリリース",
+        "actions": [
+          {
+            "id": "yma60",
+            "title": "vLLM CoreWeave 最適化パッチ作成",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "yma61",
+            "title": "パフォーマンスベンチマーク実施・公開",
+            "done": false,
+            "owner": "AI",
+            "hvpAxis": "ht"
+          }
+        ]
+      },
+      {
+        "id": "ym7-2",
+        "label": "推論コスト比較ランディングページ公開",
+        "unit": "1week",
+        "offset": 2,
+        "status": "done",
+        "owner": "AI",
+        "dueLabel": "Week 2",
+        "description": "AWS・GCP・Azure との推論コスト比較を可視化したページを公開",
+        "actions": [
+          {
+            "id": "yma62",
+            "title": "コスト比較データ収集・検証",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "ht"
+          },
+          {
+            "id": "yma63",
+            "title": "ランディングページ設計・実装",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "cr"
+          }
+        ]
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": "yi-8",
+    "title": "顧客サポートコストの削減：セルフサービス率 70% 達成",
+    "status": "active",
+    "updatedAt": "2026-03-20",
+    "definition": "現在サポートチームへの依存度が高い顧客問い合わせをセルフサービス化し、サポートコストを削減しながら顧客満足度を維持する。AI 駆動のドキュメント検索・トラブルシューティングガイドを整備し、セルフサービス解決率を現在の 35% から 70% へ引き上げる。",
+    "deadline": "2026-07-31",
+    "doneState": [
+      {
+        "condition": "セルフサービス解決率",
+        "metric": "%",
+        "current": "35",
+        "target": "70"
+      },
+      {
+        "condition": "平均解決時間（MTTR）",
+        "metric": "時間",
+        "current": "6.2",
+        "target": "1.5"
+      },
+      {
+        "condition": "サポートチケット数（月次）",
+        "metric": "件",
+        "current": "1240",
+        "target": "600"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "yh-8-1",
+        "issue": "Self-service",
+        "hypothesis": "AI チャットボットの導入がサポートチケットを 40% 削減する",
+        "verification": "AI チャットボット導入後 60 日間のチケット数変化を計測",
+        "method": "ビフォーアフター比較",
+        "responsibility": "AI",
+        "fact": "AI チャットボット導入後 30 日でチケット数 28% 減少（目標 40% に向け継続中）",
+        "decision": "チャットボットの学習データを拡充し精度向上を継続",
+        "hvpAxis": "sq",
+        "verdict": "in_progress"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "ym8-1",
+        "label": "AI チャットボット v1 本番リリース",
+        "unit": "1week",
+        "offset": 2,
+        "status": "done",
+        "owner": "AI",
+        "dueLabel": "Week 2",
+        "description": "Top 100 FAQ を学習した AI チャットボットをサポートポータルに統合",
+        "actions": [
+          {
+            "id": "yma70",
+            "title": "FAQ データセット作成（100 件）",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "yma71",
+            "title": "チャットボット本番デプロイ",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          }
+        ]
+      },
+      {
+        "id": "ym8-2",
+        "label": "インタラクティブトラブルシューティングガイド公開",
+        "unit": "1week",
+        "offset": 4,
+        "status": "in_progress",
+        "owner": "AI",
+        "dueLabel": "Week 4",
+        "description": "Top 20 障害パターンの診断フローチャートをドキュメントサイトに公開",
+        "actions": [
+          {
+            "id": "yma72",
+            "title": "Top 20 障害パターン分析",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "ht"
+          },
+          {
+            "id": "yma73",
+            "title": "診断フローチャート作成・公開",
+            "done": false,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          }
+        ]
+      },
+      {
+        "id": "ym8-3",
+        "label": "セルフサービス率 70% 達成",
+        "unit": "1week",
+        "offset": 16,
+        "status": "upcoming",
+        "owner": "人間",
+        "dueLabel": "Week 16",
+        "description": "セルフサービス解決率 70% の達成確認",
+        "actions": []
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": "yi-9",
+    "title": "CoreWeave の Enterprise ARR $100M 達成への貢献",
+    "status": "active",
+    "updatedAt": "2026-04-03",
+    "definition": "CKS・Compute Abstractions プロダクトの機能強化を通じて、Enterprise セグメントの ARR を現在の $45M から $100M へ引き上げる。製品主導成長（PLG）戦略と Enterprise 営業の連携を強化し、プロダクト起点の収益拡大を実現する。",
+    "deadline": "2026-12-31",
+    "doneState": [
+      {
+        "condition": "Enterprise ARR",
+        "metric": "M USD",
+        "current": "45",
+        "target": "100"
+      },
+      {
+        "condition": "Net Revenue Retention（NRR）",
+        "metric": "%",
+        "current": "118",
+        "target": "140"
+      },
+      {
+        "condition": "プロダクト起点の新規 ARR 比率",
+        "metric": "%",
+        "current": "22",
+        "target": "45"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "yh-9-1",
+        "issue": "Enterprise ARR",
+        "hypothesis": "Usage-based Pricing の導入が NRR を 20pt 向上させる",
+        "verification": "Usage-based Pricing 移行顧客 20 社の 6 ヶ月後 NRR を計測",
+        "method": "コホート分析",
+        "responsibility": "人間",
+        "fact": "検証中",
+        "decision": "結果待ち",
+        "hvpAxis": "cr",
+        "verdict": "pending"
+      },
+      {
+        "id": "yh-9-2",
+        "issue": "Enterprise ARR",
+        "hypothesis": "プロダクト内アップセルトリガーが Expansion ARR を 30% 増加させる",
+        "verification": "アップセルトリガー（GPU 使用率 80% 超でアップグレード提案）の A/B テスト",
+        "method": "A/B テスト",
+        "responsibility": "AI",
+        "fact": "トリガー有グループの Expansion ARR 27% 増（トリガー無グループ比）",
+        "decision": "プロダクト内アップセルトリガーを全顧客に展開",
+        "hvpAxis": "cr",
+        "verdict": "verified"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "ym9-1",
+        "label": "プロダクト内アップセルトリガー全展開",
+        "unit": "1week",
+        "offset": 2,
+        "status": "done",
+        "owner": "AI",
+        "dueLabel": "Week 2",
+        "description": "GPU 使用率 80% 超の顧客に自動アップグレード提案を表示",
+        "actions": [
+          {
+            "id": "yma80",
+            "title": "アップセルトリガーロジック実装",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "cr"
+          },
+          {
+            "id": "yma81",
+            "title": "全顧客展開・効果測定設定",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "cr"
+          }
+        ]
+      },
+      {
+        "id": "ym9-2",
+        "label": "Usage-based Pricing パイロット開始",
+        "unit": "1week",
+        "offset": 4,
+        "status": "in_progress",
+        "owner": "人間",
+        "dueLabel": "Week 4",
+        "description": "20 社を対象に Usage-based Pricing モデルのパイロットを開始",
+        "actions": [
+          {
+            "id": "yma82",
+            "title": "Usage-based Pricing 設計・Finance 承認",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          },
+          {
+            "id": "yma83",
+            "title": "パイロット対象 20 社の選定・通知",
+            "done": false,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          }
+        ]
+      },
+      {
+        "id": "ym9-3",
+        "label": "Enterprise ARR $70M 中間目標達成",
+        "unit": "1week",
+        "offset": 26,
+        "status": "upcoming",
+        "owner": "人間",
+        "dueLabel": "Week 26",
+        "description": "H1 末時点での Enterprise ARR 中間目標確認",
+        "actions": []
+      }
+    ],
+    "actions": []
+  },
+  {
+    "id": "yi-10",
+    "title": "CKS の SOC 2 Type II 認証取得",
+    "status": "active",
+    "updatedAt": "2026-03-15",
+    "definition": "CKS プラットフォームの SOC 2 Type II 認証を取得し、金融・医療・政府系 Enterprise 顧客の要件を満たす。セキュリティ・コンプライアンス対応を製品の競争優位性として確立し、認証取得による新規 Enterprise 案件の獲得を加速する。",
+    "deadline": "2026-10-31",
+    "doneState": [
+      {
+        "condition": "SOC 2 Type II 認証ステータス",
+        "metric": "フェーズ",
+        "current": "Gap分析中",
+        "target": "認証取得"
+      },
+      {
+        "condition": "セキュリティ管理策実装率",
+        "metric": "%",
+        "current": "58",
+        "target": "100"
+      },
+      {
+        "condition": "認証取得後の新規 Enterprise 案件数",
+        "metric": "件",
+        "current": "0",
+        "target": "10"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "yh-10-1",
+        "issue": "SOC 2 Certification",
+        "hypothesis": "SOC 2 認証が金融・医療系顧客の購買障壁を除去し成約率を 2 倍にする",
+        "verification": "認証取得前後の金融・医療系案件の成約率を比較",
+        "method": "ビフォーアフター比較",
+        "responsibility": "人間",
+        "fact": "認証取得前の金融・医療系成約率 18%。業界平均（認証あり）は 41%",
+        "decision": "SOC 2 認証取得を Q3 最優先プロジェクトとして位置づけ",
+        "hvpAxis": "cr",
+        "verdict": "in_progress"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "ym10-1",
+        "label": "Gap 分析・改善ロードマップ完成",
+        "unit": "1week",
+        "offset": 2,
+        "status": "done",
+        "owner": "人間",
+        "dueLabel": "Week 2",
+        "description": "現状のセキュリティ管理策と SOC 2 要件のギャップを特定",
+        "actions": [
+          {
+            "id": "yma90",
+            "title": "外部監査法人との契約締結",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          },
+          {
+            "id": "yma91",
+            "title": "Gap 分析レポート受領・確認",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          }
+        ]
+      },
+      {
+        "id": "ym10-2",
+        "label": "セキュリティ管理策実装完了",
+        "unit": "1week",
+        "offset": 16,
+        "status": "in_progress",
+        "owner": "AI",
+        "dueLabel": "Week 16",
+        "description": "Gap 分析で特定した 42 項目の管理策を全て実装",
+        "actions": [
+          {
+            "id": "yma92",
+            "title": "アクセス制御・ログ管理強化",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "yma93",
+            "title": "インシデントレスポンス手順書整備",
+            "done": false,
+            "owner": "人間",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "yma94",
+            "title": "暗号化・鍵管理ポリシー実装",
+            "done": false,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          }
+        ]
+      },
+      {
+        "id": "ym10-3",
+        "label": "Type II 監査期間開始（12ヶ月）",
+        "unit": "1week",
+        "offset": 20,
+        "status": "upcoming",
+        "owner": "人間",
+        "dueLabel": "Week 20",
+        "description": "外部監査法人による 12 ヶ月間の Type II 監査期間を開始",
+        "actions": []
+      },
+      {
+        "id": "ym10-4",
+        "label": "SOC 2 Type II 認証取得",
+        "unit": "1week",
+        "offset": 32,
+        "status": "upcoming",
+        "owner": "人間",
+        "dueLabel": "Week 32",
+        "description": "認証取得・公式発表・営業資料への組み込み",
+        "actions": []
+      }
+    ],
+    "actions": []
+  }
+]

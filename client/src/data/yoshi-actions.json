@@ -1,0 +1,260 @@
+[
+  {
+    "id": "ya1",
+    "title": "CKS v2.1 Product Requirements Document 作成",
+    "description": "Q2 CKS ロードマップの PRD を作成。Guided Setup Wizard の改善点、Helm Chart ライブラリ拡充、マルチクラスター管理機能の要件を網羅する。",
+    "status": "yours",
+    "category": "Executive",
+    "createdAt": "2026-04-01T09:00:00",
+    "updatedAt": "2026-04-03T14:30:00",
+    "stoppedDays": 0,
+    "assigneeId": "yt",
+    "agents": [
+      {
+        "id": "ag-y1",
+        "name": "Doc Writer",
+        "description": "AI Document Generation Agent",
+        "status": "idle",
+        "isAuto": false,
+        "logs": [
+          "14:30 Draft outline generated",
+          "14:32 Awaiting Yoshi's review"
+        ],
+        "repositories": [
+          {
+            "name": "coreweave-product-docs",
+            "access": "AI Auto-selected"
+          }
+        ]
+      }
+    ],
+    "memberRoles": [
+      {
+        "memberId": "yt",
+        "role": "Accountability"
+      }
+    ],
+    "isArchived": false,
+    "doneState": "PRD が Engineering Lead・CPO にレビューされ、承認済みの状態。",
+    "relatedIssues": [
+      {
+        "id": "yi-1",
+        "title": "CKS Adoption Rate: 0→30% in 6 months",
+        "status": "active"
+      }
+    ],
+    "changeHistory": [
+      {
+        "version": 1,
+        "description": "New action created",
+        "date": "Apr 1",
+        "author": "Yoshi Tamura"
+      }
+    ]
+  },
+  {
+    "id": "ya2",
+    "title": "Mistral AI QBR デッキ作成（Q1 GPU 利用率分析）",
+    "description": "Mistral AI との四半期ビジネスレビュー用スライドを作成。Q1 GPU 利用率の詳細分析、Cost Forecast ツールのデモ、Q2 Reserved Capacity 提案を含める。",
+    "status": "ai-running",
+    "category": "Sales",
+    "createdAt": "2026-04-03T10:00:00",
+    "updatedAt": "2026-04-04T08:15:00",
+    "stoppedDays": 0,
+    "assigneeId": "yt",
+    "agents": [
+      {
+        "id": "ag-y2",
+        "name": "Deck Builder",
+        "description": "AI Presentation Generation Agent",
+        "status": "running",
+        "isAuto": true,
+        "logs": [
+          "08:10 Fetching Mistral usage data from analytics API",
+          "08:12 Generating utilization charts",
+          "08:14 Building slide structure",
+          "08:15 Drafting executive summary..."
+        ],
+        "repositories": [
+          {
+            "name": "coreweave-analytics",
+            "access": "Read-only"
+          }
+        ]
+      }
+    ],
+    "memberRoles": [
+      {
+        "memberId": "yt",
+        "role": "Accountability"
+      }
+    ],
+    "isArchived": false,
+    "doneState": "Mistral CTO が内容を確認し、QBR 当日に使用できる状態。",
+    "relatedIssues": [
+      {
+        "id": "yi-3",
+        "title": "Enterprise AI Labs との戦略的パートナーシップ拡大",
+        "status": "active"
+      }
+    ],
+    "changeHistory": [
+      {
+        "version": 1,
+        "description": "New action created",
+        "date": "Apr 3",
+        "author": "Yoshi Tamura"
+      }
+    ]
+  },
+  {
+    "id": "ya3",
+    "title": "Cost Forecast ダッシュボード UI 最終調整",
+    "description": "Cost Forecast β版のフィードバックを反映し、本番 UI を完成させる。特にエッジケースでの予測精度表示と、コスト超過アラートの視認性を改善する。",
+    "status": "pending",
+    "category": "Engineering",
+    "createdAt": "2026-03-28T09:00:00",
+    "updatedAt": "2026-04-03T17:00:00",
+    "stoppedDays": 0,
+    "assigneeId": "yt",
+    "agents": [
+      {
+        "id": "ag-y3",
+        "name": "One-shot PR",
+        "description": "AI Code Generation Agent",
+        "status": "completed",
+        "isAuto": true,
+        "logs": [
+          "16:45 PR #2847 created",
+          "16:50 All CI checks passed",
+          "17:00 Awaiting Yoshi's review"
+        ],
+        "repositories": [
+          {
+            "name": "coreweave-console",
+            "access": "AI Auto-selected"
+          }
+        ]
+      }
+    ],
+    "memberRoles": [
+      {
+        "memberId": "yt",
+        "role": "Accountability"
+      }
+    ],
+    "isArchived": false,
+    "doneState": "PR がマージされ、ステージング環境での QA が完了した状態。",
+    "relatedIssues": [
+      {
+        "id": "yi-2",
+        "title": "Compute Abstractions: GPU Quota UX を刷新し解約率 -40%",
+        "status": "active"
+      }
+    ],
+    "changeHistory": [
+      {
+        "version": 2,
+        "description": "PR #2847 created by AI agent",
+        "date": "Apr 3",
+        "author": "One-shot PR"
+      },
+      {
+        "version": 1,
+        "description": "New action created",
+        "date": "Mar 28",
+        "author": "Yoshi Tamura"
+      }
+    ]
+  },
+  {
+    "id": "ya4",
+    "title": "TAM 上位 20 社アサインメント完了",
+    "description": "新規採用した TAM 3 名を上位 20 社の AI ラボ顧客に割り当て、初回キックオフミーティングをスケジュールする。",
+    "status": "yours",
+    "category": "Sales",
+    "createdAt": "2026-04-01T11:00:00",
+    "updatedAt": "2026-04-04T09:00:00",
+    "stoppedDays": 0,
+    "assigneeId": "yt",
+    "agents": [],
+    "memberRoles": [
+      {
+        "memberId": "yt",
+        "role": "Accountability"
+      }
+    ],
+    "isArchived": false,
+    "doneState": "全 20 社に TAM がアサインされ、初回 QBR が 2 週間以内にスケジュールされた状態。",
+    "relatedIssues": [
+      {
+        "id": "yi-3",
+        "title": "Enterprise AI Labs との戦略的パートナーシップ拡大",
+        "status": "active"
+      }
+    ],
+    "changeHistory": [
+      {
+        "version": 1,
+        "description": "New action created",
+        "date": "Apr 1",
+        "author": "Yoshi Tamura"
+      }
+    ]
+  },
+  {
+    "id": "ya5",
+    "title": "CKS マイグレーション CLI v1.0 顧客展開（上位 50 社）",
+    "description": "VM→CKS マイグレーション CLI ツールを上位 50 顧客に展開し、個別移行支援セッションをスケジュールする。移行完了率をモニタリングし、週次で報告する。",
+    "status": "ai-running",
+    "category": "Engineering",
+    "createdAt": "2026-04-02T10:00:00",
+    "updatedAt": "2026-04-04T10:30:00",
+    "stoppedDays": 0,
+    "assigneeId": "yt",
+    "agents": [
+      {
+        "id": "ag-y4",
+        "name": "Outreach Agent",
+        "description": "AI Customer Communication Agent",
+        "status": "running",
+        "isAuto": true,
+        "logs": [
+          "10:00 Loading top 50 customer list",
+          "10:05 Generating personalized migration guides",
+          "10:20 Sending migration invitation emails (32/50 sent)",
+          "10:30 Scheduling support sessions..."
+        ],
+        "repositories": [
+          {
+            "name": "coreweave-crm",
+            "access": "Read-only"
+          }
+        ]
+      }
+    ],
+    "memberRoles": [
+      {
+        "memberId": "yt",
+        "role": "Accountability"
+      }
+    ],
+    "isArchived": false,
+    "doneState": "上位 50 社全社に移行案内が届き、30% 以上が移行セッションを予約した状態。",
+    "relatedIssues": [
+      {
+        "id": "yi-1",
+        "title": "CKS Adoption Rate: 0→30% in 6 months",
+        "status": "active"
+      }
+    ],
+    "changeHistory": [
+      {
+        "version": 1,
+        "description": "New action created",
+        "date": "Apr 2",
+        "author": "Yoshi Tamura"
+      }
+    ]
+  }
+]

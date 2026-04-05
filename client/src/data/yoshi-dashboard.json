@@ -1,0 +1,225 @@
+{
+  "northStar": {
+    "label": "CKS Adoption Rate",
+    "value": 8,
+    "unit": "%",
+    "delta": "+3pt MoM",
+    "deltaPositive": true,
+    "goal": 30,
+    "goalLabel": "30% by Sep 2026",
+    "sparkline": [2, 3, 4, 5, 6, 7, 8]
+  },
+  "drivers": [
+    {
+      "key": "acquisition",
+      "label": "CKS Customers",
+      "iconKey": "Users",
+      "value": "12",
+      "delta": "+4",
+      "deltaPositive": true,
+      "goal": "80",
+      "goalPct": 15,
+      "status": "warning"
+    },
+    {
+      "key": "activation",
+      "label": "Onboarding Rate",
+      "iconKey": "Zap",
+      "value": "62%",
+      "delta": "+24pt",
+      "deltaPositive": true,
+      "goal": "70%",
+      "goalPct": 89,
+      "status": "good"
+    },
+    {
+      "key": "engagement",
+      "label": "GPU Utilization",
+      "iconKey": "Activity",
+      "value": "67%",
+      "delta": "+6pt",
+      "deltaPositive": true,
+      "goal": "78%",
+      "goalPct": 86,
+      "status": "good"
+    },
+    {
+      "key": "retention",
+      "label": "Churn Rate",
+      "iconKey": "Repeat",
+      "value": "10.5%",
+      "delta": "-1.5pt",
+      "deltaPositive": true,
+      "goal": "7%",
+      "goalPct": 50,
+      "status": "warning"
+    },
+    {
+      "key": "monetization",
+      "label": "Enterprise ARR",
+      "iconKey": "DollarSign",
+      "value": "$45M",
+      "delta": "+$8M",
+      "deltaPositive": true,
+      "goal": "$165M",
+      "goalPct": 27,
+      "status": "warning"
+    },
+    {
+      "key": "referral",
+      "label": "CKS NPS",
+      "iconKey": "Share2",
+      "value": "38",
+      "delta": "+4",
+      "deltaPositive": true,
+      "goal": "55",
+      "goalPct": 69,
+      "status": "good"
+    }
+  ],
+  "bottlenecks": {
+    "acquisition": [
+      {
+        "id": "ybn-a1",
+        "name": "Migration CLI GA delay risk",
+        "severity": "critical",
+        "affectedCount": 50,
+        "delta": "-1 week",
+        "summary": "Engineering sprint overload may push Migration CLI GA from Apr 22 to Apr 29. 50 customers' migration schedules at risk."
+      },
+      {
+        "id": "ybn-a2",
+        "name": "Helm Chart library scope creep",
+        "severity": "high",
+        "affectedCount": 120,
+        "delta": "+8 frameworks",
+        "summary": "Scope expanded beyond vLLM/Ray/Triton. Risk of delayed release and quality issues."
+      }
+    ],
+    "activation": [
+      {
+        "id": "ybn-ac1",
+        "name": "kubeconfig setup step — 52% drop-off",
+        "severity": "high",
+        "affectedCount": 38,
+        "delta": "-52%",
+        "summary": "Largest onboarding drop-off point. Guided Setup Wizard partially addresses this but full fix pending."
+      }
+    ],
+    "engagement": [
+      {
+        "id": "ybn-e1",
+        "name": "Mistral GPU utilization at 58%",
+        "severity": "critical",
+        "affectedCount": 1,
+        "delta": "-17pt",
+        "summary": "Mistral AI utilization dropped to 58% in March. Cost Forecast tool not yet deployed. Churn risk for $12M ARR account."
+      }
+    ],
+    "retention": [
+      {
+        "id": "ybn-r1",
+        "name": "Quota Alert false positives",
+        "severity": "medium",
+        "affectedCount": 15,
+        "delta": "3.2%",
+        "summary": "Alert false positive rate at 3.2%. Infra team tuning in progress. Target: below 1%."
+      }
+    ],
+    "monetization": [
+      {
+        "id": "ybn-m1",
+        "name": "Reserved Capacity program adoption low",
+        "severity": "high",
+        "affectedCount": 200,
+        "delta": "8%",
+        "summary": "Only 8% of enterprise customers on Reserved Capacity contracts. Churn risk for on-demand customers."
+      }
+    ],
+    "referral": [
+      {
+        "id": "ybn-ref1",
+        "name": "No formal referral program",
+        "severity": "medium",
+        "affectedCount": 0,
+        "delta": "N/A",
+        "summary": "AI lab community word-of-mouth is strong but no structured referral incentive exists."
+      }
+    ]
+  },
+  "priorityActions": [
+    {
+      "id": "ypa1",
+      "title": "Confirm Migration CLI GA date with Engineering Lead",
+      "driver": "CKS Adoption",
+      "driverColorClass": "text-amber-600",
+      "priority": "critical",
+      "dueDate": "Apr 8",
+      "assignee": "Yoshi Tamura"
+    },
+    {
+      "id": "ypa2",
+      "title": "Deploy Cost Forecast to Mistral AI account",
+      "driver": "GPU Utilization",
+      "driverColorClass": "text-red-600",
+      "priority": "critical",
+      "dueDate": "Apr 10",
+      "assignee": "Priya Nair"
+    },
+    {
+      "id": "ypa3",
+      "title": "Review and merge Cost Forecast UI PR #2847",
+      "driver": "Churn Rate",
+      "driverColorClass": "text-amber-600",
+      "priority": "high",
+      "dueDate": "Apr 7",
+      "assignee": "Yoshi Tamura"
+    },
+    {
+      "id": "ypa4",
+      "title": "Complete TAM assignment for top 20 AI lab accounts",
+      "driver": "Enterprise ARR",
+      "driverColorClass": "text-amber-600",
+      "priority": "high",
+      "dueDate": "Apr 15",
+      "assignee": "Yoshi Tamura"
+    }
+  ],
+  "experiments": [
+    {
+      "id": "yex1",
+      "type": "A/B",
+      "status": "running",
+      "title": "Helm Chart Library — AI Framework Coverage",
+      "metric": "CKS Adoption Rate",
+      "metricDelta": "+5pt (hypothesis)",
+      "confidence": 72,
+      "score": 65,
+      "daysLeft": 45,
+      "driver": "acquisition"
+    },
+    {
+      "id": "yex2",
+      "type": "Cohort",
+      "status": "running",
+      "title": "Reserved Capacity Churn Prevention",
+      "metric": "12-month Churn Rate",
+      "metricDelta": "-3pt (hypothesis)",
+      "confidence": 85,
+      "score": 78,
+      "daysLeft": 90,
+      "driver": "retention"
+    },
+    {
+      "id": "yex3",
+      "type": "A/B",
+      "status": "planned",
+      "title": "In-console Migration Wizard",
+      "metric": "Onboarding Completion Rate",
+      "metricDelta": "+15pt (hypothesis)",
+      "confidence": 88,
+      "score": 82,
+      "driver": "activation"
+    }
+  ]
+}

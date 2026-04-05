@@ -1,0 +1,67 @@
+[
+  {
+    "id": "yt",
+    "name": "Yoshi Tamura",
+    "nameEn": "Yoshi Tamura",
+    "role": "Principal Product Manager",
+    "avatar": "YT",
+    "color": "#0EA5E9",
+    "email": "yoshi.tamura@coreweave.com",
+    "department": "Product",
+    "actionsCount": 5,
+    "completedCount": 3,
+    "isAdmin": true
+  },
+  {
+    "id": "eng-lead",
+    "name": "Sarah Chen",
+    "nameEn": "Sarah Chen",
+    "role": "Engineering Lead — CKS",
+    "avatar": "SC",
+    "color": "#8B5CF6",
+    "email": "sarah.chen@coreweave.com",
+    "department": "Engineering",
+    "actionsCount": 8,
+    "completedCount": 5,
+    "isAdmin": false
+  },
+  {
+    "id": "cpo",
+    "name": "Marcus Webb",
+    "nameEn": "Marcus Webb",
+    "role": "Chief Product Officer",
+    "avatar": "MW",
+    "color": "#F59E0B",
+    "email": "marcus.webb@coreweave.com",
+    "department": "Product",
+    "actionsCount": 3,
+    "completedCount": 2,
+    "isAdmin": false
+  },
+  {
+    "id": "tam-1",
+    "name": "Priya Nair",
+    "nameEn": "Priya Nair",
+    "role": "Technical Account Manager",
+    "avatar": "PN",
+    "color": "#10B981",
+    "email": "priya.nair@coreweave.com",
+    "department": "Customer Success",
+    "actionsCount": 6,
+    "completedCount": 4,
+    "isAdmin": false
+  },
+  {
+    "id": "design-lead",
+    "name": "Jordan Park",
+    "nameEn": "Jordan Park",
+    "role": "Product Design Lead",
+    "avatar": "JP",
+    "color": "#EC4899",
+    "email": "jordan.park@coreweave.com",
+    "department": "Design",
+    "actionsCount": 4,
+    "completedCount": 3,
+    "isAdmin": false
+  }
+]

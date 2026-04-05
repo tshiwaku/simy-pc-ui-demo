@@ -1,0 +1,165 @@
+[
+  {
+    "id": "iss-1",
+    "title": "今期売上目標 5,000万円を達成できるか",
+    "status": "active",
+    "updatedAt": "本日",
+    "definition": "2026年3月末までに年間売上5,000万円を達成する。現状は3,820万円ペース（目標比76%）で推移しており、新規顧客開拓の加速と既存顧客の深耕が急務。",
+    "deadline": "2026年3月31日",
+    "doneState": [
+      { "condition": "月次売上", "metric": "≥ 500万円/月", "current": "382万円/月", "target": "500万円/月" },
+      { "condition": "新規顧客数", "metric": "≥ 12社/月", "current": "8社/月", "target": "12社/月" },
+      { "condition": "顧客継続率", "metric": "≥ 85%", "current": "78%", "target": "85%" }
+    ],
+    "hypotheses": [
+      {
+        "id": "h1",
+        "issue": "今期売上目標 5,000万円を達成できるか",
+        "hypothesis": "展示会出展で新規リードを月20件以上獲得できれば、成約率32%を維持しても月12社の新規獲得が可能",
+        "verification": "展示会1回あたりの獲得リード数と成約率の相関",
+        "method": "過去の展示会データと業界平均のリード獲得数を調査",
+        "responsibility": "AI",
+        "fact": "調査中：業界展示会の平均リード獲得数は30〜50件/回",
+        "decision": "継続：4月の展示会出展を確定し、事前集客施策を強化する",
+        "hvpAxis": "sq",
+        "verdict": "pending"
+      },
+      {
+        "id": "h2",
+        "issue": "今期売上目標 5,000万円を達成できるか",
+        "hypothesis": "解約リスク上位5社に代表が直接訪問することで、年間1,500万円相当の解約を防止できる",
+        "verification": "訪問後3ヶ月以内の継続率変化",
+        "method": "過去の代表訪問後の顧客継続率データを分析",
+        "responsibility": "人間",
+        "fact": "実行中：今月中に5社への訪問を計画",
+        "decision": "継続：訪問スケジュールを確定し、提案資料を準備する",
+        "hvpAxis": "ht",
+        "verdict": "pending"
+      },
+      {
+        "id": "h3",
+        "issue": "今期売上目標 5,000万円を達成できるか",
+        "hypothesis": "見積もり即日回答サービスを導入すれば、成約率が32%から40%以上に改善できる",
+        "verification": "見積もり回答時間と成約率の相関",
+        "method": "過去の商談データで回答時間と成約率を分析",
+        "responsibility": "AI",
+        "fact": "検証中：見積もりテンプレート整備で回答時間を3日→1日に短縮中",
+        "decision": "継続：テンプレート完成後に試験導入する",
+        "hvpAxis": "cr",
+        "verdict": "pending"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "ms1",
+        "label": "解約リスク顧客への代表訪問完了",
+        "unit": "1week",
+        "offset": 1,
+        "status": "in_progress",
+        "owner": "林 健二",
+        "dueLabel": "今週中",
+        "description": "解約リスク上位5社への代表直接訪問を完了し、継続意向を確認する",
+        "actions": [
+          { "id": "ms1-a1", "title": "訪問スケジュールの確定", "done": true, "owner": "人間" },
+          { "id": "ms1-a2", "title": "提案資料の準備", "done": false, "owner": "AI" },
+          { "id": "ms1-a3", "title": "5社への訪問実施", "done": false, "owner": "人間" }
+        ]
+      },
+      {
+        "id": "ms2",
+        "label": "見積もりテンプレート整備完了",
+        "unit": "1week",
+        "offset": 2,
+        "status": "upcoming",
+        "owner": "田中 勇気",
+        "dueLabel": "4月15日",
+        "description": "標準見積もりテンプレートを整備し、即日回答体制を構築する",
+        "actions": [
+          { "id": "ms2-a1", "title": "既存見積もりのパターン分析", "done": false, "owner": "AI" },
+          { "id": "ms2-a2", "title": "テンプレート作成", "done": false, "owner": "人間" },
+          { "id": "ms2-a3", "title": "営業チームへの展開", "done": false, "owner": "人間" }
+        ]
+      },
+      {
+        "id": "ms3",
+        "label": "展示会出展の計画確定",
+        "unit": "1week",
+        "offset": 3,
+        "status": "upcoming",
+        "owner": "林 健二",
+        "dueLabel": "4月末",
+        "description": "Q2〜Q3の展示会出展計画を確定し、新規リード獲得チャネルを確立する",
+        "actions": [
+          { "id": "ms3-a1", "title": "出展候補展示会のリストアップ", "done": false, "owner": "AI" },
+          { "id": "ms3-a2", "title": "費用対効果の試算", "done": false, "owner": "AI" },
+          { "id": "ms3-a3", "title": "出展申し込み", "done": false, "owner": "人間" }
+        ]
+      }
+    ],
+    "actions": [
+      { "id": "a1", "title": "新規取引先への提案書を作成する", "status": "your_turn", "category": "Sales", "updatedAt": "本日", "hvpAxis": "sq" },
+      { "id": "a7", "title": "主要顧客への定期訪問スケジュールを組む", "status": "your_turn", "category": "Sales", "updatedAt": "2日前", "hvpAxis": "ht" },
+      { "id": "a3", "title": "競合他社の価格調査レポートを収集する", "status": "ai_running", "category": "Sales", "updatedAt": "本日", "hvpAxis": "sq" }
+    ]
+  },
+  {
+    "id": "iss-2",
+    "title": "業務DX化で週10時間以上の工数を削減できるか",
+    "status": "active",
+    "updatedAt": "3日前",
+    "definition": "在庫管理・経理・顧客管理の主要3業務をクラウドシステムに移行し、週あたり10時間以上の業務工数を削減する。現状は手作業による非効率が多く、機会損失も発生している。",
+    "deadline": "2026年12月31日",
+    "doneState": [
+      { "condition": "在庫管理システム移行", "metric": "完了", "current": "計画策定中", "target": "移行完了" },
+      { "condition": "月次決算作成時間", "metric": "≤ 8時間", "current": "16時間", "target": "8時間" },
+      { "condition": "週次業務削減時間", "metric": "≥ 10時間", "current": "3.5時間削減", "target": "10時間削減" }
+    ],
+    "hypotheses": [
+      {
+        "id": "h4",
+        "issue": "業務DX化で週10時間以上の工数を削減できるか",
+        "hypothesis": "在庫管理をクラウドシステムに移行すれば、週4時間以上の確認作業を自動化できる",
+        "verification": "移行後3ヶ月間の在庫確認作業時間の変化",
+        "method": "現状の作業ログを記録し、移行後と比較",
+        "responsibility": "AI",
+        "fact": "調査中：現状の在庫確認作業は週4〜6時間",
+        "decision": "継続：移行計画を4月中に確定する",
+        "hvpAxis": "sq",
+        "verdict": "pending"
+      },
+      {
+        "id": "h5",
+        "issue": "業務DX化で週10時間以上の工数を削減できるか",
+        "hypothesis": "請求書発行の自動化で月次決算作成時間を50%削減できる",
+        "verification": "自動化前後の月次決算作成時間の比較",
+        "method": "経理担当の作業時間を計測",
+        "responsibility": "人間",
+        "fact": "実行中：請求書テンプレートの自動化で35%削減を達成",
+        "decision": "継続：残り15%の削減に向けて追加自動化を検討",
+        "hvpAxis": "cr",
+        "verdict": "pending"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "ms4",
+        "label": "在庫管理システム移行計画の確定",
+        "unit": "1week",
+        "offset": 2,
+        "status": "in_progress",
+        "owner": "藤井 遼",
+        "dueLabel": "4月15日",
+        "description": "クラウド在庫管理システムの選定と移行スケジュールを確定する",
+        "actions": [
+          { "id": "ms4-a1", "title": "システム候補の比較検討", "done": true, "owner": "AI" },
+          { "id": "ms4-a2", "title": "移行計画書の作成", "done": false, "owner": "人間" },
+          { "id": "ms4-a3", "title": "代表への承認申請", "done": false, "owner": "人間" }
+        ]
+      }
+    ],
+    "actions": [
+      { "id": "a4", "title": "在庫管理システムの移行計画を策定する", "status": "pending_review", "category": "Engineering", "updatedAt": "4日前", "hvpAxis": "sq" },
+      { "id": "a8", "title": "社内Wi-Fi環境のセキュリティ設定を見直す", "status": "pending_review", "category": "Engineering", "updatedAt": "12日前", "hvpAxis": "cr" }
+    ]
+  }
+]

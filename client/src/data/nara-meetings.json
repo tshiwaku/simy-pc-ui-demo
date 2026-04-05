@@ -1,0 +1,212 @@
+[
+  {
+    "id": "nm1",
+    "title": "第4期中期計画 進捗管理会議（4月）",
+    "date": "2026-04-10",
+    "time": "14:00",
+    "duration": "120分",
+    "participantIds": ["mk_nara", "hs_nara", "ym_nara", "kn_nara", "to_nara"],
+    "agenda": [
+      "第4期中期計画 R7年度第1四半期進捗確認",
+      "病床稼働率・救急受入率の現状と対策",
+      "経常収支比率の見通しと財務改善策",
+      "医師働き方改革の進捗確認",
+      "次期アクション確認"
+    ],
+    "status": "upcoming",
+    "location": "理事会室（本館3F）",
+    "actions": ["na1", "na2", "na3"],
+    "relatedMeetings": [
+      { "id": "nm3", "title": "病院経営委員会（月次）", "date": "2026-04-08" }
+    ],
+    "issues": [
+      {
+        "id": "ni_m1",
+        "title": "病床稼働率76%→90%達成の遅れ（現状78%）",
+        "source": "病院経営委員会（月次）",
+        "sourceDate": "4月8日",
+        "status": "open",
+        "priority": "high",
+        "description": "4月第1週時点で78%。入院受入プロセスの改善が急務。特に外科系の稼働率が低迷している。"
+      },
+      {
+        "id": "ni_m2",
+        "title": "経常収支比率97.1%→100%達成に向けた未収金回収の遅延",
+        "source": "財務部月次報告",
+        "sourceDate": "4月5日",
+        "status": "open",
+        "priority": "high",
+        "description": "診療及び学生納付金等に係る未収金の発生防止・早期回収施策が計画より遅延。3月末時点で前年比+2.3%増加。"
+      }
+    ],
+    "decisions": [
+      {
+        "id": "nd1",
+        "title": "病床稼働率改善に向けた診療科別アクションプランの承認",
+        "status": "must-decide",
+        "dueBy": "4月10日",
+        "owner": "Hiroshi Saito",
+        "description": "各診療科の稼働率改善計画を本会議で承認し、4月中旬から実行開始。"
+      },
+      {
+        "id": "nd2",
+        "title": "未収金回収強化策の承認（専任担当者配置）",
+        "status": "must-decide",
+        "dueBy": "4月10日",
+        "owner": "Takashi Okamoto",
+        "description": "未収金回収専任担当者の配置と督促プロセスの見直しを承認する。"
+      },
+      {
+        "id": "nd3",
+        "title": "医療DX（新総合医療情報システム）ベンダー選定の承認",
+        "status": "pending",
+        "dueBy": "4月24日",
+        "owner": "Yuki Mori",
+        "description": "3社の提案書を精査中。4月24日の次回会議で最終決定予定。"
+      }
+    ],
+    "notes": [
+      {
+        "id": "nn1",
+        "content": "財務部より：3月末の経常収支比率は97.4%。前年同期比+0.3pp。後発医薬品使用率は83.2%で目標80%以上を維持。",
+        "author": "Masato Kasahara",
+        "timestamp": "4月5日 09:00"
+      }
+    ]
+  },
+  {
+    "id": "nm2",
+    "title": "医師働き方改革推進委員会",
+    "date": "2026-04-07",
+    "time": "16:00",
+    "duration": "90分",
+    "participantIds": ["mk_nara", "hs_nara", "ym_nara"],
+    "agenda": [
+      "超過勤務時間の現状確認（診療科別）",
+      "タスクシフト・シェア推進の進捗",
+      "医師事務作業補助者増員計画の確認",
+      "AI活用による業務効率化の検討"
+    ],
+    "status": "upcoming",
+    "location": "会議室B（管理棟2F）",
+    "actions": ["na6"],
+    "relatedMeetings": [],
+    "issues": [
+      {
+        "id": "ni_m3",
+        "title": "救急科・外科の超過勤務時間が計画を上回っている",
+        "source": "勤務管理システム月次レポート",
+        "sourceDate": "4月1日",
+        "status": "open",
+        "priority": "high",
+        "description": "救急科の3月超過勤務時間は月平均158時間（年換算1,896時間）で現状の1,809時間を上回っている。タスクシフト加速が急務。"
+      }
+    ],
+    "decisions": [
+      {
+        "id": "nd4",
+        "title": "医師事務作業補助者 5名追加採用の承認",
+        "status": "must-decide",
+        "dueBy": "4月7日",
+        "owner": "Masato Kasahara",
+        "description": "救急科・外科を優先に医師事務作業補助者5名の追加採用を承認する。"
+      }
+    ],
+    "notes": [
+      {
+        "id": "nn2",
+        "content": "Manusによる業務分析結果：医師の業務のうち約23%がタスクシフト可能と推定。特に書類作成・データ入力・患者説明補助が対象。",
+        "author": "Masato Kasahara",
+        "timestamp": "4月6日 14:00"
+      }
+    ]
+  },
+  {
+    "id": "nm3",
+    "title": "病院経営委員会（月次）",
+    "date": "2026-04-08",
+    "time": "10:00",
+    "duration": "90分",
+    "participantIds": ["mk_nara", "hs_nara", "to_nara"],
+    "agenda": [
+      "3月診療実績の確認",
+      "病床稼働率・手術件数の分析",
+      "医業収支比率の確認",
+      "4月の重点施策の確認"
+    ],
+    "status": "completed",
+    "location": "院長室（本館4F）",
+    "actions": ["na1", "na3"],
+    "relatedMeetings": [],
+    "summary": "3月病床稼働率78%（目標90%に対し未達）。手術件数は8,180件（年換算）で目標8,300件に向け順調。医業収支比率94.5%（目標95%以上に対し要注意）。未収金回収の遅延が財務に影響しており、4月中に専任担当者配置を決定予定。",
+    "issues": [
+      {
+        "id": "ni_m4",
+        "title": "手術件数8,142件→8,300件（R7目標）達成に向けた手術室稼働率の改善",
+        "source": "病院経営委員会（月次）",
+        "sourceDate": "4月8日",
+        "status": "open",
+        "priority": "medium",
+        "description": "手術室の稼働率が平日午後に低下している。スケジュール最適化と緊急手術への対応強化が必要。"
+      }
+    ],
+    "decisions": [
+      {
+        "id": "nd5",
+        "title": "3月診療実績報告の承認",
+        "status": "decided",
+        "decidedAt": "4月8日",
+        "owner": "Hiroshi Saito",
+        "description": "承認済み。4月の重点施策として病床稼働率改善を最優先に設定。"
+      }
+    ],
+    "notes": [
+      {
+        "id": "nn3",
+        "content": "病院長より：外科系の病床稼働率が特に低い（72%）。術後回復病床の有効活用と退院調整の迅速化が必要。",
+        "author": "Masato Kasahara",
+        "timestamp": "4月8日 10:45"
+      }
+    ]
+  },
+  {
+    "id": "nm4",
+    "title": "教育研究推進委員会（四半期）",
+    "date": "2026-04-15",
+    "time": "13:00",
+    "duration": "120分",
+    "participantIds": ["mk_nara", "kn_nara"],
+    "agenda": [
+      "県費奨学生の動向確認（R7年度入学者）",
+      "臨床研修医マッチング率の確認",
+      "科研費申請状況の確認",
+      "奈良先端大との連携進捗"
+    ],
+    "status": "upcoming",
+    "location": "学長室会議室（管理棟5F）",
+    "actions": ["na5", "na8"],
+    "relatedMeetings": [],
+    "issues": [
+      {
+        "id": "ni_m5",
+        "title": "臨床研修医マッチング率93%→100%達成に向けた取組の加速",
+        "source": "教育研究推進委員会（四半期）",
+        "sourceDate": "1月15日",
+        "status": "open",
+        "priority": "medium",
+        "description": "前年度マッチング率93%。R7目標100%達成に向け、研修プログラムの魅力向上と情報発信強化が必要。"
+      }
+    ],
+    "decisions": [
+      {
+        "id": "nd6",
+        "title": "県費奨学生総会（R7年度）の開催計画承認",
+        "status": "must-decide",
+        "dueBy": "4月15日",
+        "owner": "Keiko Nakamura",
+        "description": "参加者数目標45人以上を達成するための開催計画を承認する。"
+      }
+    ],
+    "notes": []
+  }
+]

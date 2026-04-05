@@ -1,0 +1,63 @@
+[
+  {
+    "id": "mk_nara",
+    "name": "Masato Kasahara",
+    "nameEn": "Masato Kasahara",
+    "role": "経営責任者（副理事長）",
+    "avatar": "MK",
+    "color": "#1D4ED8",
+    "email": "kasahara@naramed-u.ac.jp",
+    "department": "法人経営",
+    "actionsCount": 14,
+    "completedCount": 6,
+    "isAdmin": true
+  },
+  {
+    "id": "hs_nara",
+    "name": "Hiroshi Saito",
+    "nameEn": "Hiroshi Saito",
+    "role": "病院長",
+    "avatar": "HS",
+    "color": "#059669",
+    "email": "saito@naramed-u.ac.jp",
+    "department": "診療",
+    "actionsCount": 10,
+    "completedCount": 5
+  },
+  {
+    "id": "ym_nara",
+    "name": "Yuki Mori",
+    "nameEn": "Yuki Mori",
+    "role": "事務局長",
+    "avatar": "YM",
+    "color": "#D97706",
+    "email": "mori@naramed-u.ac.jp",
+    "department": "法人運営",
+    "actionsCount": 8,
+    "completedCount": 4
+  },
+  {
+    "id": "kn_nara",
+    "name": "Keiko Nakamura",
+    "nameEn": "Keiko Nakamura",
+    "role": "教育研究部長",
+    "avatar": "KN",
+    "color": "#7C3AED",
+    "email": "nakamura@naramed-u.ac.jp",
+    "department": "教育・研究",
+    "actionsCount": 9,
+    "completedCount": 3
+  },
+  {
+    "id": "to_nara",
+    "name": "Takashi Okamoto",
+    "nameEn": "Takashi Okamoto",
+    "role": "財務部長",
+    "avatar": "TO",
+    "color": "#DC2626",
+    "email": "okamoto@naramed-u.ac.jp",
+    "department": "財務",
+    "actionsCount": 6,
+    "completedCount": 4
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "ts",
+    "name": "Tetsuo Shiwaku",
+    "nameEn": "Tetsuo Shiwaku",
+    "role": "Product Manager",
+    "avatar": "TS",
+    "color": "#4F46E5",
+    "email": "tetsuo@simy.ai",
+    "department": "Engineering",
+    "actionsCount": 12,
+    "completedCount": 8,
+    "isAdmin": true
+  },
+  {
+    "id": "mk",
+    "name": "Kenichi Matsumoto",
+    "nameEn": "Kenichi Matsumoto",
+    "role": "Engineering Lead",
+    "avatar": "KM",
+    "color": "#059669",
+    "email": "kenichi@simy.ai",
+    "department": "Engineering",
+    "actionsCount": 9,
+    "completedCount": 7
+  },
+  {
+    "id": "ay",
+    "name": "Akiko Yamada",
+    "nameEn": "Akiko Yamada",
+    "role": "Sales Manager",
+    "avatar": "AY",
+    "color": "#D97706",
+    "email": "akiko@simy.ai",
+    "department": "Sales",
+    "actionsCount": 15,
+    "completedCount": 11
+  },
+  {
+    "id": "rn",
+    "name": "Ryo Nakamura",
+    "nameEn": "Ryo Nakamura",
+    "role": "Marketing Director",
+    "avatar": "RN",
+    "color": "#7C3AED",
+    "email": "ryo@simy.ai",
+    "department": "Marketing",
+    "actionsCount": 7,
+    "completedCount": 5
+  },
+  {
+    "id": "hk",
+    "name": "Hiroshi Kimura",
+    "nameEn": "Hiroshi Kimura",
+    "role": "CFO",
+    "avatar": "HK",
+    "color": "#DC2626",
+    "email": "hiroshi@simy.ai",
+    "department": "Finance",
+    "actionsCount": 4,
+    "completedCount": 3
+  }
+]

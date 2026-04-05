@@ -1,0 +1,232 @@
+[
+  {
+    "id": "m1",
+    "title": "Q2 Strategy Meeting",
+    "date": "2026-03-28",
+    "time": "10:00",
+    "duration": "90 min",
+    "participantIds": ["ts", "ay", "hk"],
+    "agenda": [
+      "Q1 retrospective and issue review",
+      "Q2 goal setting and priority confirmation",
+      "Budget allocation discussion",
+      "Next action confirmation"
+    ],
+    "status": "upcoming",
+    "location": "Zoom / Meeting Room A",
+    "actions": ["a2", "a6"],
+    "relatedMeetings": [
+      { "id": "m4", "title": "Executive Meeting — Monthly Report", "date": "2026-03-25" }
+    ],
+    "issues": [
+      {
+        "id": "i1",
+        "title": "Q1 Sales Target Missed (-15%)",
+        "source": "Executive Meeting — Monthly Report",
+        "sourceDate": "Mar 25",
+        "status": "open",
+        "priority": "high",
+        "description": "Discussed at March executive meeting. Root cause analysis complete, but Q2 countermeasures not yet decided."
+      },
+      {
+        "id": "i2",
+        "title": "Review Enterprise Pricing Strategy",
+        "source": "Executive Meeting — Monthly Report",
+        "sourceDate": "Mar 25",
+        "status": "open",
+        "priority": "high",
+        "description": "Price gap with competitors has become apparent. Need to decide on policy at this meeting."
+      },
+      {
+        "id": "i3",
+        "title": "Marketing Budget Reallocation",
+        "source": "Weekly Dev Standup",
+        "sourceDate": "Mar 27",
+        "status": "deferred",
+        "priority": "medium",
+        "description": "Ongoing discussion needed on allocation between digital ads vs content marketing."
+      }
+    ],
+    "decisions": [
+      {
+        "id": "d1",
+        "title": "Set Q2 Sales KPI Targets",
+        "status": "must-decide",
+        "dueBy": "Mar 28",
+        "owner": "Akiko Yamada",
+        "description": "Finalize realistic Q2 targets based on Q1 shortfall at this meeting."
+      },
+      {
+        "id": "d2",
+        "title": "Enterprise Plan Price Revision",
+        "status": "must-decide",
+        "dueBy": "Mar 28",
+        "owner": "Hiroshi Kimura",
+        "description": "Approve or reject new pricing proposal based on competitive analysis."
+      },
+      {
+        "id": "d3",
+        "title": "Q2 Marketing Budget Approval",
+        "status": "pending",
+        "dueBy": "Apr 3",
+        "owner": "Ryo Nakamura",
+        "description": "Detailed budget proposal to be submitted next time. Only confirming direction this time."
+      },
+      {
+        "id": "d4",
+        "title": "Q1 Financial Report Approval",
+        "status": "decided",
+        "decidedAt": "Mar 25",
+        "owner": "Hiroshi Kimura",
+        "description": "Approved at executive meeting."
+      }
+    ],
+    "notes": [
+      {
+        "id": "n1",
+        "content": "Pre-shared by Yamada: 3 major Q1 customers are holding off on renewal. Reason: declining price competitiveness.",
+        "author": "Tetsuo Shiwaku",
+        "timestamp": "Mar 27 18:00"
+      }
+    ]
+  },
+  {
+    "id": "m2",
+    "title": "Weekly Dev Standup",
+    "date": "2026-03-27",
+    "time": "09:30",
+    "duration": "30 min",
+    "participantIds": ["ts", "mk"],
+    "agenda": [
+      "Progress sharing",
+      "Blocker check",
+      "Today task review"
+    ],
+    "status": "completed",
+    "location": "Slack Huddle",
+    "actions": ["a1", "a3"],
+    "relatedMeetings": [],
+    "issues": [
+      {
+        "id": "i4",
+        "title": "Homepage redesign review stalled for 3 days",
+        "source": "Weekly Dev Standup",
+        "sourceDate": "Mar 24",
+        "status": "open",
+        "priority": "medium",
+        "description": "Stalled because design review approver is absent. Needs resolution this week."
+      }
+    ],
+    "decisions": [
+      {
+        "id": "d5",
+        "title": "Finalize Onboarding flow Acceptance Criteria this week",
+        "status": "decided",
+        "decidedAt": "Mar 27",
+        "owner": "Kenichi Matsumoto",
+        "description": "Agreed by Shiwaku and Matsumoto. Document to be completed by this Friday."
+      }
+    ],
+    "summary": "Key progress: Homepage redesign still pending review. Onboarding flow AC definition to be completed this week. CI/CD pipeline running normally.",
+    "notes": [
+      {
+        "id": "n2",
+        "content": "Homepage redesign blocker: Will confirm with design review approver (Yamada) today.",
+        "author": "Tetsuo Shiwaku",
+        "timestamp": "Mar 27 09:45"
+      }
+    ]
+  },
+  {
+    "id": "m3",
+    "title": "Marketing Monthly Review",
+    "date": "2026-04-01",
+    "time": "14:00",
+    "duration": "60 min",
+    "participantIds": ["ts", "rn"],
+    "agenda": [
+      "March KPI retrospective",
+      "PR strategy update",
+      "Content calendar review"
+    ],
+    "status": "upcoming",
+    "location": "Google Meet",
+    "actions": ["a5"],
+    "relatedMeetings": [
+      { "id": "m4", "title": "Executive Meeting — Monthly Report", "date": "2026-03-25" }
+    ],
+    "issues": [
+      {
+        "id": "i5",
+        "title": "SNS engagement rate at 60% of target",
+        "source": "Executive Meeting — Monthly Report",
+        "sourceDate": "Mar 25",
+        "status": "open",
+        "priority": "medium",
+        "description": "Content strategy needs review. Planning to use Claude Coworker analysis report."
+      }
+    ],
+    "decisions": [
+      {
+        "id": "d6",
+        "title": "April Content Calendar Approval",
+        "status": "must-decide",
+        "dueBy": "Apr 1",
+        "owner": "Ryo Nakamura",
+        "description": "Finalize April content plan."
+      }
+    ]
+  },
+  {
+    "id": "m4",
+    "title": "Executive Meeting — Monthly Report",
+    "date": "2026-03-25",
+    "time": "15:00",
+    "duration": "120 min",
+    "participantIds": ["ts", "mk", "ay", "rn", "hk"],
+    "agenda": [
+      "Financial report",
+      "Department progress reports",
+      "Key decision items",
+      "Next month planning"
+    ],
+    "status": "completed",
+    "location": "HQ Meeting Room B",
+    "actions": ["a6"],
+    "relatedMeetings": [],
+    "issues": [],
+    "decisions": [
+      {
+        "id": "d7",
+        "title": "Q1 Financial Report Approval",
+        "status": "decided",
+        "decidedAt": "Mar 25",
+        "owner": "Hiroshi Kimura",
+        "description": "Approved unanimously."
+      },
+      {
+        "id": "d8",
+        "title": "Hiring Plan Approval (2 Engineers)",
+        "status": "decided",
+        "decidedAt": "Mar 25",
+        "owner": "Tetsuo Shiwaku",
+        "description": "Approved to hire 2 people in Q2. Matsumoto to handle JD creation."
+      }
+    ],
+    "summary": "Q1 financial report approved. Sales target missed but engineering and marketing largely on track. Confirmed sales reinforcement and engineer hiring as Q2 priorities.",
+    "notes": [
+      {
+        "id": "n3",
+        "content": "From CFO Kimura: Q1 profit margin +3% YoY. However, sales costs exceeded budget by 8%.",
+        "author": "Tetsuo Shiwaku",
+        "timestamp": "Mar 25 15:30"
+      },
+      {
+        "id": "n4",
+        "content": "From Sales Manager Yamada: Main cause of Q1 miss was losing 2 large deals. Q2 strategy will focus on SMB.",
+        "author": "Tetsuo Shiwaku",
+        "timestamp": "Mar 25 16:00"
+      }
+    ]
+  }
+]

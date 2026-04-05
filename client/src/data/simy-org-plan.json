@@ -1,0 +1,236 @@
+{
+  "midTermPlan": {
+    "id": "mtp1",
+    "title": "Mid-Term Business Plan 2025-2027",
+    "period": "April 2025 – March 2027",
+    "vision": "Accelerate decision-making in every organization through AI-powered action management",
+    "status": "on-track",
+    "overallProgress": 42,
+    "milestones": [
+      {
+        "id": "ms1",
+        "title": "Product v2.0 Release",
+        "description": "Major version release with fully enhanced AI features. Official launch of agent integration and digital twin functionality.",
+        "targetDate": "2026-06-30",
+        "status": "on-track",
+        "progress": 65,
+        "owner": "Tetsuo Shiwaku",
+        "category": "Product"
+      },
+      {
+        "id": "ms2",
+        "title": "Reach 50 Enterprise Customers",
+        "description": "Expand enterprise plan contracts to 50 companies. Primary targets: manufacturing, finance, and IT industries.",
+        "targetDate": "2026-09-30",
+        "status": "at-risk",
+        "progress": 28,
+        "owner": "Akiko Yamada",
+        "category": "Sales"
+      },
+      {
+        "id": "ms3",
+        "title": "Achieve ARR ¥300M",
+        "description": "Achieve annual recurring revenue of ¥300M and begin preparations for Series B round.",
+        "targetDate": "2027-03-31",
+        "status": "on-track",
+        "progress": 35,
+        "owner": "Hiroshi Kimura",
+        "category": "Finance"
+      },
+      {
+        "id": "ms4",
+        "title": "Global Expansion (English Release)",
+        "description": "Complete English localization of product and enter North America and Southeast Asia markets.",
+        "targetDate": "2026-12-31",
+        "status": "not-started",
+        "progress": 0,
+        "owner": "Tetsuo Shiwaku",
+        "category": "Global"
+      },
+      {
+        "id": "ms5",
+        "title": "Build 30-Person Team",
+        "description": "Strengthen hiring focused on engineers, sales, and CS to build a 30-person team.",
+        "targetDate": "2026-12-31",
+        "status": "on-track",
+        "progress": 50,
+        "owner": "Tetsuo Shiwaku",
+        "category": "Organization"
+      }
+    ]
+  },
+  "currentOKRs": [
+    {
+      "id": "okr1",
+      "title": "Significantly Improve Product Quality and Usability",
+      "description": "Build a product users want to use every day, improving NPS and retention rate",
+      "progress": 58,
+      "status": "on-track",
+      "quarter": "Q1 FY2026",
+      "keyResults": [
+        {
+          "id": "kr1",
+          "title": "Improve NPS Score from 40 to 60",
+          "progress": 65,
+          "target": "60",
+          "current": "53",
+          "unit": "pt",
+          "status": "on-track",
+          "owner": "Tetsuo Shiwaku"
+        },
+        {
+          "id": "kr2",
+          "title": "Improve 30-Day Retention from 55% to 70%",
+          "progress": 50,
+          "target": "70%",
+          "current": "62%",
+          "unit": "",
+          "status": "on-track",
+          "owner": "Kenichi Matsumoto"
+        },
+        {
+          "id": "kr3",
+          "title": "Maintain Zero Critical Bugs",
+          "progress": 80,
+          "target": "0",
+          "current": "2",
+          "unit": "",
+          "status": "at-risk",
+          "owner": "Kenichi Matsumoto"
+        }
+      ]
+    },
+    {
+      "id": "okr2",
+      "title": "Expand Sales Pipeline and Achieve Q2 Revenue Target",
+      "description": "Strengthen new customer acquisition and upsell to accelerate ARR growth",
+      "progress": 32,
+      "status": "at-risk",
+      "quarter": "Q1 FY2026",
+      "keyResults": [
+        {
+          "id": "kr4",
+          "title": "Achieve New MRR ¥8M",
+          "progress": 38,
+          "target": "¥8M",
+          "current": "¥3M",
+          "unit": "",
+          "status": "at-risk",
+          "owner": "Akiko Yamada"
+        },
+        {
+          "id": "kr5",
+          "title": "20 Enterprise Deals",
+          "progress": 45,
+          "target": "20",
+          "current": "9",
+          "unit": "",
+          "status": "at-risk",
+          "owner": "Akiko Yamada"
+        },
+        {
+          "id": "kr6",
+          "title": "15% Upsell Rate for Existing Customers",
+          "progress": 60,
+          "target": "15%",
+          "current": "9%",
+          "unit": "",
+          "status": "on-track",
+          "owner": "Akiko Yamada"
+        }
+      ]
+    },
+    {
+      "id": "okr3",
+      "title": "Increase Brand Awareness and Grow Inbound Leads",
+      "description": "Strengthen content marketing and PR to achieve organic growth",
+      "progress": 70,
+      "status": "on-track",
+      "quarter": "Q1 FY2026",
+      "keyResults": [
+        {
+          "id": "kr7",
+          "title": "Monthly Organic Traffic: 5,000 Sessions",
+          "progress": 80,
+          "target": "5,000",
+          "current": "4,200",
+          "unit": "sessions",
+          "status": "on-track",
+          "owner": "Ryo Nakamura"
+        },
+        {
+          "id": "kr8",
+          "title": "SNS Followers: 10,000",
+          "progress": 60,
+          "target": "10,000",
+          "current": "6,100",
+          "unit": "followers",
+          "status": "on-track",
+          "owner": "Ryo Nakamura"
+        }
+      ]
+    }
+  ],
+  "billingPlans": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "price": 0,
+      "currency": "JPY",
+      "period": "month",
+      "features": ["Up to 5 members", "Basic Action management", "Email support"],
+      "isCurrent": false
+    },
+    {
+      "id": "team",
+      "name": "Team",
+      "price": 9800,
+      "currency": "JPY",
+      "period": "month",
+      "features": ["Up to 20 members", "AI agent integration", "Digital twin", "Priority support", "Custom categories"],
+      "isCurrent": true
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "price": 0,
+      "currency": "JPY",
+      "period": "month",
+      "features": ["Unlimited members", "All features available", "SSO/SAML support", "SLA guarantee", "Dedicated CSM", "Custom integrations"],
+      "isCurrent": false
+    }
+  ],
+  "invoices": [
+    { "id": "inv001", "date": "2026-03-01", "amount": 9800, "currency": "JPY", "status": "paid", "description": "Team Plan — March 2026" },
+    { "id": "inv002", "date": "2026-02-01", "amount": 9800, "currency": "JPY", "status": "paid", "description": "Team Plan — February 2026" },
+    { "id": "inv003", "date": "2026-01-01", "amount": 9800, "currency": "JPY", "status": "paid", "description": "Team Plan — January 2026" },
+    { "id": "inv004", "date": "2025-12-01", "amount": 9800, "currency": "JPY", "status": "paid", "description": "Team Plan — December 2025" }
+  ],
+  "pendingInvites": [
+    { "id": "pi1", "email": "sato@example.com", "role": "member", "invitedAt": "2026-03-26", "invitedBy": "Tetsuo Shiwaku" },
+    { "id": "pi2", "email": "tanaka@example.com", "role": "viewer", "invitedAt": "2026-03-25", "invitedBy": "Tetsuo Shiwaku" }
+  ],
+  "digitalTwinData": {
+    "userId": "ts",
+    "summary": {
+      "totalActions": 12,
+      "pendingActions": 3,
+      "aiRunningActions": 2,
+      "completedThisWeek": 4,
+      "teamCollaborations": 8
+    },
+    "recentActivity": [
+      { "type": "action_created", "description": "Created Q2 sales strategy presentation", "time": "30 min ago" },
+      { "type": "agent_completed", "description": "Manus completed Vimeo research", "time": "2 hours ago" },
+      { "type": "meeting_completed", "description": "Weekly standup completed", "time": "Today 09:30" },
+      { "type": "action_updated", "description": "Updated status of Homepage design", "time": "Yesterday 16:45" },
+      { "type": "member_added", "description": "Added Akiko Yamada to Q2 presentation", "time": "Yesterday 14:00" }
+    ],
+    "skills": [
+      { "name": "Product Strategy", "level": 92 },
+      { "name": "Team Leadership", "level": 85 },
+      { "name": "Data Analysis", "level": 78 },
+      { "name": "Stakeholder Management", "level": 88 }
+    ]
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "domains": [
+    {
+      "id": "revenue",
+      "label": "売上・利益",
+      "iconKey": "TrendingUp",
+      "color": "#059669",
+      "bgColor": "bg-emerald-50",
+      "borderColor": "border-emerald-200",
+      "trend": "up",
+      "trendValue": "+8.2%",
+      "quarterlyData": [29, 31, 35, 38],
+      "riskLevel": "medium",
+      "strategicWeight": 10,
+      "weeklyDelta": {
+        "company": 2.1,
+        "dept": 1.5,
+        "team": 0.8,
+        "personal": 1.2
+      },
+      "companyOKR": {
+        "id": "c1",
+        "title": "今期売上目標 5,000万円を達成する",
+        "progress": 76
+      },
+      "deptOKR": {
+        "id": "d1",
+        "title": "新規顧客を月8社以上獲得する",
+        "progress": 67
+      },
+      "teamOKR": {
+        "id": "t1",
+        "title": "既存顧客への追加提案を月10件以上実施する",
+        "progress": 60
+      },
+      "personalOKR": {
+        "id": "p1",
+        "title": "解約リスク上位5社への代表直接訪問を完了する",
+        "progress": 20
+      },
+      "keyResults": [
+        {
+          "title": "月次売上 5,000万円達成",
+          "current": "3,820万円",
+          "target": "5,000万円",
+          "progress": 76,
+          "growth": {
+            "threeMonths": 8.2,
+            "oneMonth": 5.4,
+            "twoWeeks": 2.1,
+            "oneWeek": 1.8
+          },
+          "velocityData": {
+            "weeklyCount": [28, 30, 31, 33, 35, 36, 37, 38, 38],
+            "labels": ["12W前", "10W前", "8W前", "6W前", "4W前", "3W前", "2W前", "1W前", "今週"]
+          },
+          "actions": [
+            {
+              "title": "新規取引先への提案書を作成する",
+              "owner": "林 健二",
+              "status": "in-progress",
+              "progress": 40,
+              "captures": [
+                {
+                  "source": "email",
+                  "actor": "林 健二",
+                  "message": "マルタ工業への提案書ドラフト作成中。競合比較表を追加予定。",
+                  "timestamp": "本日",
+                  "status": "in-progress"
+                }
+              ]
+            },
+            {
+              "title": "競合他社の価格調査レポートを収集する",
+              "owner": "田中 勇気",
+              "status": "in-progress",
+              "progress": 60,
+              "captures": [
+                {
+                  "source": "slack",
+                  "actor": "Manus AI",
+                  "message": "競合A・B・C の価格情報収集完了。D・E を調査中。",
+                  "timestamp": "本日",
+                  "status": "in-progress"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "customer",
+      "label": "顧客維持",
+      "iconKey": "Users",
+      "color": "#0EA5E9",
+      "bgColor": "bg-sky-50",
+      "borderColor": "border-sky-200",
+      "trend": "down",
+      "trendValue": "-2.1pp",
+      "quarterlyData": [82, 81, 80, 78],
+      "riskLevel": "high",
+      "strategicWeight": 9,
+      "weeklyDelta": {
+        "company": -1.2,
+        "dept": -0.8,
+        "team": -0.5,
+        "personal": -1.5
+      },
+      "companyOKR": {
+        "id": "c2",
+        "title": "顧客継続率を85%以上に改善する",
+        "progress": 92
+      },
+      "deptOKR": {
+        "id": "d2",
+        "title": "解約リスク顧客への定期訪問を月2回以上実施する",
+        "progress": 50
+      },
+      "teamOKR": {
+        "id": "t2",
+        "title": "顧客満足度調査を四半期ごとに実施する",
+        "progress": 30
+      },
+      "personalOKR": {
+        "id": "p2",
+        "title": "解約リスク上位5社への代表直接訪問を今月中に完了する",
+        "progress": 20
+      },
+      "keyResults": [
+        {
+          "title": "顧客継続率 85%達成",
+          "current": "78%",
+          "target": "85%",
+          "progress": 92,
+          "growth": {
+            "threeMonths": -1.5,
+            "oneMonth": -0.8,
+            "twoWeeks": -0.3,
+            "oneWeek": -0.5
+          },
+          "velocityData": {
+            "weeklyCount": [84, 83, 83, 82, 81, 80, 79, 79, 78],
+            "labels": ["12W前", "10W前", "8W前", "6W前", "4W前", "3W前", "2W前", "1W前", "今週"]
+          },
+          "actions": [
+            {
+              "title": "主要顧客への定期訪問スケジュールを組む",
+              "owner": "林 健二",
+              "status": "in-progress",
+              "progress": 30,
+              "captures": [
+                {
+                  "source": "email",
+                  "actor": "林 健二",
+                  "message": "上位10社への訪問計画を策定中。4月中に5社への訪問を確定。",
+                  "timestamp": "2日前",
+                  "status": "in-progress"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operations",
+      "label": "業務効率化",
+      "iconKey": "Zap",
+      "color": "#10B981",
+      "bgColor": "bg-emerald-50",
+      "borderColor": "border-emerald-200",
+      "trend": "up",
+      "trendValue": "+35%削減",
+      "quarterlyData": [10, 20, 35, 45],
+      "riskLevel": "low",
+      "strategicWeight": 7,
+      "weeklyDelta": {
+        "company": 3.5,
+        "dept": 2.8,
+        "team": 4.1,
+        "personal": 2.2
+      },
+      "companyOKR": {
+        "id": "c3",
+        "title": "業務DX化で週10時間以上の工数を削減する",
+        "progress": 45
+      },
+      "deptOKR": {
+        "id": "d3",
+        "title": "在庫管理システムの移行を完了する",
+        "progress": 20
+      },
+      "teamOKR": {
+        "id": "t3",
+        "title": "月次決算作成時間を50%削減する",
+        "progress": 70
+      },
+      "personalOKR": {
+        "id": "p3",
+        "title": "在庫管理システム移行計画を4月中に承認する",
+        "progress": 25
+      },
+      "keyResults": [
+        {
+          "title": "週次業務削減時間 10時間達成",
+          "current": "3.5時間削減",
+          "target": "10時間削減",
+          "progress": 35,
+          "growth": {
+            "threeMonths": 10,
+            "oneMonth": 8,
+            "twoWeeks": 5,
+            "oneWeek": 3
+          },
+          "velocityData": {
+            "weeklyCount": [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.2, 3.5],
+            "labels": ["12W前", "10W前", "8W前", "6W前", "4W前", "3W前", "2W前", "1W前", "今週"]
+          },
+          "actions": [
+            {
+              "title": "在庫管理システムの移行計画を策定する",
+              "owner": "藤井 遼",
+              "status": "blocked",
+              "progress": 20,
+              "captures": [
+                {
+                  "source": "slack",
+                  "actor": "藤井 遼",
+                  "message": "移行計画書のドラフトを作成中。代表の承認待ち。",
+                  "timestamp": "4日前",
+                  "status": "blocked"
+                }
+              ]
+            },
+            {
+              "title": "3月度 月次決算レポートを確認する",
+              "owner": "小野 隆",
+              "status": "done",
+              "progress": 100,
+              "captures": [
+                {
+                  "source": "email",
+                  "actor": "小野 隆",
+                  "message": "3月度決算完了。売上目標比98%、営業利益率+1.2pp改善。",
+                  "timestamp": "3日前",
+                  "status": "done"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hr",
+      "label": "組織・人材",
+      "iconKey": "Users",
+      "color": "#F59E0B",
+      "bgColor": "bg-amber-50",
+      "borderColor": "border-amber-200",
+      "trend": "up",
+      "trendValue": "+1名",
+      "quarterlyData": [6, 6, 7, 7],
+      "riskLevel": "medium",
+      "strategicWeight": 6,
+      "weeklyDelta": {
+        "company": 0.5,
+        "dept": 0.3,
+        "team": 0.8,
+        "personal": 0.2
+      },
+      "companyOKR": {
+        "id": "c4",
+        "title": "正社員10名体制を確立する",
+        "progress": 70
+      },
+      "deptOKR": {
+        "id": "d4",
+        "title": "Q2中に営業担当を1名採用する",
+        "progress": 40
+      },
+      "teamOKR": {
+        "id": "t4",
+        "title": "新入社員オリエンテーション資料を整備する",
+        "progress": 60
+      },
+      "personalOKR": {
+        "id": "p4",
+        "title": "採用面接を月2件以上実施する",
+        "progress": 50
+      },
+      "keyResults": [
+        {
+          "title": "正社員10名体制の確立",
+          "current": "7名",
+          "target": "10名",
+          "progress": 70,
+          "growth": {
+            "threeMonths": 1,
+            "oneMonth": 0,
+            "twoWeeks": 0,
+            "oneWeek": 0
+          },
+          "velocityData": {
+            "weeklyCount": [5, 5, 6, 6, 6, 6, 7, 7, 7],
+            "labels": ["12W前", "10W前", "8W前", "6W前", "4W前", "3W前", "2W前", "1W前", "今週"]
+          },
+          "actions": [
+            {
+              "title": "新入社員オリエンテーション資料を更新する",
+              "owner": "佐藤 美香",
+              "status": "in-progress",
+              "progress": 50,
+              "captures": [
+                {
+                  "source": "slack",
+                  "actor": "Claude Coworker",
+                  "message": "既存資料の更新箇所を特定。ドラフト作成中。",
+                  "timestamp": "本日",
+                  "status": "in-progress"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

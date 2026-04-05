@@ -1,0 +1,196 @@
+[
+  {
+    "id": "ym-1",
+    "title": "CKS Roadmap Review — Q2 2026",
+    "date": "2026-04-08",
+    "time": "10:00",
+    "duration": "90 min",
+    "participantIds": ["yt", "eng-lead", "design-lead", "cpo"],
+    "agenda": [
+      "Q1 CKS adoption metrics review",
+      "Guided Setup Wizard post-launch analysis",
+      "Q2 feature prioritization vote",
+      "Migration tool GA timeline confirmation",
+      "Resource allocation discussion"
+    ],
+    "status": "upcoming",
+    "location": "Zoom / Sunnyvale HQ Room A",
+    "actions": ["ya1", "ya2"],
+    "relatedMeetings": [
+      { "id": "ym-3", "title": "Product Strategy Sync — CKS & Compute Abstractions", "date": "2026-04-01" }
+    ],
+    "issues": [
+      {
+        "id": "ymi-1",
+        "title": "Migration tool GA delayed by 1 sprint",
+        "source": "Engineering sync",
+        "sourceDate": "Apr 1",
+        "status": "open",
+        "priority": "high",
+        "description": "Engineering team sprint overload may push GA from Apr 22 to Apr 29."
+      },
+      {
+        "id": "ymi-2",
+        "title": "Helm Chart library scope creep risk",
+        "source": "Slack thread",
+        "sourceDate": "Apr 2",
+        "status": "open",
+        "priority": "medium",
+        "description": "Scope has expanded beyond vLLM/Ray/Triton to include 8 additional frameworks."
+      }
+    ],
+    "decisions": [
+      {
+        "id": "yd-1",
+        "title": "Approve Q2 feature set for CKS v2.1",
+        "status": "must-decide",
+        "dueBy": "Apr 8",
+        "owner": "Yoshi Tamura",
+        "description": "Vote on final Q2 feature scope with Engineering and Design leads."
+      },
+      {
+        "id": "yd-2",
+        "title": "Confirm migration tool GA date (Apr 22 vs Apr 29)",
+        "status": "must-decide",
+        "dueBy": "Apr 8",
+        "owner": "Yoshi Tamura",
+        "description": "Decide whether to hold Apr 22 date or accept 1-week slip."
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "ym-2",
+    "title": "Enterprise Customer QBR — Mistral AI",
+    "date": "2026-04-15",
+    "time": "14:00",
+    "duration": "60 min",
+    "participantIds": ["yt", "tam-1"],
+    "agenda": [
+      "Q1 GPU utilization review",
+      "Cost Forecast tool demo",
+      "Q2 capacity reservation discussion",
+      "SLA upgrade proposal"
+    ],
+    "status": "upcoming",
+    "location": "Google Meet",
+    "actions": ["ya3"],
+    "relatedMeetings": [],
+    "issues": [
+      {
+        "id": "ymi-3",
+        "title": "Mistral GPU utilization dropped to 58% in March",
+        "source": "Usage dashboard",
+        "sourceDate": "Apr 1",
+        "status": "open",
+        "priority": "high",
+        "description": "Utilization below 75% target. Cost Forecast tool not yet deployed for Mistral."
+      }
+    ],
+    "decisions": [
+      {
+        "id": "yd-3",
+        "title": "Propose Reserved Capacity contract to Mistral",
+        "status": "must-decide",
+        "dueBy": "Apr 15",
+        "owner": "Yoshi Tamura",
+        "description": "Present 12-month Reserved Capacity pricing and confirm interest."
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "ym-3",
+    "title": "Product Strategy Sync — CKS & Compute Abstractions",
+    "date": "2026-04-01",
+    "time": "09:30",
+    "duration": "60 min",
+    "participantIds": ["yt", "cpo", "eng-lead"],
+    "agenda": [
+      "Quota Alert System launch retrospective",
+      "Cost Forecast beta results",
+      "H2 roadmap alignment"
+    ],
+    "status": "completed",
+    "location": "Sunnyvale HQ Room B",
+    "actions": ["ya4", "ya5"],
+    "relatedMeetings": [
+      { "id": "ym-1", "title": "CKS Roadmap Review — Q2 2026", "date": "2026-04-08" }
+    ],
+    "issues": [
+      {
+        "id": "ymi-4",
+        "title": "Cost Forecast accuracy below target in edge cases",
+        "source": "Beta feedback",
+        "sourceDate": "Mar 30",
+        "status": "open",
+        "priority": "medium",
+        "description": "MAPE exceeds 5% for customers with highly variable GPU usage patterns."
+      },
+      {
+        "id": "ymi-5",
+        "title": "Quota Alert false positive rate 3.2% — needs tuning",
+        "source": "Engineering",
+        "sourceDate": "Mar 29",
+        "status": "resolved",
+        "priority": "low",
+        "description": "Alert threshold tuning completed. False positive rate reduced to 0.8%."
+      }
+    ],
+    "decisions": [
+      {
+        "id": "yd-4",
+        "title": "Proceed with Cost Forecast GA in Q2",
+        "status": "decided",
+        "decidedAt": "Apr 1",
+        "owner": "Yoshi Tamura",
+        "description": "Beta showed +13pt GPU utilization improvement. GA approved."
+      }
+    ],
+    "notes": [
+      {
+        "id": "yn-1",
+        "content": "Cost Forecast beta showed +13pt GPU utilization improvement. GA approved for Q2. Quota Alert false positive issue assigned to infra team for tuning by Apr 10.",
+        "author": "Yoshi Tamura",
+        "timestamp": "Apr 1 11:00"
+      }
+    ]
+  },
+  {
+    "id": "ym-4",
+    "title": "Cross-functional AI Labs Partnership Kickoff",
+    "date": "2026-03-25",
+    "time": "11:00",
+    "duration": "90 min",
+    "participantIds": ["yt", "tam-1"],
+    "agenda": [
+      "TAM deployment plan review",
+      "99.99% SLA package finalization",
+      "Target AI lab list prioritization",
+      "Q2 pipeline review"
+    ],
+    "status": "completed",
+    "location": "Sunnyvale HQ Board Room",
+    "actions": [],
+    "relatedMeetings": [],
+    "issues": [],
+    "decisions": [
+      {
+        "id": "yd-5",
+        "title": "Approved: Hire 3 additional TAMs for AI lab accounts",
+        "status": "decided",
+        "decidedAt": "Mar 25",
+        "owner": "Yoshi Tamura",
+        "description": "TAM hiring approved. 3 TAMs to be onboarded by Apr 15."
+      }
+    ],
+    "notes": [
+      {
+        "id": "yn-2",
+        "content": "TAM hiring approved. 3 TAMs to be onboarded by Apr 15. SLA package finalized — legal cleared 99.99% uptime commitment with standard exclusions. Top 5 target AI labs identified: Mistral, Cohere, Stability AI, Perplexity, xAI.",
+        "author": "Yoshi Tamura",
+        "timestamp": "Mar 25 12:30"
+      }
+    ]
+  }
+]

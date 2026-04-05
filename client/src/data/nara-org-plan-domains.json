@@ -1,0 +1,2050 @@
+{
+  "domains": [
+    {
+      "id": "finance",
+      "label": "財務・経営基盤",
+      "iconKey": "TrendingUp",
+      "color": "#059669",
+      "bgColor": "bg-emerald-50",
+      "borderColor": "border-emerald-200",
+      "trend": "up",
+      "trendValue": "+2.9pt",
+      "quarterlyData": [
+        72,
+        78,
+        85,
+        90
+      ],
+      "riskLevel": "medium",
+      "strategicWeight": 10,
+      "weeklyDelta": {
+        "company": 1.8,
+        "dept": 0.9,
+        "team": -0.5,
+        "personal": 1.2
+      },
+      "companyOKR": {
+        "id": "nc1",
+        "title": "経常収支比率100%以上の達成",
+        "progress": 72,
+        "status": "at-risk",
+        "owner": "法人本部",
+        "keyResults": [
+          {
+            "title": "経常収支比率をR12までに100%以上へ",
+            "current": "97.1%",
+            "target": "100%以上",
+            "progress": 72,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actions": [
+              {
+                "title": "診療収入の増収施策（病床稼働率向上）",
+                "owner": "笠原 雅人",
+                "status": "in-progress",
+                "progress": 65,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "笠原 雅人",
+                    "message": "病床稼働率76%→90%改善計画を策定。入退院支援強化チームを設置",
+                    "timestamp": "2日前",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "未来への飛躍基金 年1億円以上の確保",
+                "owner": "経営企画課",
+                "status": "in-progress",
+                "progress": 80,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "経営企画課長",
+                    "message": "今年度寄附実績1.2億円達成。来年度も継続施策を検討中",
+                    "timestamp": "3日前",
+                    "status": "done"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "医業収支比率を95%以上に改善",
+            "current": "94.2%",
+            "target": "95%以上",
+            "progress": 68,
+            "growth": {
+              "threeMonths": 5,
+              "oneMonth": 2,
+              "twoWeeks": 0.8,
+              "oneWeek": 0.3
+            },
+            "actions": [
+              {
+                "title": "後発医薬品使用割合の維持（80%以上）",
+                "owner": "薬剤部",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "薬剤部長",
+                    "message": "後発医薬品使用割合83%達成・維持中",
+                    "timestamp": "5日前",
+                    "status": "done"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "nd1",
+        "title": "病院経営の収益構造改善",
+        "progress": 68,
+        "status": "at-risk",
+        "owner": "病院経営管理部",
+        "keyResults": [
+          {
+            "title": "病床稼働率を90%へ改善（現状76%）",
+            "current": "76%",
+            "target": "90%",
+            "progress": 55,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.5
+            },
+            "actionSummary": {
+              "total": 6,
+              "done": 2,
+              "inProgress": 3,
+              "blocked": 1
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                2,
+                1,
+                2,
+                2,
+                3,
+                2,
+                2,
+                3
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          },
+          {
+            "title": "手術件数を8,800件へ増加（現状8,142件）",
+            "current": "8,142件",
+            "target": "8,800件",
+            "progress": 72,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actionSummary": {
+              "total": 5,
+              "done": 3,
+              "inProgress": 2,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                2,
+                2,
+                3,
+                2,
+                3,
+                3,
+                2,
+                3,
+                3
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "nt1",
+        "title": "収益改善プロジェクトの実行",
+        "progress": 70,
+        "status": "on-track",
+        "owner": "経営改善チーム",
+        "keyResults": [
+          {
+            "title": "外来がん化学療法患者数を前年度以上に維持",
+            "current": "13,115人",
+            "target": "前年度以上",
+            "progress": 75,
+            "growth": {
+              "threeMonths": 5,
+              "oneMonth": 2,
+              "twoWeeks": 0.8,
+              "oneWeek": 0.3
+            },
+            "actionSummary": {
+              "total": 4,
+              "done": 3,
+              "inProgress": 1,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                2,
+                3,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "np1",
+        "title": "経営責任者として財務目標を牽引",
+        "progress": 75,
+        "status": "on-track",
+        "owner": "笠原 雅人",
+        "keyResults": [
+          {
+            "title": "経常収支比率改善ロードマップの策定・実行",
+            "current": "策定済み",
+            "target": "R12達成",
+            "progress": 75,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 5,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "月次経営会議での収支状況レビュー",
+                "owner": "笠原 雅人",
+                "status": "in-progress",
+                "progress": 80,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "笠原 雅人",
+                    "message": "4月度経営会議で収支改善策を共有。病床稼働率向上が最優先課題と確認",
+                    "timestamp": "1日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "clinical",
+      "label": "診療・救急体制",
+      "iconKey": "Stethoscope",
+      "color": "#DC2626",
+      "bgColor": "bg-red-50",
+      "borderColor": "border-red-200",
+      "trend": "up",
+      "trendValue": "+3.1pt",
+      "quarterlyData": [
+        65,
+        72,
+        78,
+        83
+      ],
+      "riskLevel": "medium",
+      "strategicWeight": 9,
+      "weeklyDelta": {
+        "company": 1.5,
+        "dept": 0.7,
+        "team": 1.2,
+        "personal": 0.5
+      },
+      "companyOKR": {
+        "id": "nc2",
+        "title": "県民を守る最終ディフェンスラインの実践",
+        "progress": 78,
+        "status": "on-track",
+        "owner": "法人本部",
+        "keyResults": [
+          {
+            "title": "高度救命救急センター受入件数を1,190件へ",
+            "current": "1,066件",
+            "target": "1,190件",
+            "progress": 78,
+            "growth": {
+              "threeMonths": 12,
+              "oneMonth": 4,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "救急受入体制の強化（断らない救急の推進）",
+                "owner": "救急科",
+                "status": "in-progress",
+                "progress": 75,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "救急科部長",
+                    "message": "受入率90.3%→97%目標に向け、夜間対応体制を強化中",
+                    "timestamp": "2日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "ハイリスク児・妊婦受入率100%維持",
+            "current": "100%",
+            "target": "100%",
+            "progress": 100,
+            "growth": {
+              "threeMonths": 0,
+              "oneMonth": 0,
+              "twoWeeks": 0,
+              "oneWeek": 0
+            },
+            "actions": [
+              {
+                "title": "NICU・MFICUの体制維持",
+                "owner": "周産期センター",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "周産期センター長",
+                    "message": "ハイリスク受入率100%を継続維持中",
+                    "timestamp": "1週間前",
+                    "status": "done"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "nd2",
+        "title": "高度医療・がん治療の充実",
+        "progress": 74,
+        "status": "on-track",
+        "owner": "診療部門",
+        "keyResults": [
+          {
+            "title": "高度な手術実施率を18%以上へ（現状17.7%）",
+            "current": "17.7%",
+            "target": "18%以上",
+            "progress": 70,
+            "growth": {
+              "threeMonths": 6,
+              "oneMonth": 2,
+              "twoWeeks": 0.8,
+              "oneWeek": 0.3
+            },
+            "actionSummary": {
+              "total": 5,
+              "done": 2,
+              "inProgress": 3,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2,
+                2,
+                3
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          },
+          {
+            "title": "エキスパートパネル実施件数225件達成（現状162件）",
+            "current": "162件",
+            "target": "225件",
+            "progress": 62,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 5,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actionSummary": {
+              "total": 6,
+              "done": 2,
+              "inProgress": 3,
+              "blocked": 1
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2,
+                3
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "nt2",
+        "title": "患者満足度と医療安全の向上",
+        "progress": 80,
+        "status": "on-track",
+        "owner": "医療安全管理部",
+        "keyResults": [
+          {
+            "title": "患者満足度「不満・やや不満」外来2.9%以下維持",
+            "current": "2.9%",
+            "target": "2.9%以下",
+            "progress": 80,
+            "growth": {
+              "threeMonths": 5,
+              "oneMonth": 2,
+              "twoWeeks": 0.5,
+              "oneWeek": 0.2
+            },
+            "actionSummary": {
+              "total": 4,
+              "done": 3,
+              "inProgress": 1,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                2,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "np2",
+        "title": "救急・高度医療体制の経営的支援",
+        "progress": 72,
+        "status": "on-track",
+        "owner": "笠原 雅人",
+        "keyResults": [
+          {
+            "title": "救急体制強化への予算配分と進捗管理",
+            "current": "進行中",
+            "target": "R12達成",
+            "progress": 72,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 3,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "救急部門への人員・設備投資の意思決定",
+                "owner": "笠原 雅人",
+                "status": "in-progress",
+                "progress": 70,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "笠原 雅人",
+                    "message": "救急受入強化に向けた設備投資計画を理事会に提案。承認待ち",
+                    "timestamp": "3日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "education",
+      "label": "教育・人材育成",
+      "iconKey": "BookOpen",
+      "color": "#7C3AED",
+      "bgColor": "bg-violet-50",
+      "borderColor": "border-violet-200",
+      "trend": "up",
+      "trendValue": "+4.2pt",
+      "quarterlyData": [
+        60,
+        68,
+        75,
+        82
+      ],
+      "riskLevel": "low",
+      "strategicWeight": 8,
+      "weeklyDelta": {
+        "company": 2.1,
+        "dept": 1.5,
+        "team": 0.8,
+        "personal": 1.0
+      },
+      "companyOKR": {
+        "id": "nc3",
+        "title": "地域に貢献する医療人の育成と県内定着",
+        "progress": 75,
+        "status": "on-track",
+        "owner": "法人本部",
+        "keyResults": [
+          {
+            "title": "県費奨学生の返還免除割合を95.2%へ（現状87.4%）",
+            "current": "87.4%",
+            "target": "95.2%",
+            "progress": 68,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actions": [
+              {
+                "title": "奨学生キャリア支援プログラムの強化",
+                "owner": "学務課",
+                "status": "in-progress",
+                "progress": 65,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "学務課長",
+                    "message": "奨学生向けキャリア相談会を月1回開催。県内定着意向が向上",
+                    "timestamp": "2日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "臨床研修医マッチング率100%達成（現状93%）",
+            "current": "93%",
+            "target": "100%",
+            "progress": 72,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "研修プログラムの魅力向上・PR強化",
+                "owner": "教育研修センター",
+                "status": "in-progress",
+                "progress": 70,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "研修センター長",
+                    "message": "研修プログラム説明会を全国医学部で実施。応募者数増加中",
+                    "timestamp": "4日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "nd3",
+        "title": "教育の質の向上とPDCAサイクル運用",
+        "progress": 78,
+        "status": "on-track",
+        "owner": "教育・研修部門",
+        "keyResults": [
+          {
+            "title": "第三者評価（医学・看護）の継続受審",
+            "current": "受審済み",
+            "target": "継続受審",
+            "progress": 85,
+            "growth": {
+              "threeMonths": 5,
+              "oneMonth": 2,
+              "twoWeeks": 0.5,
+              "oneWeek": 0.2
+            },
+            "actionSummary": {
+              "total": 4,
+              "done": 3,
+              "inProgress": 1,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                2,
+                3,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          },
+          {
+            "title": "専攻医の県内基幹病院登録率60%以上（現状54.4%）",
+            "current": "54.4%",
+            "target": "60%以上",
+            "progress": 65,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actionSummary": {
+              "total": 5,
+              "done": 2,
+              "inProgress": 2,
+              "blocked": 1
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "nt3",
+        "title": "特定行為研修の拡大",
+        "progress": 65,
+        "status": "at-risk",
+        "owner": "看護部・研修センター",
+        "keyResults": [
+          {
+            "title": "特定行為研修修了者（急性期）累計30人（現状5人/年）",
+            "current": "5人/年",
+            "target": "累計30人",
+            "progress": 55,
+            "growth": {
+              "threeMonths": 12,
+              "oneMonth": 4,
+              "twoWeeks": 2,
+              "oneWeek": 0.8
+            },
+            "actionSummary": {
+              "total": 6,
+              "done": 1,
+              "inProgress": 4,
+              "blocked": 1
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "np3",
+        "title": "人材育成投資の戦略的推進",
+        "progress": 70,
+        "status": "on-track",
+        "owner": "笠原 雅人",
+        "keyResults": [
+          {
+            "title": "教育・研修予算の確保と効果測定",
+            "current": "進行中",
+            "target": "R12達成",
+            "progress": 70,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "研修医・専攻医確保に向けた大学連携強化",
+                "owner": "笠原 雅人",
+                "status": "in-progress",
+                "progress": 68,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "笠原 雅人",
+                    "message": "近隣医学部との連携協定を2件締結。専攻医確保に向けた関係構築を推進",
+                    "timestamp": "1日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "research",
+      "label": "研究・イノベーション",
+      "iconKey": "Lightbulb",
+      "color": "#D97706",
+      "bgColor": "bg-amber-50",
+      "borderColor": "border-amber-200",
+      "trend": "up",
+      "trendValue": "+5.0pt",
+      "quarterlyData": [
+        55,
+        65,
+        72,
+        80
+      ],
+      "riskLevel": "medium",
+      "strategicWeight": 7,
+      "weeklyDelta": {
+        "company": 2.5,
+        "dept": 1.8,
+        "team": 1.0,
+        "personal": 1.5
+      },
+      "companyOKR": {
+        "id": "nc4",
+        "title": "最先端研究と産学官連携の推進",
+        "progress": 68,
+        "status": "on-track",
+        "owner": "法人本部",
+        "keyResults": [
+          {
+            "title": "科学研究費補助金等外部資金の確保・増加",
+            "current": "前年度比",
+            "target": "前年度以上",
+            "progress": 72,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actions": [
+              {
+                "title": "科研費申請支援体制の強化",
+                "owner": "研究推進課",
+                "status": "in-progress",
+                "progress": 70,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "研究推進課長",
+                    "message": "科研費申請支援セミナーを開催。申請件数が前年比15%増加",
+                    "timestamp": "3日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "奈良先端科学技術大学院大学との連携法人設立",
+            "current": "協議中",
+            "target": "R8設立",
+            "progress": 45,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 8,
+              "twoWeeks": 3,
+              "oneWeek": 1.5
+            },
+            "actions": [
+              {
+                "title": "連携法人設立に向けた協議・準備",
+                "owner": "法人本部",
+                "status": "in-progress",
+                "progress": 45,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "理事長",
+                    "message": "奈良先端大との連携協定締結に向けた協議が進展。R8設立を目指す",
+                    "timestamp": "1週間前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "nd4",
+        "title": "医工連携・産学官連携の具体化",
+        "progress": 62,
+        "status": "at-risk",
+        "owner": "研究部門",
+        "keyResults": [
+          {
+            "title": "医工連携プロジェクト件数の増加",
+            "current": "進行中",
+            "target": "前年度以上",
+            "progress": 60,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 3,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.5
+            },
+            "actionSummary": {
+              "total": 5,
+              "done": 1,
+              "inProgress": 3,
+              "blocked": 1
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "nt4",
+        "title": "研究成果の地域還元",
+        "progress": 65,
+        "status": "on-track",
+        "owner": "地域連携研究チーム",
+        "keyResults": [
+          {
+            "title": "健康増進・予防医療に関する研究成果の公開",
+            "current": "進行中",
+            "target": "年次報告",
+            "progress": 68,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actionSummary": {
+              "total": 4,
+              "done": 2,
+              "inProgress": 2,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2,
+                3
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "np4",
+        "title": "研究・イノベーション投資の意思決定",
+        "progress": 65,
+        "status": "on-track",
+        "owner": "笠原 雅人",
+        "keyResults": [
+          {
+            "title": "産学官連携プロジェクトへの経営支援",
+            "current": "進行中",
+            "target": "R12達成",
+            "progress": 65,
+            "growth": {
+              "threeMonths": 12,
+              "oneMonth": 4,
+              "twoWeeks": 2,
+              "oneWeek": 0.8
+            },
+            "actions": [
+              {
+                "title": "医工連携・産学官連携の予算確保と進捗管理",
+                "owner": "笠原 雅人",
+                "status": "in-progress",
+                "progress": 65,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "笠原 雅人",
+                    "message": "医工連携プロジェクト3件の予算を確保。奈良先端大との協議も前進",
+                    "timestamp": "2日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "people",
+      "label": "人材・働き方改革",
+      "iconKey": "Users",
+      "color": "#0284C7",
+      "bgColor": "bg-sky-50",
+      "borderColor": "border-sky-200",
+      "trend": "up",
+      "trendValue": "+3.8pt",
+      "quarterlyData": [
+        50,
+        60,
+        68,
+        75
+      ],
+      "riskLevel": "high",
+      "strategicWeight": 8,
+      "weeklyDelta": {
+        "company": 1.2,
+        "dept": -0.5,
+        "team": 0.8,
+        "personal": 1.0
+      },
+      "companyOKR": {
+        "id": "nc5",
+        "title": "医師・職員の働き方改革の実現",
+        "progress": 58,
+        "status": "at-risk",
+        "owner": "法人本部",
+        "keyResults": [
+          {
+            "title": "医師の超過勤務時間を1,470時間へ削減（現状1,809時間）",
+            "current": "1,809時間",
+            "target": "1,470時間",
+            "progress": 45,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "タスクシフト・シェアの推進",
+                "owner": "人事課",
+                "status": "in-progress",
+                "progress": 50,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "人事課長",
+                    "message": "タスクシフト推進計画を策定。特定行為看護師の活用拡大を検討中",
+                    "timestamp": "2日前",
+                    "status": "in-progress"
+                  }
+                ]
+              },
+              {
+                "title": "医師事務作業補助者の増員",
+                "owner": "人事課",
+                "status": "in-progress",
+                "progress": 55,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "人事課長",
+                    "message": "医師事務作業補助者を10名追加採用。書類作業の負担軽減を推進",
+                    "timestamp": "3日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "男性育休取得率を85%へ（現状47.8%）",
+            "current": "47.8%",
+            "target": "85%",
+            "progress": 42,
+            "growth": {
+              "threeMonths": 12,
+              "oneMonth": 5,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "男性育休取得促進キャンペーンの実施",
+                "owner": "人事課",
+                "status": "in-progress",
+                "progress": 40,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "人事課長",
+                    "message": "管理職向け育休取得促進研修を実施。取得率向上に向けた意識改革を推進",
+                    "timestamp": "4日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "nd5",
+        "title": "長時間労働の是正と有給休暇取得促進",
+        "progress": 55,
+        "status": "at-risk",
+        "owner": "人事部門",
+        "keyResults": [
+          {
+            "title": "看護職の年次有給休暇取得率50%以上（現状37%）",
+            "current": "37.0%",
+            "target": "50%以上",
+            "progress": 48,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actionSummary": {
+              "total": 5,
+              "done": 1,
+              "inProgress": 3,
+              "blocked": 1
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          },
+          {
+            "title": "長期メンタル休業者率を1.0%以下に（現状1.6%）",
+            "current": "1.6%",
+            "target": "1.0%以下",
+            "progress": 50,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actionSummary": {
+              "total": 4,
+              "done": 1,
+              "inProgress": 2,
+              "blocked": 1
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                1,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "nt5",
+        "title": "キャリアパス整備と障害者雇用推進",
+        "progress": 60,
+        "status": "on-track",
+        "owner": "人事チーム",
+        "keyResults": [
+          {
+            "title": "障害者雇用率3.0%達成（現状2.8%）",
+            "current": "2.8%",
+            "target": "3.0%",
+            "progress": 65,
+            "growth": {
+              "threeMonths": 5,
+              "oneMonth": 2,
+              "twoWeeks": 0.8,
+              "oneWeek": 0.3
+            },
+            "actionSummary": {
+              "total": 3,
+              "done": 2,
+              "inProgress": 1,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                2,
+                2,
+                2,
+                3,
+                2,
+                3,
+                3,
+                3,
+                3
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "np5",
+        "title": "働き方改革の経営的推進",
+        "progress": 60,
+        "status": "on-track",
+        "owner": "笠原 雅人",
+        "keyResults": [
+          {
+            "title": "医師働き方改革の進捗管理と障壁除去",
+            "current": "進行中",
+            "target": "R12達成",
+            "progress": 60,
+            "growth": {
+              "threeMonths": 12,
+              "oneMonth": 4,
+              "twoWeeks": 2,
+              "oneWeek": 0.8
+            },
+            "actions": [
+              {
+                "title": "医師働き方改革推進委員会の主宰",
+                "owner": "笠原 雅人",
+                "status": "in-progress",
+                "progress": 62,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "笠原 雅人",
+                    "message": "働き方改革推進委員会で超過勤務削減の進捗を確認。タスクシフト加速を決定",
+                    "timestamp": "1日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "dx",
+      "label": "DX・業務効率化",
+      "iconKey": "Building2",
+      "color": "#0891B2",
+      "bgColor": "bg-cyan-50",
+      "borderColor": "border-cyan-200",
+      "trend": "up",
+      "trendValue": "+6.5pt",
+      "quarterlyData": [
+        45,
+        58,
+        68,
+        78
+      ],
+      "riskLevel": "medium",
+      "strategicWeight": 7,
+      "weeklyDelta": {
+        "company": 3.0,
+        "dept": 2.5,
+        "team": 1.5,
+        "personal": 2.0
+      },
+      "companyOKR": {
+        "id": "nc6",
+        "title": "新総合医療情報システムの整備・DX推進",
+        "progress": 65,
+        "status": "on-track",
+        "owner": "法人本部",
+        "keyResults": [
+          {
+            "title": "新総合医療情報システムの整備・更新完了",
+            "current": "整備中",
+            "target": "R8完了",
+            "progress": 60,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 6,
+              "twoWeeks": 2.5,
+              "oneWeek": 1.2
+            },
+            "actions": [
+              {
+                "title": "新電子カルテシステム導入プロジェクト推進",
+                "owner": "DX推進室",
+                "status": "in-progress",
+                "progress": 58,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "DX推進室長",
+                    "message": "新電子カルテシステムの要件定義完了。ベンダー選定プロセスに入った",
+                    "timestamp": "2日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "業務プロセスのデジタル化・効率化",
+            "current": "進行中",
+            "target": "主要業務100%",
+            "progress": 55,
+            "growth": {
+              "threeMonths": 12,
+              "oneMonth": 5,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "書類・申請業務のペーパーレス化推進",
+                "owner": "DX推進室",
+                "status": "in-progress",
+                "progress": 60,
+                "captures": [
+                  {
+                    "source": "slack",
+                    "actor": "DX推進室長",
+                    "message": "人事・経理書類のデジタル化率65%達成。次は診療関連書類に着手",
+                    "timestamp": "3日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "nd6",
+        "title": "AI・データ活用による診療・経営改善",
+        "progress": 58,
+        "status": "at-risk",
+        "owner": "DX推進部門",
+        "keyResults": [
+          {
+            "title": "診療データ分析による経営改善施策の実施",
+            "current": "試行中",
+            "target": "定常運用",
+            "progress": 52,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 6,
+              "twoWeeks": 2.5,
+              "oneWeek": 1.2
+            },
+            "actionSummary": {
+              "total": 6,
+              "done": 1,
+              "inProgress": 4,
+              "blocked": 1
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                3,
+                3
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "nt6",
+        "title": "デジタル人材育成とシステム活用促進",
+        "progress": 62,
+        "status": "on-track",
+        "owner": "DX推進チーム",
+        "keyResults": [
+          {
+            "title": "DXリテラシー研修の全職員受講率80%以上",
+            "current": "45%",
+            "target": "80%以上",
+            "progress": 55,
+            "growth": {
+              "threeMonths": 18,
+              "oneMonth": 7,
+              "twoWeeks": 3,
+              "oneWeek": 1.5
+            },
+            "actionSummary": {
+              "total": 5,
+              "done": 1,
+              "inProgress": 3,
+              "blocked": 1
+            },
+            "velocityData": {
+              "weeklyCount": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                3,
+                3,
+                3,
+                3
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "np6",
+        "title": "DX推進の経営的意思決定",
+        "progress": 68,
+        "status": "on-track",
+        "owner": "笠原 雅人",
+        "keyResults": [
+          {
+            "title": "DX投資計画の策定と実行管理",
+            "current": "策定済み",
+            "target": "R12達成",
+            "progress": 68,
+            "growth": {
+              "threeMonths": 15,
+              "oneMonth": 5,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "新電子カルテ導入の予算・スケジュール管理",
+                "owner": "笠原 雅人",
+                "status": "in-progress",
+                "progress": 65,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "笠原 雅人",
+                    "message": "DX推進委員会でシステム投資計画を承認。R8完成に向けたマイルストーンを設定",
+                    "timestamp": "1日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "community",
+      "label": "地域連携・社会貢献",
+      "iconKey": "Heart",
+      "color": "#BE185D",
+      "bgColor": "bg-pink-50",
+      "borderColor": "border-pink-200",
+      "trend": "up",
+      "trendValue": "+2.5pt",
+      "quarterlyData": [
+        68,
+        73,
+        78,
+        83
+      ],
+      "riskLevel": "low",
+      "strategicWeight": 6,
+      "weeklyDelta": {
+        "company": 1.0,
+        "dept": 0.8,
+        "team": 0.5,
+        "personal": 0.8
+      },
+      "companyOKR": {
+        "id": "nc7",
+        "title": "地域医療提供体制の強化と連携推進",
+        "progress": 78,
+        "status": "on-track",
+        "owner": "法人本部",
+        "keyResults": [
+          {
+            "title": "紹介率90%以上・逆紹介率98%以上の維持",
+            "current": "紹介88.8% / 逆紹介97.8%",
+            "target": "各目標値以上",
+            "progress": 78,
+            "growth": {
+              "threeMonths": 5,
+              "oneMonth": 2,
+              "twoWeeks": 0.8,
+              "oneWeek": 0.3
+            },
+            "actions": [
+              {
+                "title": "近隣病院との連携強化・地域連携パス推進",
+                "owner": "地域連携室",
+                "status": "in-progress",
+                "progress": 78,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "地域連携室長",
+                    "message": "近隣14病院との連携を維持。新たに2病院との連携協定を締結予定",
+                    "timestamp": "3日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "近隣病院等との新たな連携構築（前年度より増加）",
+            "current": "14病院",
+            "target": "前年度より増加",
+            "progress": 75,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "地域医療連携ネットワークの拡充",
+                "owner": "地域連携室",
+                "status": "in-progress",
+                "progress": 72,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "地域連携室長",
+                    "message": "新規連携病院候補2施設と協議中。来月中に協定締結予定",
+                    "timestamp": "2日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "nd7",
+        "title": "地域包括ケアシステムへの貢献",
+        "progress": 75,
+        "status": "on-track",
+        "owner": "地域連携部門",
+        "keyResults": [
+          {
+            "title": "DMAT新規育成チーム数（累計+2チーム）",
+            "current": "累計5チーム",
+            "target": "累計+2チーム",
+            "progress": 70,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.8
+            },
+            "actionSummary": {
+              "total": 4,
+              "done": 2,
+              "inProgress": 2,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                2,
+                2,
+                2,
+                3,
+                2,
+                3,
+                3,
+                3,
+                3
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "nt7",
+        "title": "健康増進・予防医療の推進",
+        "progress": 72,
+        "status": "on-track",
+        "owner": "地域医療連携チーム",
+        "keyResults": [
+          {
+            "title": "健康増進に関する地域イベント・啓発活動の実施",
+            "current": "進行中",
+            "target": "年次目標",
+            "progress": 75,
+            "growth": {
+              "threeMonths": 6,
+              "oneMonth": 2,
+              "twoWeeks": 0.8,
+              "oneWeek": 0.3
+            },
+            "actionSummary": {
+              "total": 4,
+              "done": 3,
+              "inProgress": 1,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                2,
+                3,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "np7",
+        "title": "地域連携戦略の推進",
+        "progress": 75,
+        "status": "on-track",
+        "owner": "笠原 雅人",
+        "keyResults": [
+          {
+            "title": "地域医療連携ネットワーク強化の経営的支援",
+            "current": "進行中",
+            "target": "R12達成",
+            "progress": 75,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "地域連携病院との経営層会議の定期開催",
+                "owner": "笠原 雅人",
+                "status": "in-progress",
+                "progress": 75,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "笠原 雅人",
+                    "message": "地域連携病院との経営層会議を四半期ごとに開催。連携強化の方向性を確認",
+                    "timestamp": "1週間前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "governance",
+      "label": "ガバナンス・コンプライアンス",
+      "iconKey": "Shield",
+      "color": "#4F46E5",
+      "bgColor": "bg-indigo-50",
+      "borderColor": "border-indigo-200",
+      "trend": "flat",
+      "trendValue": "+1.2pt",
+      "quarterlyData": [
+        75,
+        78,
+        80,
+        83
+      ],
+      "riskLevel": "low",
+      "strategicWeight": 6,
+      "weeklyDelta": {
+        "company": 0.5,
+        "dept": 0.3,
+        "team": 0.2,
+        "personal": 0.5
+      },
+      "companyOKR": {
+        "id": "nc8",
+        "title": "透明性の高い法人運営と情報公開",
+        "progress": 82,
+        "status": "on-track",
+        "owner": "法人本部",
+        "keyResults": [
+          {
+            "title": "中期計画の取組状況の進捗管理と情報公開",
+            "current": "実施中",
+            "target": "年次報告",
+            "progress": 85,
+            "growth": {
+              "threeMonths": 5,
+              "oneMonth": 2,
+              "twoWeeks": 0.5,
+              "oneWeek": 0.2
+            },
+            "actions": [
+              {
+                "title": "中期計画進捗報告書の公開（年次）",
+                "owner": "経営企画課",
+                "status": "done",
+                "progress": 100,
+                "captures": [
+                  {
+                    "source": "email",
+                    "actor": "経営企画課長",
+                    "message": "R6年度中期計画進捗報告書を公開。外部評価委員会からも高評価",
+                    "timestamp": "1週間前",
+                    "status": "done"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "新キャンパス開校（令和7年度）の円滑な移行",
+            "current": "準備中",
+            "target": "R7開校",
+            "progress": 78,
+            "growth": {
+              "threeMonths": 10,
+              "oneMonth": 4,
+              "twoWeeks": 2,
+              "oneWeek": 1
+            },
+            "actions": [
+              {
+                "title": "新キャンパス移転プロジェクトの推進",
+                "owner": "施設管理課",
+                "status": "in-progress",
+                "progress": 78,
+                "captures": [
+                  {
+                    "source": "teams",
+                    "actor": "施設管理課長",
+                    "message": "新キャンパス建設工事が予定通り進行中。R7年度開校に向けた準備を加速",
+                    "timestamp": "2日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "deptOKR": {
+        "id": "nd8",
+        "title": "医療安全・感染対策の強化",
+        "progress": 80,
+        "status": "on-track",
+        "owner": "医療安全管理部門",
+        "keyResults": [
+          {
+            "title": "医療安全対策の提案数（累計18件）",
+            "current": "3件/年",
+            "target": "累計18件",
+            "progress": 72,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1,
+              "oneWeek": 0.5
+            },
+            "actionSummary": {
+              "total": 5,
+              "done": 3,
+              "inProgress": 2,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                2,
+                2,
+                3,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          }
+        ]
+      },
+      "teamOKR": {
+        "id": "nt8",
+        "title": "内部監査・コンプライアンス体制の整備",
+        "progress": 80,
+        "status": "on-track",
+        "owner": "監査・コンプライアンスチーム",
+        "keyResults": [
+          {
+            "title": "内部監査の定期実施と改善提案",
+            "current": "実施中",
+            "target": "年次実施",
+            "progress": 82,
+            "growth": {
+              "threeMonths": 5,
+              "oneMonth": 2,
+              "twoWeeks": 0.5,
+              "oneWeek": 0.2
+            },
+            "actionSummary": {
+              "total": 4,
+              "done": 3,
+              "inProgress": 1,
+              "blocked": 0
+            },
+            "velocityData": {
+              "weeklyCount": [
+                2,
+                3,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ],
+              "labels": [
+                "12W前",
+                "10W前",
+                "8W前",
+                "6W前",
+                "4W前",
+                "3W前",
+                "2W前",
+                "1W前",
+                "今週"
+              ]
+            }
+          }
+        ]
+      },
+      "personalOKR": {
+        "id": "np8",
+        "title": "ガバナンス強化と新キャンパス移行管理",
+        "progress": 80,
+        "status": "on-track",
+        "owner": "笠原 雅人",
+        "keyResults": [
+          {
+            "title": "新キャンパス移転プロジェクトの経営管理",
+            "current": "進行中",
+            "target": "R7開校",
+            "progress": 80,
+            "growth": {
+              "threeMonths": 8,
+              "oneMonth": 3,
+              "twoWeeks": 1.5,
+              "oneWeek": 0.5
+            },
+            "actions": [
+              {
+                "title": "新キャンパス移転に向けた経営判断・予算管理",
+                "owner": "笠原 雅人",
+                "status": "in-progress",
+                "progress": 80,
+                "captures": [
+                  {
+                    "source": "zoom",
+                    "actor": "笠原 雅人",
+                    "message": "新キャンパス移転プロジェクト会議を週次で開催。開校準備が順調に進行中",
+                    "timestamp": "1日前",
+                    "status": "in-progress"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

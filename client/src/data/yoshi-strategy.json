@@ -1,0 +1,441 @@
+{
+  "phases": [
+    {
+      "phase": 1,
+      "label": "Phase 1: Foundation",
+      "labelJa": "Phase 1: 基盤整備",
+      "period": "Q1 2026",
+      "periodJa": "2026年Q1",
+      "revenueTarget": "$35M ARR",
+      "revenueActual": "$37M ARR",
+      "revenueProgress": 106,
+      "status": "completed",
+      "milestones": [
+        { "title": "Quota Alert System Launch", "titleJa": "Quota Alert System ローンチ", "done": true, "date": "Jan" },
+        { "title": "Cost Forecast Beta", "titleJa": "Cost Forecast ベータ開始", "done": true, "date": "Feb" },
+        { "title": "SLA Package Finalized", "titleJa": "SLA パッケージ確定", "done": true, "date": "Mar" },
+        { "title": "TAM Hiring (3 TAMs)", "titleJa": "TAM 採用（3名）", "done": true, "date": "Mar" }
+      ]
+    },
+    {
+      "phase": 2,
+      "label": "Phase 2: Acceleration",
+      "labelJa": "Phase 2: 加速",
+      "period": "Q2 2026",
+      "periodJa": "2026年Q2",
+      "revenueTarget": "$60M ARR",
+      "revenueActual": "$45M ARR",
+      "revenueProgress": 75,
+      "status": "at-risk",
+      "milestones": [
+        { "title": "CKS v2.0 GA", "titleJa": "CKS v2.0 一般提供", "done": false, "date": "Apr" },
+        { "title": "Migration CLI GA", "titleJa": "Migration CLI 一般提供", "done": false, "date": "Apr" },
+        { "title": "Cost Forecast GA", "titleJa": "Cost Forecast 一般提供", "done": false, "date": "May" },
+        { "title": "TAM Program Launch (20 accounts)", "titleJa": "TAM プログラム開始（20社）", "done": false, "date": "May" },
+        { "title": "5 AI Lab Contracts", "titleJa": "AI ラボ 5社契約", "done": false, "date": "Jun" }
+      ]
+    },
+    {
+      "phase": 3,
+      "label": "Phase 3: Scale",
+      "labelJa": "Phase 3: スケール",
+      "period": "Q3–Q4 2026",
+      "periodJa": "2026年Q3–Q4",
+      "revenueTarget": "$165M ARR",
+      "revenueActual": "$45M ARR",
+      "revenueProgress": 27,
+      "status": "not-started",
+      "milestones": [
+        { "title": "8 AI Lab Enterprise Contracts", "titleJa": "AI ラボ 8社エンタープライズ契約", "done": false, "date": "Sep" },
+        { "title": "Compute Abstractions v3.0", "titleJa": "Compute Abstractions v3.0", "done": false, "date": "Dec" },
+        { "title": "CKS Adoption 30%", "titleJa": "CKS 採用率 30%", "done": false, "date": "Dec" }
+      ]
+    }
+  ],
+  "pipeline": [
+    {
+      "rank": 1,
+      "company": "Mistral AI",
+      "plan": "Enterprise Reserved",
+      "planJa": "エンタープライズ Reserved",
+      "amount": "$12M",
+      "amountUSD": 12000000,
+      "targetDate": "Apr",
+      "status": "at-risk",
+      "statusJa": "QBR 予定",
+      "phase": 2,
+      "route": "direct"
+    },
+    {
+      "rank": 2,
+      "company": "Cohere",
+      "plan": "Enterprise Premium",
+      "planJa": "エンタープライズ Premium",
+      "amount": "$8M",
+      "amountUSD": 8000000,
+      "targetDate": "May",
+      "status": "in-progress",
+      "statusJa": "商談中",
+      "phase": 2,
+      "route": "direct"
+    },
+    {
+      "rank": 3,
+      "company": "Stability AI",
+      "plan": "Enterprise Standard",
+      "planJa": "エンタープライズ Standard",
+      "amount": "$5M",
+      "amountUSD": 5000000,
+      "targetDate": "Jun",
+      "status": "in-progress",
+      "statusJa": "提案中",
+      "phase": 2,
+      "route": "partner"
+    },
+    {
+      "rank": 4,
+      "company": "Perplexity",
+      "plan": "Enterprise Standard",
+      "planJa": "エンタープライズ Standard",
+      "amount": "$4M",
+      "amountUSD": 4000000,
+      "targetDate": "Jun",
+      "status": "prospect",
+      "statusJa": "初回接触",
+      "phase": 2,
+      "route": "direct"
+    },
+    {
+      "rank": 5,
+      "company": "xAI",
+      "plan": "Enterprise Premium",
+      "planJa": "エンタープライズ Premium",
+      "amount": "$15M",
+      "amountUSD": 15000000,
+      "targetDate": "Sep",
+      "status": "prospect",
+      "statusJa": "ターゲット",
+      "phase": 3,
+      "route": "direct"
+    }
+  ],
+  "kpis": [
+    {
+      "phase": 2,
+      "label": "CKS Adoption Rate",
+      "labelJa": "CKS 採用率",
+      "target": "15% by Jun",
+      "current": "8%",
+      "progress": 53,
+      "status": "at-risk",
+      "frequency": "Weekly",
+      "frequencyJa": "週次"
+    },
+    {
+      "phase": 2,
+      "label": "Monthly Churn Rate",
+      "labelJa": "月次解約率",
+      "target": "≤ 9%",
+      "current": "10.5%",
+      "progress": 50,
+      "status": "at-risk",
+      "frequency": "Monthly",
+      "frequencyJa": "月次"
+    },
+    {
+      "phase": 2,
+      "label": "Enterprise ARR",
+      "labelJa": "エンタープライズ ARR",
+      "target": "$60M",
+      "current": "$45M",
+      "progress": 75,
+      "status": "at-risk",
+      "frequency": "Monthly",
+      "frequencyJa": "月次"
+    },
+    {
+      "phase": 2,
+      "label": "GPU Utilization",
+      "labelJa": "GPU 稼働率",
+      "target": "≥ 72%",
+      "current": "67%",
+      "progress": 86,
+      "status": "on-track",
+      "frequency": "Weekly",
+      "frequencyJa": "週次"
+    }
+  ],
+  "risks": [
+    {
+      "id": "YR1",
+      "label": "Migration CLI GA delay",
+      "labelJa": "Migration CLI GA 遅延",
+      "impact": "high",
+      "mitigation": "Negotiate scope reduction with Engineering to hit Apr 22 date",
+      "mitigationJa": "スコープ削減をエンジニアリングと交渉し Apr 22 日程を死守",
+      "alternativeRoute": "Soft-launch with limited beta customers",
+      "alternativeRouteJa": "限定ベータ顧客向けにソフトローンチ",
+      "trigger": "Engineering confirms >1 week slip",
+      "triggerJa": "エンジニアリングが 1 週間超の遅延を確認した場合",
+      "status": "active"
+    },
+    {
+      "id": "YR2",
+      "label": "Mistral churn risk",
+      "labelJa": "Mistral 解約リスク",
+      "impact": "high",
+      "mitigation": "Accelerate QBR and Reserved Capacity proposal",
+      "mitigationJa": "QBR を前倒しし Reserved Capacity 提案を実施",
+      "alternativeRoute": "Offer 3-month discount to retain",
+      "alternativeRouteJa": "3 ヶ月割引で引き留め",
+      "trigger": "Utilization stays below 65% for 2 consecutive months",
+      "triggerJa": "稼働率が 2 ヶ月連続 65% 未満",
+      "status": "active"
+    },
+    {
+      "id": "YR3",
+      "label": "Compute Abstractions v3.0 scope creep",
+      "labelJa": "Compute Abstractions v3.0 スコープクリープ",
+      "impact": "medium",
+      "mitigation": "Define MVP scope by Apr 15 with Engineering and Design",
+      "mitigationJa": "Apr 15 までにエンジニアリング・デザインと MVP スコープを確定",
+      "alternativeRoute": "Defer v3.0 to Q1 2027",
+      "alternativeRouteJa": "v3.0 を 2027年Q1 に延期",
+      "trigger": "Scope exceeds 3x original estimate",
+      "triggerJa": "スコープが当初見積もりの 3 倍超",
+      "status": "monitoring"
+    }
+  ],
+  "revenueTimeline": [
+    { "month": "Jan", "revenue": 37 },
+    { "month": "Feb", "revenue": 39 },
+    { "month": "Mar", "revenue": 42 },
+    { "month": "Apr", "revenue": 45 },
+    { "month": "May", "revenue": 52 },
+    { "month": "Jun", "revenue": 60 }
+  ],
+  "domains": [
+    {
+      "id": "yd-cks",
+      "label": "CKS Platform",
+      "labelJa": "CKS プラットフォーム",
+      "iconKey": "Cpu",
+      "color": "#0EA5E9",
+      "impact": "high",
+      "urgency": "high",
+      "status": "at-risk",
+      "progress": 22,
+      "weeklyDelta": 3,
+      "description": "CoreWeave Kubernetes Service — GPU-native container orchestration for AI workloads",
+      "descriptionJa": "GPU ネイティブな AI ワークロード向けコンテナオーケストレーション",
+      "keyResults": [
+        {
+          "title": "CKS Adoption Rate: 0% → 30%",
+          "titleJa": "CKS 採用率: 0% → 30%",
+          "target": "30%",
+          "current": "8%",
+          "progress": 27,
+          "status": "at-risk",
+          "phase": 2
+        },
+        {
+          "title": "Onboarding Completion Rate: 38% → 70%",
+          "titleJa": "オンボーディング完了率: 38% → 70%",
+          "target": "70%",
+          "current": "62%",
+          "progress": 89,
+          "status": "on-track",
+          "phase": 2
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "yi-cks1",
+          "title": "CKS v2.0 GA Launch",
+          "titleJa": "CKS v2.0 一般提供",
+          "owner": "Engineering",
+          "ownerJa": "エンジニアリング",
+          "status": "in-progress",
+          "progress": 80,
+          "dueDate": "Apr 22",
+          "phase": 2,
+          "priority": "critical",
+          "velocity": { "threeMonths": 0, "oneMonth": 15, "twoWeeks": 8, "oneWeek": 4 },
+          "doneState": "CKS v2.0 released to all customers with zero P0 incidents",
+          "doneStateJa": "CKS v2.0 全顧客リリース・P0 インシデントゼロ"
+        },
+        {
+          "id": "yi-cks2",
+          "title": "Migration CLI GA",
+          "titleJa": "Migration CLI 一般提供",
+          "owner": "Engineering",
+          "ownerJa": "エンジニアリング",
+          "status": "at-risk",
+          "progress": 60,
+          "dueDate": "Apr 22",
+          "phase": 2,
+          "priority": "critical",
+          "velocity": { "threeMonths": 0, "oneMonth": 10, "twoWeeks": 5, "oneWeek": 2 },
+          "doneState": "Migration CLI available in all regions, docs published",
+          "doneStateJa": "全リージョンで Migration CLI 利用可能・ドキュメント公開済み"
+        },
+        {
+          "id": "yi-cks3",
+          "title": "Helm Chart Library (vLLM, Ray, Triton)",
+          "titleJa": "Helm Chart ライブラリ（vLLM, Ray, Triton）",
+          "owner": "Engineering",
+          "ownerJa": "エンジニアリング",
+          "status": "in-progress",
+          "progress": 45,
+          "dueDate": "May 15",
+          "phase": 2,
+          "priority": "high",
+          "velocity": { "threeMonths": 0, "oneMonth": 8, "twoWeeks": 4, "oneWeek": 2 },
+          "doneState": "3 core AI frameworks available as one-click Helm charts",
+          "doneStateJa": "3 つのコア AI フレームワークがワンクリック Helm Chart で利用可能"
+        }
+      ],
+      "risks": [
+        { "label": "Migration CLI GA delay", "labelJa": "Migration CLI GA 遅延", "severity": "high", "mitigation": "Negotiate scope reduction with Engineering", "mitigationJa": "スコープ削減をエンジニアリングと交渉" }
+      ]
+    },
+    {
+      "id": "yd-compute",
+      "label": "Compute Abstractions",
+      "labelJa": "Compute Abstractions",
+      "iconKey": "Activity",
+      "color": "#8B5CF6",
+      "impact": "high",
+      "urgency": "medium",
+      "status": "at-risk",
+      "progress": 45,
+      "weeklyDelta": 5,
+      "description": "GPU quota management, cost forecasting, and auto-scaling recommendations",
+      "descriptionJa": "GPU クォータ管理・コスト予測・自動スケーリング推奨",
+      "keyResults": [
+        {
+          "title": "Monthly Churn Rate: 12% → 7%",
+          "titleJa": "月次解約率: 12% → 7%",
+          "target": "7%",
+          "current": "10.5%",
+          "progress": 50,
+          "status": "at-risk",
+          "phase": 2
+        },
+        {
+          "title": "GPU Utilization: 61% → 78%",
+          "titleJa": "GPU 稼働率: 61% → 78%",
+          "target": "78%",
+          "current": "67%",
+          "progress": 71,
+          "status": "on-track",
+          "phase": 2
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "yi-ca1",
+          "title": "Cost Forecast GA",
+          "titleJa": "Cost Forecast 一般提供",
+          "owner": "Engineering",
+          "ownerJa": "エンジニアリング",
+          "status": "in-progress",
+          "progress": 75,
+          "dueDate": "May 1",
+          "phase": 2,
+          "priority": "critical",
+          "velocity": { "threeMonths": 0, "oneMonth": 12, "twoWeeks": 6, "oneWeek": 3 },
+          "doneState": "Cost Forecast deployed to all enterprise accounts, MAPE < 5%",
+          "doneStateJa": "全エンタープライズ顧客に Cost Forecast 展開・MAPE 5% 未満"
+        },
+        {
+          "id": "yi-ca2",
+          "title": "Quota Alert System v2 (false positive fix)",
+          "titleJa": "Quota Alert System v2（誤検知修正）",
+          "owner": "Engineering",
+          "ownerJa": "エンジニアリング",
+          "status": "in-progress",
+          "progress": 85,
+          "dueDate": "Apr 10",
+          "phase": 2,
+          "priority": "high",
+          "velocity": { "threeMonths": 0, "oneMonth": 10, "twoWeeks": 5, "oneWeek": 3 },
+          "doneState": "False positive rate < 1%",
+          "doneStateJa": "誤検知率 1% 未満"
+        }
+      ],
+      "risks": [
+        { "label": "Compute Abstractions v3.0 scope creep", "labelJa": "Compute Abstractions v3.0 スコープクリープ", "severity": "medium", "mitigation": "Define MVP scope by Apr 15", "mitigationJa": "Apr 15 までに MVP スコープを確定" }
+      ]
+    },
+    {
+      "id": "yd-enterprise",
+      "label": "Enterprise Partnerships",
+      "labelJa": "エンタープライズパートナーシップ",
+      "iconKey": "Users",
+      "color": "#10B981",
+      "impact": "high",
+      "urgency": "high",
+      "status": "on-track",
+      "progress": 38,
+      "weeklyDelta": 2,
+      "description": "Strategic AI lab partnerships and TAM program for enterprise retention",
+      "descriptionJa": "AI ラボとの戦略的パートナーシップと TAM プログラムによるエンタープライズ顧客維持",
+      "keyResults": [
+        {
+          "title": "AI Lab Contracts: 3 → 8",
+          "titleJa": "AI ラボ契約: 3 → 8 社",
+          "target": "8",
+          "current": "3",
+          "progress": 38,
+          "status": "at-risk",
+          "phase": 2
+        },
+        {
+          "title": "Enterprise ARR: $45M → $165M",
+          "titleJa": "エンタープライズ ARR: $45M → $165M",
+          "target": "$165M",
+          "current": "$45M",
+          "progress": 27,
+          "status": "at-risk",
+          "phase": 3
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "yi-ep1",
+          "title": "TAM Program Launch (20 accounts)",
+          "titleJa": "TAM プログラム開始（20 社）",
+          "owner": "Yoshi Tamura",
+          "ownerJa": "田村 芳",
+          "status": "in-progress",
+          "progress": 60,
+          "dueDate": "May 1",
+          "phase": 2,
+          "priority": "critical",
+          "velocity": { "threeMonths": 0, "oneMonth": 5, "twoWeeks": 3, "oneWeek": 2 },
+          "doneState": "20 enterprise accounts assigned to dedicated TAMs",
+          "doneStateJa": "20 エンタープライズ顧客に専任 TAM アサイン完了"
+        },
+        {
+          "id": "yi-ep2",
+          "title": "Mistral QBR + Reserved Capacity Proposal",
+          "titleJa": "Mistral QBR + Reserved Capacity 提案",
+          "owner": "Yoshi Tamura",
+          "ownerJa": "田村 芳",
+          "status": "in-progress",
+          "progress": 30,
+          "dueDate": "Apr 15",
+          "phase": 2,
+          "priority": "critical",
+          "velocity": { "threeMonths": 0, "oneMonth": 3, "twoWeeks": 2, "oneWeek": 1 },
+          "doneState": "Mistral signs Reserved Capacity contract",
+          "doneStateJa": "Mistral が Reserved Capacity 契約に署名"
+        }
+      ],
+      "risks": [
+        { "label": "Mistral churn risk", "labelJa": "Mistral 解約リスク", "severity": "high", "mitigation": "Accelerate QBR and Reserved Capacity proposal", "mitigationJa": "QBR を前倒しし Reserved Capacity 提案を実施" }
+      ]
+    }
+  ]
+}

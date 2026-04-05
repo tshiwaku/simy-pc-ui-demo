@@ -1,0 +1,222 @@
+{
+  "phases": [
+    {
+      "id": "ph1",
+      "label": "基盤強化",
+      "period": "2025 Q2–Q3",
+      "status": "completed",
+      "description": "業務フローの標準化とチーム体制の整備"
+    },
+    {
+      "id": "ph2",
+      "label": "成長加速",
+      "period": "2025 Q4–2026 Q2",
+      "status": "active",
+      "description": "新規開拓チャネルの確立と客単価向上"
+    },
+    {
+      "id": "ph3",
+      "label": "スケール",
+      "period": "2026 Q3–2027 Q1",
+      "status": "planned",
+      "description": "組織拡大と年商10億円への道筋"
+    }
+  ],
+  "pipeline": [
+    {
+      "id": "pl1",
+      "title": "マルタ工業 新規提案",
+      "stage": "提案中",
+      "value": 480,
+      "probability": 60,
+      "owner": "Kenji Hayashi",
+      "dueDate": "2026-04-30"
+    },
+    {
+      "id": "pl2",
+      "title": "東海物産 追加発注",
+      "stage": "交渉中",
+      "value": 220,
+      "probability": 80,
+      "owner": "Yuki Tanaka",
+      "dueDate": "2026-04-15"
+    },
+    {
+      "id": "pl3",
+      "title": "中部電機 定期契約更新",
+      "stage": "クロージング",
+      "value": 360,
+      "probability": 90,
+      "owner": "Yuki Tanaka",
+      "dueDate": "2026-04-10"
+    }
+  ],
+  "kpis": [
+    {
+      "id": "kpi1",
+      "label": "月次売上",
+      "value": 3820,
+      "unit": "万円",
+      "target": 5000,
+      "trend": "up",
+      "iconKey": "DollarSign"
+    },
+    {
+      "id": "kpi2",
+      "label": "新規顧客数",
+      "value": 8,
+      "unit": "社/月",
+      "target": 12,
+      "trend": "up",
+      "iconKey": "Users"
+    },
+    {
+      "id": "kpi3",
+      "label": "顧客継続率",
+      "value": 78,
+      "unit": "%",
+      "target": 85,
+      "trend": "down",
+      "iconKey": "Repeat"
+    },
+    {
+      "id": "kpi4",
+      "label": "営業利益率",
+      "value": 8.2,
+      "unit": "%",
+      "target": 10,
+      "trend": "up",
+      "iconKey": "TrendingUp"
+    }
+  ],
+  "risks": [
+    {
+      "id": "r1",
+      "title": "主要顧客の解約リスク",
+      "severity": "high",
+      "probability": "medium",
+      "mitigation": "代表直接訪問と定期フォローアップの強化"
+    },
+    {
+      "id": "r2",
+      "title": "人材不足による業務逼迫",
+      "severity": "medium",
+      "probability": "high",
+      "mitigation": "DX推進による業務効率化と採用計画の前倒し"
+    },
+    {
+      "id": "r3",
+      "title": "原材料・仕入れコストの上昇",
+      "severity": "medium",
+      "probability": "medium",
+      "mitigation": "複数サプライヤーとの関係強化と価格転嫁の準備"
+    }
+  ],
+  "revenueTimeline": [
+    { "period": "2025 Q1", "value": 2900 },
+    { "period": "2025 Q2", "value": 3100 },
+    { "period": "2025 Q3", "value": 3300 },
+    { "period": "2025 Q4", "value": 3550 },
+    { "period": "2026 Q1", "value": 3820 },
+    { "period": "2026 Q2", "value": 4200, "forecast": true },
+    { "period": "2026 Q3", "value": 4600, "forecast": true },
+    { "period": "2026 Q4", "value": 5000, "forecast": true }
+  ],
+  "domains": [
+    {
+      "id": "d1",
+      "label": "営業強化",
+      "iconKey": "TrendingUp",
+      "color": "#4F46E5",
+      "initiatives": [
+        {
+          "id": "i1",
+          "title": "新規リード獲得チャネルの多様化",
+          "phase": "ph2",
+          "status": "active",
+          "progress": 35,
+          "owner": "Yuki Tanaka",
+          "blockers": ["展示会出展の予算承認待ち"]
+        },
+        {
+          "id": "i2",
+          "title": "見積もり・提案プロセスの標準化",
+          "phase": "ph2",
+          "status": "active",
+          "progress": 60,
+          "owner": "Kenji Hayashi",
+          "blockers": []
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "label": "顧客維持",
+      "iconKey": "Users",
+      "color": "#0EA5E9",
+      "initiatives": [
+        {
+          "id": "i3",
+          "title": "定期訪問サイクルの最適化",
+          "phase": "ph2",
+          "status": "active",
+          "progress": 45,
+          "owner": "Kenji Hayashi",
+          "blockers": []
+        },
+        {
+          "id": "i4",
+          "title": "顧客紹介プログラムの設計・導入",
+          "phase": "ph2",
+          "status": "planned",
+          "progress": 10,
+          "owner": "Yuki Tanaka",
+          "blockers": ["プログラム設計が未完了"]
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "label": "業務DX",
+      "iconKey": "Zap",
+      "color": "#10B981",
+      "initiatives": [
+        {
+          "id": "i5",
+          "title": "在庫管理システムのクラウド移行",
+          "phase": "ph2",
+          "status": "active",
+          "progress": 20,
+          "owner": "Ryo Fujii",
+          "blockers": ["移行計画の承認待ち"]
+        },
+        {
+          "id": "i6",
+          "title": "経理・請求業務の自動化",
+          "phase": "ph2",
+          "status": "active",
+          "progress": 55,
+          "owner": "Takashi Ono",
+          "blockers": []
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "label": "組織・人材",
+      "iconKey": "BarChart3",
+      "color": "#F59E0B",
+      "initiatives": [
+        {
+          "id": "i7",
+          "title": "採用計画の策定と実行",
+          "phase": "ph2",
+          "status": "active",
+          "progress": 40,
+          "owner": "Kenji Hayashi",
+          "blockers": []
+        }
+      ]
+    }
+  ]
+}

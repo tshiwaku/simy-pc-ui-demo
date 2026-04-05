@@ -1,0 +1,186 @@
+[
+  {
+    "id": "a1",
+    "title": "Update homepage design to a whiter aesthetic",
+    "description": "The homepage UI is updated to a whiter design theme as requested. All components should use the new color palette.",
+    "status": "pending",
+    "category": "Engineering",
+    "createdAt": "2026-03-12T09:00:00",
+    "updatedAt": "2026-03-12T16:45:00",
+    "stoppedDays": 3,
+    "assigneeId": "ts",
+    "agents": [
+      {
+        "id": "ag1",
+        "name": "One-shot PR",
+        "description": "AI Code Generation Agent",
+        "status": "running",
+        "isAuto": true,
+        "logs": [
+          "16:38 Job queued",
+          "16:40 Analyzing codebase...",
+          "16:41 Worker trigger request sent",
+          "16:42 Generating code..."
+        ],
+        "repositories": [
+          { "name": "simy-frontend", "access": "AI Auto-selected" },
+          { "name": "simy-docs", "access": "Read-only" }
+        ]
+      }
+    ],
+    "memberRoles": [
+      { "memberId": "ts", "role": "Accountability" }
+    ],
+    "isArchived": false,
+    "doneState": "The homepage UI is updated to a whiter design theme as requested.",
+    "relatedIssues": [
+      { "id": "iss-2", "title": "SIMYプロダクトの市場適合加速", "status": "active" }
+    ],
+    "changeHistory": [
+      { "version": 2, "description": "Tetsuo Shiwaku added as Accountability", "date": "Mar 12", "author": "Tetsuo Shiwaku" },
+      { "version": 1, "description": "New action created", "date": "Mar 12", "author": "Tetsuo Shiwaku" }
+    ]
+  },
+  {
+    "id": "a2",
+    "title": "Prepare Q2 sales strategy presentation for board meeting",
+    "description": "Q2 sales strategy deck prepared and ready for board review. Includes market analysis and growth projections.",
+    "status": "pending",
+    "category": "Sales",
+    "createdAt": "2026-03-27T15:30:00",
+    "updatedAt": "2026-03-27T16:00:00",
+    "assigneeId": "ts",
+    "agents": [],
+    "memberRoles": [
+      { "memberId": "ts", "role": "Accountability" },
+      { "memberId": "ay", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "relatedIssues": [
+      { "id": "iss-1", "title": "今年度10ミリオンUSDの売上達成", "status": "active" }
+    ],
+    "changeHistory": [
+      { "version": 1, "description": "New action created", "date": "30 min ago", "author": "Tetsuo Shiwaku" }
+    ]
+  },
+  {
+    "id": "a3",
+    "title": "Define acceptance criteria for new onboarding flow",
+    "description": "Acceptance criteria documented and shared with the development team for the new user onboarding experience.",
+    "status": "yours",
+    "category": "Engineering",
+    "createdAt": "2026-03-25T10:00:00",
+    "updatedAt": "2026-03-25T14:00:00",
+    "assigneeId": "ts",
+    "agents": [],
+    "memberRoles": [
+      { "memberId": "ts", "role": "Accountability" },
+      { "memberId": "mk", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "relatedIssues": [
+      { "id": "iss-2", "title": "SIMYプロダクトの市場適合加速", "status": "active" }
+    ],
+    "changeHistory": [
+      { "version": 1, "description": "New action created", "date": "2 days ago", "author": "Tetsuo Shiwaku" }
+    ]
+  },
+  {
+    "id": "a4",
+    "title": "Inquire about Vimeo Standard plan pricing and features",
+    "description": "Inquired about Vimeo Standard plan pricing and features for the video hosting solution.",
+    "status": "ai-running",
+    "category": "Sales",
+    "createdAt": "2026-03-23T11:00:00",
+    "updatedAt": "2026-03-23T11:30:00",
+    "assigneeId": "ts",
+    "agents": [
+      {
+        "id": "ag2",
+        "name": "Manus",
+        "description": "General-purpose AI Agent",
+        "status": "running",
+        "logs": ["11:00 Task received", "11:15 Researching Vimeo site...", "11:28 Price info collection complete"]
+      }
+    ],
+    "memberRoles": [
+      { "memberId": "ts", "role": "Accountability" }
+    ],
+    "isArchived": false,
+    "relatedIssues": [
+      { "id": "iss-1", "title": "今年度10ミリオンUSDの売上達成", "status": "active" }
+    ],
+    "changeHistory": [
+      { "version": 1, "description": "New action created", "date": "4 days ago", "author": "Tetsuo Shiwaku" }
+    ]
+  },
+  {
+    "id": "a5",
+    "title": "Gather feedback on SIMY's contextual data for improving PR",
+    "description": "Feedback gathered and report prepared for SIMY contextual data improvements.",
+    "status": "ai-running",
+    "category": "Marketing",
+    "createdAt": "2026-03-23T09:00:00",
+    "updatedAt": "2026-03-23T10:00:00",
+    "assigneeId": "ts",
+    "agents": [
+      {
+        "id": "ag3",
+        "name": "Claude Coworker",
+        "description": "Code review & document generation",
+        "status": "running",
+        "logs": ["09:00 Task started", "09:30 Analyzing feedback...", "09:55 Generating report..."]
+      }
+    ],
+    "memberRoles": [
+      { "memberId": "ts", "role": "Accountability" },
+      { "memberId": "rn", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "relatedIssues": [
+      { "id": "iss-1", "title": "今年度10ミリオンUSDの売上達成", "status": "active" },
+      { "id": "iss-2", "title": "SIMYプロダクトの市場適合加速", "status": "active" }
+    ],
+    "changeHistory": [
+      { "version": 1, "description": "New action created", "date": "4 days ago", "author": "Tetsuo Shiwaku" }
+    ]
+  },
+  {
+    "id": "a6",
+    "title": "Review Q1 financial report and prepare summary",
+    "description": "Review Q1 financial report and create executive summary.",
+    "status": "completed",
+    "category": "Executive",
+    "createdAt": "2026-03-20T09:00:00",
+    "updatedAt": "2026-03-22T17:00:00",
+    "assigneeId": "hk",
+    "agents": [],
+    "memberRoles": [
+      { "memberId": "hk", "role": "Accountability" },
+      { "memberId": "ts", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "changeHistory": [
+      { "version": 2, "description": "Status changed to done", "date": "5 days ago", "author": "Hiroshi Kimura" },
+      { "version": 1, "description": "New action created", "date": "7 days ago", "author": "Hiroshi Kimura" }
+    ]
+  },
+  {
+    "id": "a7",
+    "title": "Set up CI/CD pipeline for staging environment",
+    "description": "Set up CI/CD pipeline for staging environment.",
+    "status": "archived",
+    "category": "Engineering",
+    "createdAt": "2026-03-10T09:00:00",
+    "updatedAt": "2026-03-15T17:00:00",
+    "assigneeId": "mk",
+    "agents": [],
+    "memberRoles": [
+      { "memberId": "mk", "role": "Accountability" }
+    ],
+    "isArchived": true,
+    "changeHistory": [
+      { "version": 1, "description": "New action created", "date": "17 days ago", "author": "Kenichi Matsumoto" }
+    ]
+  }
+]

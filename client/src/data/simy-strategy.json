@@ -1,0 +1,1121 @@
+{
+  "phases": [
+    {
+      "phase": 1,
+      "label": "Phase 1: Seed",
+      "labelJa": "Phase 1: 種まき",
+      "period": "Apr – Jun 2026",
+      "periodJa": "2026年4月〜6月",
+      "revenueTarget": "$1.0M",
+      "revenueActual": "$130K",
+      "revenueProgress": 13,
+      "status": "at-risk",
+      "milestones": [
+        {
+          "title": "SIMY Launch",
+          "titleJa": "SIMYローンチ",
+          "done": true,
+          "date": "4月"
+        },
+        {
+          "title": "CAP Proposal Submitted",
+          "titleJa": "CAP提案書提出",
+          "done": true,
+          "date": "4月"
+        },
+        {
+          "title": "SB/TC First Contact",
+          "titleJa": "SB/TC初回接触",
+          "done": true,
+          "date": "4月"
+        },
+        {
+          "title": "Enterprise Feature Dev Start",
+          "titleJa": "EP機能開発開始",
+          "done": true,
+          "date": "4月"
+        },
+        {
+          "title": "CAP PoC Contract ($130K)",
+          "titleJa": "CAP PoC契約締結($130K)",
+          "done": true,
+          "date": "5月"
+        },
+        {
+          "title": "SB/TC Demo",
+          "titleJa": "SB/TCデモ実施",
+          "done": false,
+          "date": "5月"
+        },
+        {
+          "title": "Pricing Strategy Finalized",
+          "titleJa": "価格戦略確定",
+          "done": false,
+          "date": "5月"
+        },
+        {
+          "title": "CAP PoC Complete + Full Proposal",
+          "titleJa": "CAP PoC完了・本導入提案",
+          "done": false,
+          "date": "6月"
+        },
+        {
+          "title": "EP Features Complete",
+          "titleJa": "EP機能完成",
+          "done": false,
+          "date": "6月"
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "label": "Phase 2: Accelerate",
+      "labelJa": "Phase 2: 加速",
+      "period": "Jul – Sep 2026",
+      "periodJa": "2026年7月〜9月",
+      "revenueTarget": "$3.0M",
+      "revenueActual": "$0",
+      "revenueProgress": 0,
+      "status": "not-started",
+      "milestones": [
+        {
+          "title": "CAP Full Contract ($1M)",
+          "titleJa": "CAP本導入契約($1M)",
+          "done": false,
+          "date": "7月"
+        },
+        {
+          "title": "SB/TC PoC Start",
+          "titleJa": "SB/TC PoC開始",
+          "done": false,
+          "date": "7月"
+        },
+        {
+          "title": "SB Contract ($1.5M)",
+          "titleJa": "SB契約締結($1.5M)",
+          "done": false,
+          "date": "8月"
+        },
+        {
+          "title": "TC Contract ($1.0M)",
+          "titleJa": "TC契約締結($1.0M)",
+          "done": false,
+          "date": "8月"
+        },
+        {
+          "title": "Partner Channel Built",
+          "titleJa": "パートナーチャネル構築完了",
+          "done": false,
+          "date": "9月"
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "label": "Phase 3: Scale",
+      "labelJa": "Phase 3: スケール",
+      "period": "Oct – Dec 2026",
+      "periodJa": "2026年10月〜12月",
+      "revenueTarget": "$6.0M",
+      "revenueActual": "$0",
+      "revenueProgress": 0,
+      "status": "not-started",
+      "milestones": [
+        {
+          "title": "Partner A/B/C Contracts",
+          "titleJa": "パートナーA・B・C社契約",
+          "done": false,
+          "date": "10月"
+        },
+        {
+          "title": "Partner D/E + Direct X Contract",
+          "titleJa": "パートナーD・E + 直販X社契約",
+          "done": false,
+          "date": "11月"
+        },
+        {
+          "title": "Direct Y Contract + Additional",
+          "titleJa": "直販Y社 + 追加契約",
+          "done": false,
+          "date": "12月"
+        }
+      ]
+    }
+  ],
+  "pipeline": [
+    {
+      "rank": 1,
+      "company": "キャピタルアセットプラニング",
+      "plan": "Enterprise Premium",
+      "planJa": "エンタープライズ Premium",
+      "amount": "$1.0M",
+      "amountUSD": 1000000,
+      "targetDate": "6月",
+      "status": "in-progress",
+      "statusJa": "PoC進行中",
+      "phase": 1,
+      "route": "direct"
+    },
+    {
+      "rank": 2,
+      "company": "ソフトバンク",
+      "plan": "Enterprise Unlimited",
+      "planJa": "エンタープライズ Unlimited",
+      "amount": "$1.5M",
+      "amountUSD": 1500000,
+      "targetDate": "8月",
+      "status": "in-progress",
+      "statusJa": "商談中",
+      "phase": 2,
+      "route": "direct"
+    },
+    {
+      "rank": 3,
+      "company": "トランス・コスモス",
+      "plan": "Enterprise Premium",
+      "planJa": "エンタープライズ Premium",
+      "amount": "$1.0M",
+      "amountUSD": 1000000,
+      "targetDate": "8月",
+      "status": "in-progress",
+      "statusJa": "商談中",
+      "phase": 2,
+      "route": "direct"
+    },
+    {
+      "rank": 4,
+      "company": "パートナー経由A社",
+      "plan": "Enterprise Standard",
+      "planJa": "エンタープライズ Standard",
+      "amount": "$0.8M",
+      "amountUSD": 800000,
+      "targetDate": "9月",
+      "status": "not-started",
+      "statusJa": "未開拓",
+      "phase": 2,
+      "route": "partner"
+    },
+    {
+      "rank": 5,
+      "company": "パートナー経由B社",
+      "plan": "Enterprise Standard",
+      "planJa": "エンタープライズ Standard",
+      "amount": "$0.7M",
+      "amountUSD": 700000,
+      "targetDate": "10月",
+      "status": "not-started",
+      "statusJa": "未開拓",
+      "phase": 3,
+      "route": "partner"
+    },
+    {
+      "rank": 6,
+      "company": "パートナー経由C社",
+      "plan": "Enterprise Standard",
+      "planJa": "エンタープライズ Standard",
+      "amount": "$0.5M",
+      "amountUSD": 500000,
+      "targetDate": "10月",
+      "status": "not-started",
+      "statusJa": "未開拓",
+      "phase": 3,
+      "route": "partner"
+    },
+    {
+      "rank": 7,
+      "company": "パートナー経由D社",
+      "plan": "Enterprise Premium",
+      "planJa": "エンタープライズ Premium",
+      "amount": "$1.0M",
+      "amountUSD": 1000000,
+      "targetDate": "11月",
+      "status": "not-started",
+      "statusJa": "未開拓",
+      "phase": 3,
+      "route": "partner"
+    },
+    {
+      "rank": 8,
+      "company": "パートナー経由E社",
+      "plan": "Enterprise Standard",
+      "planJa": "エンタープライズ Standard",
+      "amount": "$0.5M",
+      "amountUSD": 500000,
+      "targetDate": "11月",
+      "status": "not-started",
+      "statusJa": "未開拓",
+      "phase": 3,
+      "route": "partner"
+    },
+    {
+      "rank": 9,
+      "company": "直販新規X社",
+      "plan": "Enterprise Premium",
+      "planJa": "エンタープライズ Premium",
+      "amount": "$1.0M",
+      "amountUSD": 1000000,
+      "targetDate": "11月",
+      "status": "not-started",
+      "statusJa": "未開拓",
+      "phase": 3,
+      "route": "direct"
+    },
+    {
+      "rank": 10,
+      "company": "直販新規Y社",
+      "plan": "Enterprise Unlimited",
+      "planJa": "エンタープライズ Unlimited",
+      "amount": "$2.0M",
+      "amountUSD": 2000000,
+      "targetDate": "12月",
+      "status": "not-started",
+      "statusJa": "未開拓",
+      "phase": 3,
+      "route": "direct"
+    }
+  ],
+  "kpis": [
+    {
+      "phase": 1,
+      "label": "Pipeline Total",
+      "labelJa": "パイプライン総額",
+      "target": "≥ $5M",
+      "current": "$3.5M",
+      "progress": 70,
+      "status": "at-risk",
+      "frequency": "Weekly",
+      "frequencyJa": "週次"
+    },
+    {
+      "phase": 1,
+      "label": "PoC Contracts",
+      "labelJa": "PoC契約数",
+      "target": "≥ 2件",
+      "current": "1件",
+      "progress": 50,
+      "status": "at-risk",
+      "frequency": "Weekly",
+      "frequencyJa": "週次"
+    },
+    {
+      "phase": 1,
+      "label": "EP Feature Completion",
+      "labelJa": "EP機能完成率",
+      "target": "100%",
+      "current": "60%",
+      "progress": 60,
+      "status": "at-risk",
+      "frequency": "Weekly",
+      "frequencyJa": "週次"
+    },
+    {
+      "phase": 2,
+      "label": "Contracts Signed",
+      "labelJa": "契約締結数",
+      "target": "≥ 3社",
+      "current": "0社",
+      "progress": 0,
+      "status": "not-started",
+      "frequency": "Weekly",
+      "frequencyJa": "週次"
+    },
+    {
+      "phase": 2,
+      "label": "Cumulative Revenue",
+      "labelJa": "累計売上",
+      "target": "≥ $4M",
+      "current": "$130K",
+      "progress": 3,
+      "status": "not-started",
+      "frequency": "Weekly",
+      "frequencyJa": "週次"
+    },
+    {
+      "phase": 2,
+      "label": "Partner Channel Active",
+      "labelJa": "パートナーチャネル稼働",
+      "target": "≥ 1社",
+      "current": "0社",
+      "progress": 0,
+      "status": "not-started",
+      "frequency": "Monthly",
+      "frequencyJa": "月次"
+    },
+    {
+      "phase": 3,
+      "label": "Total Revenue",
+      "labelJa": "累計売上",
+      "target": "$10M",
+      "current": "$130K",
+      "progress": 1,
+      "status": "not-started",
+      "frequency": "Weekly",
+      "frequencyJa": "週次"
+    },
+    {
+      "phase": 3,
+      "label": "Partner Revenue Ratio",
+      "labelJa": "パートナー経由売上比率",
+      "target": "≥ 40%",
+      "current": "0%",
+      "progress": 0,
+      "status": "not-started",
+      "frequency": "Monthly",
+      "frequencyJa": "月次"
+    },
+    {
+      "phase": 3,
+      "label": "Customer Satisfaction",
+      "labelJa": "顧客満足度",
+      "target": "≥ 85%",
+      "current": "N/A",
+      "progress": 0,
+      "status": "not-started",
+      "frequency": "Monthly",
+      "frequencyJa": "月次"
+    }
+  ],
+  "risks": [
+    {
+      "id": "R1",
+      "label": "CAP does not execute budget",
+      "labelJa": "CAP社が予算執行しない",
+      "impact": "high",
+      "mitigation": "Early PoC value proof, direct approach to decision makers",
+      "mitigationJa": "早期PoCで価値実証、意思決定者への直接アプローチ",
+      "alternativeRoute": "Concentrate resources on SB/TC",
+      "alternativeRouteJa": "SB/TCにリソース集中",
+      "trigger": "$1M not achieved by end of Q2",
+      "triggerJa": "Q2末までに$1M未達",
+      "status": "active"
+    },
+    {
+      "id": "R2",
+      "label": "SB/TC negotiations prolonged",
+      "labelJa": "SB/TC商談が長期化",
+      "impact": "high",
+      "mitigation": "Narrow PoC scope, accelerate decision-making",
+      "mitigationJa": "PoCスコープを小さく、意思決定を速める",
+      "alternativeRoute": "Switch to direct sales focus",
+      "alternativeRouteJa": "直販中心に切り替え",
+      "trigger": "No contract by end of August",
+      "triggerJa": "8月末までに契約なし",
+      "status": "active"
+    },
+    {
+      "id": "R3",
+      "label": "Product does not meet EP requirements",
+      "labelJa": "プロダクトがEP要件未達",
+      "impact": "medium",
+      "mitigation": "Sprint development, external resource injection",
+      "mitigationJa": "スプリント開発、外部リソース投入",
+      "alternativeRoute": "Supplement with managed services",
+      "alternativeRouteJa": "マネージドサービスで補完",
+      "trigger": "EP features incomplete by end of June",
+      "triggerJa": "6月末までにEP機能未完成",
+      "status": "active"
+    },
+    {
+      "id": "R4",
+      "label": "Competitor entry",
+      "labelJa": "競合の参入",
+      "impact": "medium",
+      "mitigation": "Strengthen Autonomous Org uniqueness, early track record",
+      "mitigationJa": "「組織の自動運転」独自性強化、早期実績構築",
+      "alternativeRoute": "Strengthen differentiation points",
+      "alternativeRouteJa": "差別化ポイント強化",
+      "trigger": "Competitor enters same segment",
+      "triggerJa": "競合が同一セグメントに参入",
+      "status": "active"
+    },
+    {
+      "id": "R5",
+      "label": "Currency risk (yen depreciation)",
+      "labelJa": "為替リスク（円安進行）",
+      "impact": "medium",
+      "mitigation": "USD-denominated contracts, hedge clauses",
+      "mitigationJa": "USD建て契約、為替ヘッジ条項",
+      "alternativeRoute": "Also use JPY contracts",
+      "alternativeRouteJa": "円建て契約も併用",
+      "trigger": "Exchange rate changes by more than 10%",
+      "triggerJa": "為替が10%以上変動",
+      "status": "active"
+    }
+  ],
+  "revenueTimeline": [
+    {
+      "month": "4月",
+      "phase": 1,
+      "target": 0,
+      "actual": 0,
+      "cumTarget": 0,
+      "cumActual": 0
+    },
+    {
+      "month": "5月",
+      "phase": 1,
+      "target": 130000,
+      "actual": 130000,
+      "cumTarget": 130000,
+      "cumActual": 130000
+    },
+    {
+      "month": "6月",
+      "phase": 1,
+      "target": 870000,
+      "actual": 0,
+      "cumTarget": 1000000,
+      "cumActual": 130000
+    },
+    {
+      "month": "7月",
+      "phase": 2,
+      "target": 1000000,
+      "actual": 0,
+      "cumTarget": 2000000,
+      "cumActual": 130000
+    },
+    {
+      "month": "8月",
+      "phase": 2,
+      "target": 1500000,
+      "actual": 0,
+      "cumTarget": 3500000,
+      "cumActual": 130000
+    },
+    {
+      "month": "9月",
+      "phase": 2,
+      "target": 500000,
+      "actual": 0,
+      "cumTarget": 4000000,
+      "cumActual": 130000
+    },
+    {
+      "month": "10月",
+      "phase": 3,
+      "target": 2000000,
+      "actual": 0,
+      "cumTarget": 6000000,
+      "cumActual": 130000
+    },
+    {
+      "month": "11月",
+      "phase": 3,
+      "target": 2500000,
+      "actual": 0,
+      "cumTarget": 8500000,
+      "cumActual": 130000
+    },
+    {
+      "month": "12月",
+      "phase": 3,
+      "target": 1500000,
+      "actual": 0,
+      "cumTarget": 10000000,
+      "cumActual": 130000
+    }
+  ],
+  "domains": [
+    {
+      "id": "product-ep",
+      "label": "Product / Enterprise",
+      "labelJa": "プロダクト・EP対応",
+      "iconKey": "Package",
+      "color": "#4F46E5",
+      "impact": "critical",
+      "urgency": "critical",
+      "status": "at-risk",
+      "progress": 60,
+      "weeklyDelta": 3,
+      "description": "Enterprise feature development (SSO, on-premise, SLA, security)",
+      "descriptionJa": "エンタープライズ向け機能強化（SSO・オンプレミス・SLA・セキュリティ）",
+      "keyResults": [
+        {
+          "title": "SSO / Security Certification Complete",
+          "titleJa": "SSO・セキュリティ認証完了",
+          "target": "6月末",
+          "current": "60%",
+          "progress": 60,
+          "status": "at-risk",
+          "phase": 1
+        },
+        {
+          "title": "On-premise Deployment Ready",
+          "titleJa": "オンプレミス対応完了",
+          "target": "6月末",
+          "current": "40%",
+          "progress": 40,
+          "status": "at-risk",
+          "phase": 1
+        },
+        {
+          "title": "SLA 99.9% Guarantee",
+          "titleJa": "SLA 99.9%保証",
+          "target": "6月末",
+          "current": "80%",
+          "progress": 80,
+          "status": "on-track",
+          "phase": 1
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "p1",
+          "title": "SSO Integration",
+          "titleJa": "SSO統合開発",
+          "owner": "Engineering",
+          "ownerJa": "エンジニアリング",
+          "status": "in-progress",
+          "progress": 65,
+          "dueDate": "6月末",
+          "phase": 1,
+          "priority": "critical",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 8,
+            "twoWeeks": 5,
+            "oneWeek": 3
+          },
+          "doneState": "SSO login verified in CAP demo environment",
+          "doneStateJa": "CAP社デモ環境でSSO認証確認済み"
+        },
+        {
+          "id": "p2",
+          "title": "On-premise Deployment",
+          "titleJa": "オンプレミス対応",
+          "owner": "Engineering",
+          "ownerJa": "エンジニアリング",
+          "status": "at-risk",
+          "progress": 40,
+          "dueDate": "6月末",
+          "phase": 1,
+          "priority": "critical",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 5,
+            "twoWeeks": 2,
+            "oneWeek": 1
+          },
+          "blockers": [
+            "Resource shortage"
+          ],
+          "blockersJa": [
+            "リソース不足"
+          ],
+          "doneState": "On-premise deployment completed in test environment",
+          "doneStateJa": "テスト環境でオンプレミスデプロイ完了"
+        }
+      ],
+      "risks": [
+        {
+          "label": "EP features incomplete by June",
+          "labelJa": "6月末EP機能未完成",
+          "severity": "high",
+          "mitigation": "Sprint + external resources",
+          "mitigationJa": "スプリント開発＋外部リソース投入"
+        }
+      ]
+    },
+    {
+      "id": "sales-pipeline",
+      "label": "Sales Pipeline",
+      "labelJa": "セールス・パイプライン",
+      "iconKey": "TrendingUp",
+      "color": "#059669",
+      "impact": "critical",
+      "urgency": "critical",
+      "status": "at-risk",
+      "progress": 35,
+      "weeklyDelta": 5,
+      "description": "Target company identification, approach, and deal process design",
+      "descriptionJa": "ターゲット企業の特定・アプローチ・商談プロセス設計",
+      "keyResults": [
+        {
+          "title": "Pipeline Total >= $5M",
+          "titleJa": "パイプライン総額 >= $5M",
+          "target": "$5M",
+          "current": "$3.5M",
+          "progress": 70,
+          "status": "at-risk",
+          "phase": 1
+        },
+        {
+          "title": "CAP Full Contract ($1M)",
+          "titleJa": "CAP本導入契約($1M)",
+          "target": "6月",
+          "current": "PoC中",
+          "progress": 30,
+          "status": "at-risk",
+          "phase": 1
+        },
+        {
+          "title": "SB/TC Contracts ($2.5M)",
+          "titleJa": "SB/TC契約締結($2.5M)",
+          "target": "8月",
+          "current": "デモ調整中",
+          "progress": 15,
+          "status": "at-risk",
+          "phase": 2
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "s1",
+          "title": "CAP PoC to Full Contract",
+          "titleJa": "CAP PoC→本導入商談",
+          "owner": "Sales",
+          "ownerJa": "セールス",
+          "status": "in-progress",
+          "progress": 50,
+          "dueDate": "6月",
+          "phase": 1,
+          "priority": "critical",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 15,
+            "twoWeeks": 8,
+            "oneWeek": 5
+          },
+          "doneState": "Full contract signed, first payment received",
+          "doneStateJa": "本導入契約締結・初回入金確認"
+        },
+        {
+          "id": "s2",
+          "title": "SoftBank Approach",
+          "titleJa": "ソフトバンクアプローチ",
+          "owner": "Sales",
+          "ownerJa": "セールス",
+          "status": "in-progress",
+          "progress": 20,
+          "dueDate": "8月",
+          "phase": 2,
+          "priority": "critical",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 10,
+            "twoWeeks": 5,
+            "oneWeek": 3
+          },
+          "doneState": "Contract signed ($1.5M)",
+          "doneStateJa": "契約締結($1.5M)"
+        },
+        {
+          "id": "s3",
+          "title": "Trans-Cosmos Approach",
+          "titleJa": "トランスコスモスアプローチ",
+          "owner": "Sales",
+          "ownerJa": "セールス",
+          "status": "in-progress",
+          "progress": 20,
+          "dueDate": "8月",
+          "phase": 2,
+          "priority": "critical",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 10,
+            "twoWeeks": 5,
+            "oneWeek": 3
+          },
+          "doneState": "Contract signed ($1.0M)",
+          "doneStateJa": "契約締結($1.0M)"
+        }
+      ],
+      "risks": [
+        {
+          "label": "CAP budget not executed",
+          "labelJa": "CAP社予算未執行",
+          "severity": "high",
+          "mitigation": "Direct approach to decision makers",
+          "mitigationJa": "意思決定者への直接アプローチ"
+        },
+        {
+          "label": "SB/TC negotiations prolonged",
+          "labelJa": "SB/TC商談長期化",
+          "severity": "high",
+          "mitigation": "Narrow PoC scope",
+          "mitigationJa": "PoCスコープを小さく設定"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "label": "Pricing & Revenue Model",
+      "labelJa": "価格戦略・収益モデル",
+      "iconKey": "DollarSign",
+      "color": "#D97706",
+      "impact": "high",
+      "urgency": "high",
+      "status": "on-track",
+      "progress": 75,
+      "weeklyDelta": 2,
+      "description": "Enterprise pricing, license structure, contract terms design",
+      "descriptionJa": "エンタープライズ向けプライシング・ライセンス体系・契約条件設計",
+      "keyResults": [
+        {
+          "title": "Pricing Table Finalized",
+          "titleJa": "プライシングテーブル確定",
+          "target": "5月末",
+          "current": "75%",
+          "progress": 75,
+          "status": "on-track",
+          "phase": 1
+        },
+        {
+          "title": "Contract Template Ready",
+          "titleJa": "契約書テンプレート完成",
+          "target": "5月末",
+          "current": "60%",
+          "progress": 60,
+          "status": "on-track",
+          "phase": 1
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "pr1",
+          "title": "Enterprise Pricing Design",
+          "titleJa": "エンタープライズ価格設計",
+          "owner": "Management",
+          "ownerJa": "経営",
+          "status": "in-progress",
+          "progress": 75,
+          "dueDate": "5月末",
+          "phase": 1,
+          "priority": "high",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 20,
+            "twoWeeks": 10,
+            "oneWeek": 5
+          },
+          "doneState": "Standard/Premium/Unlimited pricing confirmed",
+          "doneStateJa": "Standard/Premium/Unlimitedの価格確定"
+        }
+      ],
+      "risks": []
+    },
+    {
+      "id": "case-study",
+      "label": "Case Studies & Track Record",
+      "labelJa": "ケーススタディ・実績構築",
+      "iconKey": "Star",
+      "color": "#7C3AED",
+      "impact": "high",
+      "urgency": "critical",
+      "status": "at-risk",
+      "progress": 25,
+      "weeklyDelta": 8,
+      "description": "CAP pilot results, ROI proof, referenceable case building",
+      "descriptionJa": "キャピタルアセットプラニングでの初期実績作り・ROI実証",
+      "keyResults": [
+        {
+          "title": "CAP PoC Quality Score >= 85%",
+          "titleJa": "CAP PoC品質スコア >= 85%",
+          "target": "85%",
+          "current": "進行中",
+          "progress": 30,
+          "status": "at-risk",
+          "phase": 1
+        },
+        {
+          "title": "ROI Report Published",
+          "titleJa": "ROIレポート公開",
+          "target": "7月",
+          "current": "未着手",
+          "progress": 0,
+          "status": "not-started",
+          "phase": 2
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "c1",
+          "title": "CAP PoC Execution",
+          "titleJa": "CAP PoC実施",
+          "owner": "CS + Engineering",
+          "ownerJa": "CS＋エンジニアリング",
+          "status": "in-progress",
+          "progress": 30,
+          "dueDate": "6月",
+          "phase": 1,
+          "priority": "critical",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 15,
+            "twoWeeks": 10,
+            "oneWeek": 8
+          },
+          "doneState": "Quality score >= 85%, ROI report ready",
+          "doneStateJa": "品質スコア>=85%・ROIレポート完成"
+        }
+      ],
+      "risks": [
+        {
+          "label": "PoC quality score below 85%",
+          "labelJa": "PoC品質スコア85%未満",
+          "severity": "high",
+          "mitigation": "Intensive support during PoC period",
+          "mitigationJa": "PoC期間中の集中サポート"
+        }
+      ]
+    },
+    {
+      "id": "partner",
+      "label": "Partner & Channel Strategy",
+      "labelJa": "パートナー・チャネル戦略",
+      "iconKey": "Handshake",
+      "color": "#0891B2",
+      "impact": "high",
+      "urgency": "medium",
+      "status": "not-started",
+      "progress": 10,
+      "weeklyDelta": 2,
+      "description": "SoftBank/Trans-Cosmos approach, resale/partnership model",
+      "descriptionJa": "ソフトバンク・トランスコスモスへのアプローチ・再販・協業モデル",
+      "keyResults": [
+        {
+          "title": "Partner Channel Active >= 1",
+          "titleJa": "パートナーチャネル稼働 >= 1社",
+          "target": "9月",
+          "current": "未着手",
+          "progress": 0,
+          "status": "not-started",
+          "phase": 2
+        },
+        {
+          "title": "Partner Revenue >= $4M",
+          "titleJa": "パートナー経由売上 >= $4M",
+          "target": "12月",
+          "current": "$0",
+          "progress": 0,
+          "status": "not-started",
+          "phase": 3
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "pa1",
+          "title": "SB Partnership Model Design",
+          "titleJa": "SBパートナーモデル設計",
+          "owner": "Sales",
+          "ownerJa": "セールス",
+          "status": "in-progress",
+          "progress": 15,
+          "dueDate": "8月",
+          "phase": 2,
+          "priority": "high",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 5,
+            "twoWeeks": 3,
+            "oneWeek": 2
+          },
+          "doneState": "Resale agreement signed",
+          "doneStateJa": "再販契約締結"
+        },
+        {
+          "id": "pa2",
+          "title": "TC BPO Integration",
+          "titleJa": "TC BPO連携設計",
+          "owner": "Sales",
+          "ownerJa": "セールス",
+          "status": "not-started",
+          "progress": 5,
+          "dueDate": "8月",
+          "phase": 2,
+          "priority": "high",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 2,
+            "twoWeeks": 1,
+            "oneWeek": 1
+          },
+          "doneState": "BPO client resale model confirmed",
+          "doneStateJa": "BPOクライアント向け再販モデル確定"
+        }
+      ],
+      "risks": []
+    },
+    {
+      "id": "customer-success",
+      "label": "Customer Success",
+      "labelJa": "カスタマーサクセス体制",
+      "iconKey": "HeartHandshake",
+      "color": "#EC4899",
+      "impact": "medium",
+      "urgency": "medium",
+      "status": "on-track",
+      "progress": 45,
+      "weeklyDelta": 3,
+      "description": "Enterprise onboarding, implementation support, technical support",
+      "descriptionJa": "エンタープライズ向けオンボーディング・導入支援・テクニカルサポート",
+      "keyResults": [
+        {
+          "title": "Customer Satisfaction >= 85%",
+          "titleJa": "顧客満足度 >= 85%",
+          "target": "12月",
+          "current": "N/A",
+          "progress": 0,
+          "status": "not-started",
+          "phase": 3
+        },
+        {
+          "title": "Onboarding Playbook Complete",
+          "titleJa": "オンボーディングPlaybook完成",
+          "target": "6月",
+          "current": "45%",
+          "progress": 45,
+          "status": "on-track",
+          "phase": 1
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "cs1",
+          "title": "Enterprise Onboarding Design",
+          "titleJa": "エンタープライズオンボーディング設計",
+          "owner": "CS",
+          "ownerJa": "CS",
+          "status": "in-progress",
+          "progress": 45,
+          "dueDate": "6月",
+          "phase": 1,
+          "priority": "medium",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 10,
+            "twoWeeks": 5,
+            "oneWeek": 3
+          },
+          "doneState": "Playbook complete, CAP onboarding started",
+          "doneStateJa": "Playbook完成・CAP社オンボーディング開始"
+        }
+      ],
+      "risks": []
+    },
+    {
+      "id": "org-talent",
+      "label": "Organization & Talent",
+      "labelJa": "組織・人材拡充",
+      "iconKey": "Users",
+      "color": "#64748B",
+      "impact": "medium",
+      "urgency": "medium",
+      "status": "on-track",
+      "progress": 50,
+      "weeklyDelta": 2,
+      "description": "Sales, CS, engineer hiring plan",
+      "descriptionJa": "セールス・CS・エンジニアの採用計画",
+      "keyResults": [
+        {
+          "title": "Sales Lead x2 Hired",
+          "titleJa": "セールスリード×2採用",
+          "target": "6月",
+          "current": "1名",
+          "progress": 50,
+          "status": "on-track",
+          "phase": 1
+        },
+        {
+          "title": "SE x1 Hired",
+          "titleJa": "SE×1採用",
+          "target": "6月",
+          "current": "選考中",
+          "progress": 30,
+          "status": "on-track",
+          "phase": 1
+        },
+        {
+          "title": "CS x1 Hired",
+          "titleJa": "CS×1採用",
+          "target": "6月",
+          "current": "選考中",
+          "progress": 30,
+          "status": "on-track",
+          "phase": 1
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "o1",
+          "title": "Sales/CS/SE Hiring",
+          "titleJa": "セールス・CS・SE採用",
+          "owner": "Management",
+          "ownerJa": "経営",
+          "status": "in-progress",
+          "progress": 50,
+          "dueDate": "6月",
+          "phase": 1,
+          "priority": "medium",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 15,
+            "twoWeeks": 8,
+            "oneWeek": 4
+          },
+          "doneState": "All 4 positions filled",
+          "doneStateJa": "4名全員採用完了"
+        }
+      ],
+      "risks": []
+    },
+    {
+      "id": "brand-marketing",
+      "label": "Brand & Marketing",
+      "labelJa": "ブランド・マーケティング",
+      "iconKey": "Megaphone",
+      "color": "#F59E0B",
+      "impact": "medium",
+      "urgency": "low",
+      "status": "on-track",
+      "progress": 40,
+      "weeklyDelta": 1,
+      "description": "Autonomous Organization branding, content marketing",
+      "descriptionJa": "「組織の自動運転」ブランディング・コンテンツマーケティング",
+      "keyResults": [
+        {
+          "title": "Brand Messaging Finalized",
+          "titleJa": "ブランドメッセージ確定",
+          "target": "5月",
+          "current": "70%",
+          "progress": 70,
+          "status": "on-track",
+          "phase": 1
+        },
+        {
+          "title": "Case Study Content Published",
+          "titleJa": "ケーススタディコンテンツ公開",
+          "target": "8月",
+          "current": "未着手",
+          "progress": 0,
+          "status": "not-started",
+          "phase": 2
+        }
+      ],
+      "initiatives": [
+        {
+          "id": "m1",
+          "title": "Autonomous Org Branding",
+          "titleJa": "「組織の自動運転」ブランディング",
+          "owner": "Marketing",
+          "ownerJa": "マーケティング",
+          "status": "in-progress",
+          "progress": 40,
+          "dueDate": "5月",
+          "phase": 1,
+          "priority": "low",
+          "velocity": {
+            "threeMonths": 0,
+            "oneMonth": 8,
+            "twoWeeks": 4,
+            "oneWeek": 1
+          },
+          "doneState": "Messaging guide and website copy complete",
+          "doneStateJa": "メッセージングガイド・Webコピー完成"
+        }
+      ],
+      "risks": []
+    }
+  ]
+}

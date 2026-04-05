@@ -1,0 +1,189 @@
+[
+  {
+    "id": "a1",
+    "title": "新規取引先への提案書を作成する",
+    "description": "株式会社マルタ工業への製品提案書を作成。競合比較表と価格シミュレーションを含める。",
+    "status": "yours",
+    "category": "Sales",
+    "createdAt": "2026-04-01T09:00:00",
+    "updatedAt": "2026-04-05T10:00:00",
+    "assigneeId": "owner",
+    "agents": [],
+    "memberRoles": [
+      { "memberId": "owner", "role": "Accountability" },
+      { "memberId": "sales1", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "relatedIssues": [
+      { "id": "iss-1", "title": "今期売上目標 5,000万円の達成", "status": "active" }
+    ],
+    "changeHistory": [
+      { "version": 1, "description": "アクション作成", "date": "5日前", "author": "Kenji Hayashi" }
+    ]
+  },
+  {
+    "id": "a2",
+    "title": "Q2 資金繰り計画を経理と確認する",
+    "description": "4月〜6月の資金繰り表をレビューし、設備投資の優先順位を決定する。",
+    "status": "pending",
+    "category": "Finance",
+    "createdAt": "2026-04-02T09:00:00",
+    "updatedAt": "2026-04-02T09:00:00",
+    "assigneeId": "owner",
+    "agents": [],
+    "memberRoles": [
+      { "memberId": "owner", "role": "Accountability" },
+      { "memberId": "finance1", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "relatedIssues": [
+      { "id": "iss-2", "title": "設備投資計画の策定", "status": "active" }
+    ],
+    "changeHistory": [
+      { "version": 1, "description": "アクション作成", "date": "4日前", "author": "Kenji Hayashi" }
+    ]
+  },
+  {
+    "id": "a3",
+    "title": "競合他社の価格調査レポートを収集する",
+    "description": "主要競合5社の最新価格情報をウェブ・営業情報から収集し、比較表を作成する。",
+    "status": "ai-running",
+    "category": "Sales",
+    "createdAt": "2026-04-03T09:00:00",
+    "updatedAt": "2026-04-05T11:00:00",
+    "assigneeId": "sales1",
+    "agents": [
+      {
+        "id": "ag1",
+        "name": "Manus",
+        "description": "Web research & report generation",
+        "status": "running",
+        "logs": ["09:00 調査開始", "09:45 競合A・B・C 価格情報収集完了", "10:30 競合D・E 調査中..."]
+      }
+    ],
+    "memberRoles": [
+      { "memberId": "sales1", "role": "Accountability" },
+      { "memberId": "owner", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "relatedIssues": [
+      { "id": "iss-1", "title": "今期売上目標 5,000万円の達成", "status": "active" }
+    ],
+    "changeHistory": [
+      { "version": 1, "description": "アクション作成", "date": "3日前", "author": "Yuki Tanaka" }
+    ]
+  },
+  {
+    "id": "a4",
+    "title": "在庫管理システムの移行計画を策定する",
+    "description": "現行の表計算ベースの在庫管理からクラウドシステムへの移行ロードマップを作成する。",
+    "status": "pending",
+    "category": "Engineering",
+    "createdAt": "2026-03-28T09:00:00",
+    "updatedAt": "2026-04-01T09:00:00",
+    "assigneeId": "tech1",
+    "agents": [],
+    "memberRoles": [
+      { "memberId": "tech1", "role": "Accountability" },
+      { "memberId": "ops1", "role": "Responsibility" },
+      { "memberId": "owner", "role": "Accountability" }
+    ],
+    "isArchived": false,
+    "stoppedDays": 4,
+    "relatedIssues": [
+      { "id": "iss-3", "title": "業務効率化・DX推進", "status": "active" }
+    ],
+    "changeHistory": [
+      { "version": 1, "description": "アクション作成", "date": "9日前", "author": "Kenji Hayashi" }
+    ]
+  },
+  {
+    "id": "a5",
+    "title": "新入社員オリエンテーション資料を更新する",
+    "description": "4月入社の新メンバー向けに、業務フロー・ツール一覧・社内ルールを最新化する。",
+    "status": "ai-running",
+    "category": "HR",
+    "createdAt": "2026-04-01T09:00:00",
+    "updatedAt": "2026-04-04T14:00:00",
+    "assigneeId": "ops1",
+    "agents": [
+      {
+        "id": "ag2",
+        "name": "Claude Coworker",
+        "description": "Document generation & formatting",
+        "status": "running",
+        "logs": ["09:00 既存資料を読み込み中", "10:00 更新箇所を特定", "11:30 ドラフト作成中..."]
+      }
+    ],
+    "memberRoles": [
+      { "memberId": "ops1", "role": "Accountability" },
+      { "memberId": "owner", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "changeHistory": [
+      { "version": 1, "description": "アクション作成", "date": "5日前", "author": "Mika Sato" }
+    ]
+  },
+  {
+    "id": "a6",
+    "title": "3月度 月次決算レポートを確認する",
+    "description": "3月の売上・経費・利益を確認し、取締役会向けサマリーを作成する。",
+    "status": "completed",
+    "category": "Finance",
+    "createdAt": "2026-03-31T09:00:00",
+    "updatedAt": "2026-04-03T17:00:00",
+    "assigneeId": "finance1",
+    "agents": [],
+    "memberRoles": [
+      { "memberId": "finance1", "role": "Accountability" },
+      { "memberId": "owner", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "doneState": "3月度決算レポート完成。売上は目標比98%、営業利益率は前月比+1.2pp改善。",
+    "changeHistory": [
+      { "version": 2, "description": "完了に変更", "date": "3日前", "author": "Takashi Ono" },
+      { "version": 1, "description": "アクション作成", "date": "6日前", "author": "Takashi Ono" }
+    ]
+  },
+  {
+    "id": "a7",
+    "title": "主要顧客への定期訪問スケジュールを組む",
+    "description": "上位10社への4月〜6月の訪問計画を立て、担当営業に割り当てる。",
+    "status": "yours",
+    "category": "Sales",
+    "createdAt": "2026-04-04T09:00:00",
+    "updatedAt": "2026-04-04T09:00:00",
+    "assigneeId": "owner",
+    "agents": [],
+    "memberRoles": [
+      { "memberId": "owner", "role": "Accountability" },
+      { "memberId": "sales1", "role": "Responsibility" }
+    ],
+    "isArchived": false,
+    "relatedIssues": [
+      { "id": "iss-1", "title": "今期売上目標 5,000万円の達成", "status": "active" }
+    ],
+    "changeHistory": [
+      { "version": 1, "description": "アクション作成", "date": "2日前", "author": "Kenji Hayashi" }
+    ]
+  },
+  {
+    "id": "a8",
+    "title": "社内Wi-Fi環境のセキュリティ設定を見直す",
+    "description": "ゲストネットワークの分離、パスワードポリシーの更新、ファイアウォール設定の確認を行う。",
+    "status": "stopped",
+    "category": "Engineering",
+    "createdAt": "2026-03-20T09:00:00",
+    "updatedAt": "2026-03-25T09:00:00",
+    "assigneeId": "tech1",
+    "agents": [],
+    "memberRoles": [
+      { "memberId": "tech1", "role": "Accountability" }
+    ],
+    "isArchived": false,
+    "stoppedDays": 12,
+    "changeHistory": [
+      { "version": 1, "description": "アクション作成", "date": "17日前", "author": "Ryo Fujii" }
+    ]
+  }
+]

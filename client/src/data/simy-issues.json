@@ -1,0 +1,452 @@
+[
+  {
+    "id": "iss-1",
+    "title": "今年度10ミリオンUSDの売上達成",
+    "status": "active",
+    "updatedAt": "本日",
+    "definition": "2026年12月末までに売上10ミリオンUSD（約15億円）を達成する。現状は製造業・金融・SIer向けのパイプライン構築が最重要課題であり、新規パイプライン創出・パートナー戦略・プロダクト市場適合・アップセルの4軸で同時進行する必要がある。",
+    "deadline": "2026年12月31日",
+    "doneState": [
+      {
+        "condition": "累計売上",
+        "metric": "≥ $10M USD",
+        "current": "$0.8M",
+        "target": "$10M"
+      },
+      {
+        "condition": "エンタープライズ契約数",
+        "metric": "≥ 10社",
+        "current": "2社",
+        "target": "10社"
+      },
+      {
+        "condition": "パイプライン総額",
+        "metric": "≥ $30M",
+        "current": "$8M",
+        "target": "$30M"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "h1",
+        "issue": "今年度10ミリオンUSD（約15億円）の売上を達成できるか？",
+        "hypothesis": "新規パイプラインの創出（10社 10Mを実現できるか？）ターゲットを「製造業のDX予算」に絞れば、商談単価1M・受注率20%を維持できる",
+        "verification": "ターゲットを「製造業のDX予算」に絞れば、商談単価1M・受注率20%を維持できるか",
+        "method": "AIによるセグメント別広告運用データ、インサイドセールスの反応ログ",
+        "responsibility": "AI",
+        "fact": "実行中：製造業のCPAは他業種の0.7倍。ただし意思決定に時間がかかる傾向",
+        "decision": "継続：訴求を製造業に全振りし、AIに事例記事を量産させる",
+        "hvpAxis": "sq",
+        "verdict": "pending"
+      },
+      {
+        "id": "h2",
+        "issue": "今年度10ミリオンUSD（約15億円）の売上を達成できるか？",
+        "hypothesis": "パートナー経由売上の確立（売上の40%をカバーできるか？）大手SIer 3社と提携すれば、Q3以降に4M USDのパイプラインを自動生成できる",
+        "verification": "提携パートナー経由での案件紹介数と、その「本気度」の相関",
+        "method": "パートナーサクセスAIによる活動量分析、過去の提携モデルのROIシミュレーション",
+        "responsibility": "AI",
+        "fact": "未着手：提携交渉中（ハイタッチ領域）",
+        "decision": "決断待ち：独占契約のリスクを取るか、複数社と並行するか",
+        "hvpAxis": "ht",
+        "verdict": "pending"
+      },
+      {
+        "id": "h3",
+        "issue": "今年度10ミリオンUSD（約15億円）の売上を達成できるか？",
+        "hypothesis": "プロダクトの市場適合（オンプレ対応は必須か？）6月までにオンプレミス対応を完了すれば、金融機関5社（見込額3M）を成約できる",
+        "verification": "金融機関がクラウド版を拒絶している決定的な理由（法的・規約的）の特定",
+        "method": "過去の失注理由テキストマイニング、金融系顧客へのAIインタビュー",
+        "responsibility": "AI",
+        "fact": "事実：対象5社のうち4社が「オンプレ必須」と明言。",
+        "decision": "Go：開発リソースをオンプレ対応に最優先で配分する",
+        "hvpAxis": "cr",
+        "verdict": "verified"
+      },
+      {
+        "id": "h4",
+        "issue": "今年度10ミリオンUSD（約15億円）の売上を達成できるか？",
+        "hypothesis": "アップセルの最大化（既存顧客から+1M積めるか？）導入済みの顧客に対し、EP機能をアドオン提案すれば、LTVを30%向上させられる",
+        "verification": "現ユーザーの利用ログから「EP機能が必要になる予兆」を検知できるか",
+        "method": "利用ログ分析、AIによる解約防止・アップセル予測スコア",
+        "responsibility": "人間",
+        "fact": "検証完了：予兆検知精度85%。特定のアクション後に提案すると成約率が高い",
+        "decision": "ピボット：営業担当が動くのではなく、AIがアプリ内で自動提案する",
+        "hvpAxis": "sq",
+        "verdict": "verified"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "m1",
+        "label": "製造業セグメント広告 A/Bテスト開始",
+        "unit": "1week",
+        "offset": 1,
+        "status": "done",
+        "owner": "AI",
+        "dueLabel": "Week 1",
+        "description": "AIによるセグメント別広告配信を開始し、CPAデータを収集",
+        "actions": [
+          {
+            "id": "ma1",
+            "title": "製造業セグメント広告クリエイティブ 5本生成",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "ma2",
+            "title": "広告配信設定・ターゲティング設定",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "ma3",
+            "title": "A/Bテスト結果レポート作成",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          }
+        ]
+      },
+      {
+        "id": "m2",
+        "label": "キャピタルアセットプラニング 提案書提出",
+        "unit": "1day",
+        "offset": 3,
+        "status": "done",
+        "owner": "TS",
+        "dueLabel": "Day 3",
+        "description": "経営層向け提案書をAIで生成・レビュー後に提出",
+        "actions": [
+          {
+            "id": "ma1",
+            "title": "ROIシミュレーション資料作成（AI）",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "ma2",
+            "title": "経営層向け提案書レビュー・承認",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          },
+          {
+            "id": "ma3",
+            "title": "提案書提出・フォローアップ連絡",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "ht"
+          }
+        ]
+      },
+      {
+        "id": "m3",
+        "label": "SIer 2社との提携交渉キックオフ",
+        "unit": "1week",
+        "offset": 2,
+        "status": "in_progress",
+        "owner": "TM",
+        "dueLabel": "Week 2",
+        "description": "ソフトバンク・トランスコスモスとの初回ミーティング",
+        "actions": [
+          {
+            "id": "ma1",
+            "title": "ソフトバンク 担当役員アポイント取得",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "ht"
+          },
+          {
+            "id": "ma2",
+            "title": "トランスコスモス 初回ミーティング実施",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "ht"
+          },
+          {
+            "id": "ma3",
+            "title": "提携条件ドラフト作成（AI）",
+            "done": false,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "ma4",
+            "title": "独占 vs 複数社並行の戦略決断",
+            "done": false,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          }
+        ]
+      },
+      {
+        "id": "m4",
+        "label": "金融機関向けオンプレ対応 完了",
+        "unit": "1month",
+        "offset": 2,
+        "status": "in_progress",
+        "owner": "Dev",
+        "dueLabel": "Month 2",
+        "description": "金融機関5社向けオンプレミス版のリリース",
+        "actions": [
+          {
+            "id": "ma1",
+            "title": "オンプレ要件定義・アーキテクチャ設計",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          },
+          {
+            "id": "ma2",
+            "title": "オンプレ版開発・テスト",
+            "done": false,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          },
+          {
+            "id": "ma3",
+            "title": "金融機関5社へのデモ実施",
+            "done": false,
+            "owner": "人間",
+            "hvpAxis": "ht"
+          }
+        ]
+      },
+      {
+        "id": "m5",
+        "label": "AIアップセル提案機能 リリース",
+        "unit": "1month",
+        "offset": 3,
+        "status": "upcoming",
+        "owner": "Dev",
+        "dueLabel": "Month 3",
+        "description": "アプリ内AIアップセル提案機能の本番リリース",
+        "actions": [
+          {
+            "id": "ma1",
+            "title": "アップセル予測モデルの精度検証",
+            "done": false,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "ma2",
+            "title": "アプリ内提案UIの設計・実装",
+            "done": false,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          },
+          {
+            "id": "ma3",
+            "title": "A/Bテスト設計・実施",
+            "done": false,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iss-2",
+    "title": "プロダクトの市場適合（PMF）の達成",
+    "status": "active",
+    "updatedAt": "2日前",
+    "definition": "2026年9月末までにSIMYのPMFを達成する。PMFの定義は「導入企業の40%以上が『SIMYがなくなったら非常に困る』と回答」とする。現状は28%。",
+    "deadline": "2026年9月30日",
+    "doneState": [
+      {
+        "condition": "PMFスコア",
+        "metric": "≥ 40%",
+        "current": "28%",
+        "target": "40%"
+      },
+      {
+        "condition": "NPS",
+        "metric": "≥ +50",
+        "current": "+42",
+        "target": "+50"
+      },
+      {
+        "condition": "月次解約率",
+        "metric": "≤ 2%",
+        "current": "3.1%",
+        "target": "2%"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "h1",
+        "issue": "PMFを達成するためのコアバリューは何か？",
+        "hypothesis": "「AI会議要約×アクション自動生成」の精度を95%以上にすれば、PMFスコアが40%を超える",
+        "verification": "AI要約精度と『なくなったら困る』回答率の相関分析",
+        "method": "AIによる要約精度ログ分析、ユーザーインタビュー（n=20）",
+        "responsibility": "AI",
+        "fact": "実行中：要約精度は現在89%。精度92%以上のユーザーのPMFスコアは47%",
+        "decision": "継続：精度改善を最優先。95%達成後に再測定",
+        "hvpAxis": "cr",
+        "verdict": "pending"
+      },
+      {
+        "id": "h2",
+        "issue": "解約率3.1%を2%以下に下げられるか？",
+        "hypothesis": "オンボーディング完了率を80%以上にすれば、3ヶ月解約率が50%低下する",
+        "verification": "オンボーディング完了率と3ヶ月解約率の相関",
+        "method": "コホート分析、AIによるオンボーディング離脱ポイント特定",
+        "responsibility": "AI",
+        "fact": "検証完了：オンボーディング完了ユーザーの解約率は1.8%（未完了は4.9%）",
+        "decision": "Go：オンボーディング完了率向上を最優先施策とする",
+        "hvpAxis": "sq",
+        "verdict": "verified"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "m1",
+        "label": "AI要約精度 95%達成",
+        "unit": "1month",
+        "offset": 1,
+        "status": "in_progress",
+        "owner": "AI",
+        "dueLabel": "Month 1",
+        "description": "要約モデルの改善と精度測定",
+        "actions": [
+          {
+            "id": "ma1",
+            "title": "要約精度ボトルネック分析",
+            "done": true,
+            "owner": "AI",
+            "hvpAxis": "cr"
+          },
+          {
+            "id": "ma2",
+            "title": "モデルファインチューニング実施",
+            "done": false,
+            "owner": "AI",
+            "hvpAxis": "cr"
+          }
+        ]
+      },
+      {
+        "id": "m2",
+        "label": "オンボーディング完了率 80%達成",
+        "unit": "1month",
+        "offset": 2,
+        "status": "upcoming",
+        "owner": "Dev",
+        "dueLabel": "Month 2",
+        "description": "オンボーディングフローの改善",
+        "actions": [
+          {
+            "id": "ma1",
+            "title": "離脱ポイントの特定と改善案策定",
+            "done": false,
+            "owner": "AI",
+            "hvpAxis": "sq"
+          },
+          {
+            "id": "ma2",
+            "title": "改善版オンボーディングのA/Bテスト",
+            "done": false,
+            "owner": "人間",
+            "hvpAxis": "sq"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iss-3",
+    "title": "エンタープライズ向けセキュリティ認証の取得",
+    "status": "active",
+    "updatedAt": "1週間前",
+    "definition": "2026年6月末までにISO 27001認証を取得し、金融・医療・官公庁向けの商談を加速する。現状、大手金融機関5社との商談がセキュリティ要件で止まっている。",
+    "deadline": "2026年6月30日",
+    "doneState": [
+      {
+        "condition": "ISO 27001認証",
+        "metric": "取得完了",
+        "current": "審査中",
+        "target": "認証取得"
+      },
+      {
+        "condition": "セキュリティ起因の失注数",
+        "metric": "0件",
+        "current": "3件/月",
+        "target": "0件"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "h1",
+        "issue": "ISO 27001取得で金融機関との商談が進むか？",
+        "hypothesis": "ISO 27001を取得すれば、現在セキュリティ要件で止まっている5社との商談が再開する",
+        "verification": "失注理由の分析とセキュリティ担当者へのヒアリング",
+        "method": "失注理由データ分析、顧客セキュリティ担当者インタビュー",
+        "responsibility": "人間",
+        "fact": "事実：5社中4社が「ISO 27001取得後に再検討」と明言",
+        "decision": "Go：認証取得を最優先で推進",
+        "hvpAxis": "cr",
+        "verdict": "verified"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "m1",
+        "label": "ISO 27001 審査申請完了",
+        "unit": "1month",
+        "offset": 1,
+        "status": "done",
+        "owner": "人間",
+        "dueLabel": "Month 1",
+        "description": "審査機関への申請書類提出",
+        "actions": [
+          {
+            "id": "ma1",
+            "title": "情報セキュリティポリシー策定",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          },
+          {
+            "id": "ma2",
+            "title": "審査機関への申請書類提出",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          }
+        ]
+      },
+      {
+        "id": "m2",
+        "label": "ISO 27001 認証取得",
+        "unit": "1month",
+        "offset": 3,
+        "status": "in_progress",
+        "owner": "人間",
+        "dueLabel": "Month 3",
+        "description": "審査完了・認証取得",
+        "actions": [
+          {
+            "id": "ma1",
+            "title": "内部監査の実施",
+            "done": true,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          },
+          {
+            "id": "ma2",
+            "title": "外部審査対応",
+            "done": false,
+            "owner": "人間",
+            "hvpAxis": "cr"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "id": "m1",
+    "title": "Q2 経営方針会議",
+    "date": "2026-04-10",
+    "time": "10:00",
+    "duration": "90分",
+    "participantIds": ["owner", "sales1", "ops1", "finance1"],
+    "agenda": [
+      "Q1 振り返りと課題整理",
+      "Q2 売上目標と優先施策の確認",
+      "設備投資計画の審議",
+      "次回アクション確認"
+    ],
+    "status": "upcoming",
+    "location": "会議室A / Zoom",
+    "actions": ["a1", "a2"],
+    "relatedMeetings": [
+      { "id": "m3", "title": "月次経営報告会", "date": "2026-03-28" }
+    ],
+    "issues": [
+      {
+        "id": "i1",
+        "title": "Q1 売上目標未達（目標比 -8%）",
+        "source": "月次経営報告会",
+        "sourceDate": "3月28日",
+        "status": "open",
+        "priority": "high",
+        "description": "3月の受注が想定を下回った。主因は大口案件の意思決定遅延。Q2の対策を今回の会議で決定する。"
+      },
+      {
+        "id": "i2",
+        "title": "在庫管理の非効率による機会損失",
+        "source": "オペレーション週次MTG",
+        "sourceDate": "4月3日",
+        "status": "open",
+        "priority": "medium",
+        "description": "手作業の在庫確認に週4時間以上かかっており、欠品による機会損失も発生している。"
+      }
+    ],
+    "decisions": [
+      {
+        "id": "d1",
+        "title": "Q2 売上KPIの確定",
+        "status": "must-decide",
+        "dueBy": "4月10日",
+        "owner": "Kenji Hayashi",
+        "description": "Q1の結果を踏まえ、現実的なQ2目標値を設定する。"
+      },
+      {
+        "id": "d2",
+        "title": "在庫管理システム移行の承認",
+        "status": "pending",
+        "dueBy": "4月17日",
+        "owner": "Kenji Hayashi",
+        "description": "ITシステム担当から提案を受け、導入可否を判断する。"
+      }
+    ],
+    "summary": "Q1の振り返りと、Q2に向けた優先施策の確認を行う重要な経営会議です。売上目標の修正と設備投資の優先順位決定が主要議題です。"
+  },
+  {
+    "id": "m2",
+    "title": "新規顧客 マルタ工業 商談",
+    "date": "2026-04-08",
+    "time": "14:00",
+    "duration": "60分",
+    "participantIds": ["owner", "sales1"],
+    "agenda": [
+      "自社製品・サービスの紹介",
+      "先方ニーズのヒアリング",
+      "見積もり条件の確認",
+      "次回ステップの合意"
+    ],
+    "status": "upcoming",
+    "location": "マルタ工業 本社",
+    "actions": ["a1"],
+    "issues": [
+      {
+        "id": "i3",
+        "title": "提案書の差別化ポイントが不明確",
+        "source": "営業チームMTG",
+        "sourceDate": "4月4日",
+        "status": "open",
+        "priority": "high",
+        "description": "競合他社と比較した際の強みを明確に伝えるメッセージが必要。"
+      }
+    ],
+    "decisions": [
+      {
+        "id": "d3",
+        "title": "提案価格帯の決定",
+        "status": "must-decide",
+        "dueBy": "4月7日",
+        "owner": "Kenji Hayashi",
+        "description": "商談前日までに価格レンジを確定する。"
+      }
+    ],
+    "summary": "今期最大の新規開拓案件。代表自らが同行し、経営課題に寄り添った提案を行う。"
+  },
+  {
+    "id": "m3",
+    "title": "月次経営報告会（3月度）",
+    "date": "2026-03-28",
+    "time": "09:00",
+    "duration": "60分",
+    "participantIds": ["owner", "sales1", "ops1", "finance1", "tech1"],
+    "agenda": [
+      "3月度 売上・利益報告",
+      "各部門 進捗報告",
+      "課題・リスクの共有",
+      "4月の優先事項確認"
+    ],
+    "status": "completed",
+    "location": "会議室A",
+    "actions": ["a6"],
+    "summary": "3月度の業績を全社で共有。売上は目標比98%で着地。営業利益率は前月比+1.2pp改善。Q2に向けた課題として在庫管理の効率化と新規開拓の強化が挙がった。",
+    "notes": [
+      {
+        "id": "n1",
+        "content": "在庫管理の非効率については、来月中にシステム導入の検討を開始することで合意。",
+        "author": "Kenji Hayashi",
+        "timestamp": "2026-03-28T10:05:00"
+      }
+    ]
+  },
+  {
+    "id": "m4",
+    "title": "ITシステム移行 キックオフMTG",
+    "date": "2026-04-15",
+    "time": "15:00",
+    "duration": "45分",
+    "participantIds": ["owner", "tech1", "ops1"],
+    "agenda": [
+      "移行計画の概要説明",
+      "スケジュール確認",
+      "リスクと対策の共有",
+      "役割分担の決定"
+    ],
+    "status": "upcoming",
+    "location": "Zoom",
+    "actions": ["a4"],
+    "decisions": [
+      {
+        "id": "d4",
+        "title": "移行スケジュールの確定",
+        "status": "must-decide",
+        "dueBy": "4月15日",
+        "owner": "Ryo Fujii",
+        "description": "業務への影響を最小化する移行タイミングを決定する。"
+      }
+    ],
+    "summary": "在庫管理システムのクラウド移行プロジェクトを正式にスタートするキックオフ会議。"
+  }
+]
